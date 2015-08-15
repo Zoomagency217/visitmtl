@@ -1,2 +1,2 @@
 # visitmtl
-Repository for front-end resource
+Repository for front-end resources
