@@ -1,0 +1,85 @@
+header {
+  background: url(imgs/logo.png) 49px 30px no-repeat;
+  height: 125px;
+  margin: auto;
+  padding-left: 155px;
+  padding-right: 33px;
+  width: 100%; }
+  header .main .top {
+    border-bottom: 1px solid #434A54;
+    height: 60px; }
+    header .main .top .social {
+      float: left;
+      width: 115px; }
+      header .main .top .social .icon {
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px solid #434A54;
+        border-radius: 40px;
+        display: block;
+        float: left;
+        height: 29px;
+        margin: 15px 9px 0 0;
+        width: 29px; }
+        header .main .top .social .icon.facebook {
+          background-image: url("imgs/icon-facebook.svg"); }
+        header .main .top .social .icon.twitter {
+          background-image: url("imgs/icon-twitter.svg"); }
+        header .main .top .social .icon.rss {
+          background-image: url("imgs/icon-rss.svg"); }
+    header .main .top .signin {
+      float: right; }
+      header .main .top .signin .button {
+        border: 1px solid #434A54;
+        border-radius: 40px;
+        color: #434A54;
+        display: block;
+        font-family: Montserrat-Bold;
+        font-size: 8.46px;
+        height: 29px;
+        margin: 15px 0 0 0;
+        letter-spacing: 2px;
+        line-height: 10px;
+        padding: 8px;
+        text-align: center;
+        width: 103px; }
+        header .main .top .signin .button:hover {
+          text-decoration: none; }
+  header .main .bottom {
+    display: table;
+    width: 100%;
+    height: 66px; }
+    header .main .bottom .left {
+      display: table-cell;
+      text-align: right;
+      vertical-align: top; }
+      header .main .bottom .left ul.menu {
+        list-style-type: none;
+        margin: 26px 13px 0 0; }
+        header .main .bottom .left ul.menu li {
+          display: inline-block;
+          margin-right: 26px; }
+          header .main .bottom .left ul.menu li a {
+            font-family: Montserrat-Regular;
+            font-size: 16px;
+            color: #434A54;
+            line-height: 19px; }
+    header .main .bottom .right {
+      border-left: 1px solid #434A54;
+      display: table-cell;
+      width: 102px;
+      vertical-align: top; }
+      header .main .bottom .right .icon {
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        float: left;
+        height: 29px;
+        margin: 20px 0px 0 21px;
+        width: 29px; }
+        header .main .bottom .right .icon.search {
+          background-image: url("imgs/icon-search.svg"); }
+        header .main .bottom .right .icon.hamburger {
+          background-image: url("imgs/icon-hamburger.svg"); }
+
+/*# sourceMappingURL=main.css.map */
