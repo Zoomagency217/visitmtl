@@ -1,20 +1,25 @@
-.banner(style="background-image:url('imgs/home-banner-background.png')")
+.banner
 	.main
-		.cta
-			.group-1
-				.button
-					| GET HERE
-			.group-2
-				| Winter is not for everyone...
-			.group-3
-				| Whether it’s Montreal winter hub or Switzerland’s mountain majesty, these go-now destinations will send you packing.
-			.group-4
-				.button
-					| MORE TRAVEL
-				.right
-					| MORE TRAVEL
+		each val in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+			.slide(id="banner--slide_#{val}")
+				.cta
+					.group_1
+						.button
+							| GET HERE
+					.group_2
+						| Winter is not for everyone...
+					.group_3
+						| Whether it’s Montreal winter hub or Switzerland’s mountain majesty, these go-now destinations will send you packing.
+					.group_4
+						.button
+							| MORE TRAVEL
+						.right
+							| MORE TRAVEL
+				.background
+					img.img-responsive(src="imgs/home--banner--1.png")
 		.panel
-			.panel-header
+			.title
 				| CURRENTLY TRENDING
-			include banner-panel-item.jade
+			each val in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+				include banner--item
 

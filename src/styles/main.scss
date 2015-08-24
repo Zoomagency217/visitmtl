@@ -8,5 +8,11 @@ body {
 	}
 	.container {
 		width: 1024px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
+
+@import 'font';
+@import 'header';
+@import 'home';

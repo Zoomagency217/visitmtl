@@ -1,4 +1,3 @@
-_version = 134
 _port = 8000
 _livereload_port = 35729
 
@@ -23,7 +22,7 @@ module.exports = (grunt) ->
         sass:
             dist:
                 files:
-                    'dist/main.css': ['src/**/*.scss']
+                    'dist/main.css': ['src/styles/main.scss']
 
         jade:
             index:

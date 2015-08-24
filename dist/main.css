@@ -1,5 +1,23 @@
+body {
+  font-family: Montserrat-Regular;
+  font-size: 18.66px;
+  color: #666D70;
+  line-height: 27px; }
+  body * {
+    box-sizing: border-box !important; }
+  body .container {
+    width: 1024px;
+    padding-left: 0;
+    padding-right: 0; }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("fonts/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("fonts/Montserrat-Bold.ttf"); }
 header {
-  background: url(imgs/logo.png) 49px 30px no-repeat;
+  background: url(imgs/logo.png) 24px 16px no-repeat;
   height: 125px;
   margin: auto;
   padding-left: 155px;
@@ -22,11 +40,11 @@ header {
         margin: 15px 9px 0 0;
         width: 29px; }
         header .main .top .social .icon.facebook {
-          background-image: url("imgs/icon-facebook.svg"); }
+          background-image: url("imgs/icon_facebook.svg"); }
         header .main .top .social .icon.twitter {
-          background-image: url("imgs/icon-twitter.svg"); }
+          background-image: url("imgs/icon_twitter.svg"); }
         header .main .top .social .icon.rss {
-          background-image: url("imgs/icon-rss.svg"); }
+          background-image: url("imgs/icon_rss.svg"); }
     header .main .top .signin {
       float: right; }
       header .main .top .signin .button {
@@ -55,7 +73,7 @@ header {
       vertical-align: top; }
       header .main .bottom .left ul.menu {
         list-style-type: none;
-        margin: 26px 13px 0 0; }
+        margin: 21px 13px 0 0; }
         header .main .bottom .left ul.menu li {
           display: inline-block;
           margin-right: 26px; }
@@ -78,8 +96,35 @@ header {
         margin: 20px 0px 0 21px;
         width: 29px; }
         header .main .bottom .right .icon.search {
-          background-image: url("imgs/icon-search.svg"); }
+          background-image: url("imgs/icon_search.svg"); }
         header .main .bottom .right .icon.hamburger {
-          background-image: url("imgs/icon-hamburger.svg"); }
+          background-image: url("imgs/icon_hamburger.svg"); }
+
+.page-home .banner .main {
+  height: 635px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+  .page-home .banner .main .cta {
+    margin: 270px 540px 0 50px;
+    position: relative;
+    z-index: 2; }
+    .page-home .banner .main .cta .group_2 {
+      font-family: Montserrat-Bold;
+      font-size: 52.94px;
+      color: #FFFFFF;
+      line-height: 55px; }
+  .page-home .banner .main .background {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0; }
+  .page-home .banner .main .panel {
+    border-radius: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0; }
 
 /*# sourceMappingURL=main.css.map */

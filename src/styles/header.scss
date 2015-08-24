@@ -1,5 +1,5 @@
 header {
-	background: url(imgs/logo.png) 49px 30px no-repeat;
+	background: url(imgs/logo.png) 24px 16px no-repeat;
 	height: 125px;
 	margin: auto;
 	padding-left: 155px;
@@ -23,13 +23,13 @@ header {
 					margin: 15px 9px 0 0;
 					width: 29px;
 					&.facebook {
-						background-image: url('imgs/icon-facebook.svg');
+						background-image: url('imgs/icon_facebook.svg');
 					}
 					&.twitter {
-						background-image: url('imgs/icon-twitter.svg');
+						background-image: url('imgs/icon_twitter.svg');
 					}
 					&.rss {
-						background-image: url('imgs/icon-rss.svg');
+						background-image: url('imgs/icon_rss.svg');
 					}
 				}
 			}
@@ -65,7 +65,7 @@ header {
 				vertical-align: top;
 				ul.menu {
 					list-style-type: none;
-					margin: 26px 13px 0 0;
+					margin: 21px 13px 0 0;
 					li {
 						display: inline-block;
 						margin-right: 26px;
@@ -92,10 +92,10 @@ header {
 					margin: 20px 0px 0 21px;
 					width: 29px;
 					&.search {
-						background-image: url('imgs/icon-search.svg');
+						background-image: url('imgs/icon_search.svg');
 					}
 					&.hamburger {
-						background-image: url('imgs/icon-hamburger.svg');
+						background-image: url('imgs/icon_hamburger.svg');
 					}
 				}
 			}

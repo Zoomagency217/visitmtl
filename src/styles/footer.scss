@@ -1,0 +1,63 @@
+footer {
+	.area_1.area {
+		.group_1 {}
+		.group_2 {
+			.line {
+				.col_1 {
+					a {}
+				}
+				.col_2 {
+					a {}
+				}
+			}
+		}
+		.group_3 {
+			.title {
+				ul.content {
+					li.facebook {}
+					li.twitter {}
+					li.instagram {}
+					li.rss {}
+				}
+			}
+		}
+		.group_4 {
+			.title {}
+			.description {}
+			.form {
+				.input {
+					input {}
+				}
+				.button {
+					button.email {}
+				}
+			}
+		}
+	}
+	.area_2.area {
+		.group_1 {}
+		.group_2 {}
+		.group_3 {}
+		.group_4 {
+			.form {
+				.input {
+					input {}
+				}
+				.button {
+					button.search {}
+				}
+			}
+		}
+	}
+	.area_3 {
+		iframe {}
+	}
+	.area_4 {
+		.copyright {}
+		ul.menu {
+			li {
+				a {}
+			}
+		}
+	}
+}

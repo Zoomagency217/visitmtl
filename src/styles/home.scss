@@ -1,3 +1,112 @@
 .page-home {
-	background: #000;
+	.banner {
+		.main {
+			height: 635px;
+			overflow: hidden;
+			position: relative;
+			width: 100%;
+			.cta {
+				margin: 270px 540px 0 50px;
+				position: relative;
+				z-index: 2;
+				.group_1 {
+					.button {
+	
+					}
+				}
+				.group_2 {
+					font-family: Montserrat-Bold;
+					font-size: 52.94px;
+					color: #FFFFFF;
+					line-height: 55px;
+				}
+				.group_3 {}
+				.group_4 {
+					.button {}
+					.right {}
+				}
+			}
+			.background {
+				left: 0;
+				position: absolute;
+				text-align: center;
+				top: 0;
+			}
+			.panel {
+				border-radius: 0;
+				bottom: 0;
+				margin-bottom: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				.panel-header {}
+			}
+		}
+	}
+	.adv {
+		.cta {
+			.group_1 {
+				.button {}
+			}
+			.group_2 {}
+			.group_3 {}
+		}
+		.background {}
+	}
+	.area_1 {
+		.title {}
+		.area_1--feature {
+			.image {}
+			.category {}
+			.title {}
+		}
+		.area_1--item {
+			.category {}
+			.title {}
+		}
+	}
+	.area_2 {
+		.content {
+			.category {}
+			.title {}
+			.description {}
+			.button {
+				.readmore {}
+			}
+		}
+		.image {}
+	}
+	.area_3 {
+		.title {}
+		.area_3--feature {
+			.image {}
+			.content {
+				.time {}
+				.title {}
+				.title {}
+			}
+		}
+		.area_3--item {
+			.time {}
+			.title {}
+		}
+		.more {}
+	}
+	.area_4 {
+		.title {}
+		.area_4--feature {
+			.title {}
+		}
+		.area_4--item {
+			.title {}
+			.author {
+				.avatar {}
+				.info {
+					.name {}
+					.position {}
+				}
+			}
+		}
+		.more {}
+	}
 }
