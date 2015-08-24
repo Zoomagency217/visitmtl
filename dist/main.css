@@ -1,5 +1,5 @@
 body {
-  font-family: Montserrat-Regular;
+  font-family: PTSerif-Regular;
   font-size: 18.66px;
   color: #666D70;
   line-height: 27px; }
@@ -11,11 +11,11 @@ body {
     padding-right: 0; }
 
 @font-face {
-  font-family: 'Montserrat-Regular';
-  src: url("fonts/Montserrat-Regular.ttf"); }
+  font-family: 'PTSerif-Regular';
+  src: url("fonts/PTSerif-Regular.ttf"); }
 @font-face {
-  font-family: 'Montserrat-Bold';
-  src: url("fonts/Montserrat-Bold.ttf"); }
+  font-family: 'PTSerif-Bold';
+  src: url("fonts/PTSerif-Bold.ttf"); }
 header {
   background: url(imgs/logo.png) 24px 16px no-repeat;
   height: 125px;
