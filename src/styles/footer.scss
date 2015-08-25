@@ -1,7 +1,13 @@
 footer {
-	.area_1.area {
-		.group_1 {}
-		.group_2 {
+	background: #fff;
+	> .area_1.area {
+		> .group_1 {
+			float: left;
+			width: 253px;
+		}
+		> .group_2 {
+			float: left;
+			width: 283px;
 			.line {
 				.col_1 {
 					a {}
@@ -11,7 +17,9 @@ footer {
 				}
 			}
 		}
-		.group_3 {
+		> .group_3 {
+			float: left;
+			width: 163px;
 			.title {
 				ul.content {
 					li.facebook {}
@@ -21,7 +29,9 @@ footer {
 				}
 			}
 		}
-		.group_4 {
+		> .group_4 {
+			float: left;
+			width: 325px;
 			.title {}
 			.description {}
 			.form {
@@ -34,11 +44,22 @@ footer {
 			}
 		}
 	}
-	.area_2.area {
-		.group_1 {}
-		.group_2 {}
-		.group_3 {}
-		.group_4 {
+	> .area_2.area {
+		> .group_1 {
+			float: left;
+			width: 253px;
+		}
+		> .group_2 {
+			float: left;
+			width: 283px;
+		}
+		> .group_3 {
+			float: left;
+			width: 163px;
+		}
+		> .group_4 {
+			float: left;
+			width: 325px;
 			.form {
 				.input {
 					input {}
@@ -49,12 +70,17 @@ footer {
 			}
 		}
 	}
-	.area_3 {
+	> .area_3 {
 		iframe {}
 	}
-	.area_4 {
-		.copyright {}
+	> .area_4 {
+		.copyright {
+			float: left;
+			width: 50%;
+		}
 		ul.menu {
+			float: left;
+			width: 50%;
 			li {
 				a {}
 			}

@@ -3,6 +3,7 @@ body {
 	font-size: 18.66px;
 	color: #666D70;
 	line-height: 27px;
+	background: #eaeaea;
 	* {
 		box-sizing: border-box !important;
 	}
@@ -15,4 +16,7 @@ body {
 
 @import 'font';
 @import 'header';
+@import 'footer';
+
+// Pages
 @import 'home';

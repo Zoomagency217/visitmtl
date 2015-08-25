@@ -2,7 +2,8 @@ body {
   font-family: PTSerif-Regular;
   font-size: 18.66px;
   color: #666D70;
-  line-height: 27px; }
+  line-height: 27px;
+  background: #eaeaea; }
   body * {
     box-sizing: border-box !important; }
   body .container {
@@ -18,7 +19,7 @@ body {
   src: url("fonts/PTSerif-Bold.ttf"); }
 header {
   background: url(imgs/logo.png) 24px 16px no-repeat;
-  height: 125px;
+  height: 128px;
   margin: auto;
   padding-left: 155px;
   padding-right: 33px;
@@ -100,31 +101,191 @@ header {
         header .main .bottom .right .icon.hamburger {
           background-image: url("imgs/icon_hamburger.svg"); }
 
-.page-home .banner .main {
+footer {
+  background: #fff; }
+  footer > .area_1.area > .group_1 {
+    float: left;
+    width: 253px; }
+  footer > .area_1.area > .group_2 {
+    float: left;
+    width: 283px; }
+  footer > .area_1.area > .group_3 {
+    float: left;
+    width: 163px; }
+  footer > .area_1.area > .group_4 {
+    float: left;
+    width: 325px; }
+  footer > .area_2.area > .group_1 {
+    float: left;
+    width: 253px; }
+  footer > .area_2.area > .group_2 {
+    float: left;
+    width: 283px; }
+  footer > .area_2.area > .group_3 {
+    float: left;
+    width: 163px; }
+  footer > .area_2.area > .group_4 {
+    float: left;
+    width: 325px; }
+  footer > .area_4 .copyright {
+    float: left;
+    width: 50%; }
+  footer > .area_4 ul.menu {
+    float: left;
+    width: 50%; }
+
+.page-home > .banner {
   height: 635px;
   overflow: hidden;
   position: relative;
-  width: 100%; }
-  .page-home .banner .main .cta {
-    margin: 270px 540px 0 50px;
+  width: 100%;
+  border-radius: 4px; }
+  .page-home > .banner > .main > .slide > .cta {
+    margin: 259px 530px 0 62px;
     position: relative;
     z-index: 2; }
-    .page-home .banner .main .cta .group_2 {
+    .page-home > .banner > .main > .slide > .cta > .group_1 {
+      margin-bottom: 16px; }
+      .page-home > .banner > .main > .slide > .cta > .group_1 > .button {
+        background: #6B3DE4;
+        border-radius: 3px;
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+        display: inline-block;
+        color: #FFFFFF;
+        letter-spacing: 1px;
+        line-height: 12px;
+        text-align: center;
+        padding: 3px 5px; }
+    .page-home > .banner > .main > .slide > .cta > .group_2 {
       font-family: Montserrat-Bold;
       font-size: 52.94px;
       color: #FFFFFF;
-      line-height: 55px; }
-  .page-home .banner .main .background {
+      line-height: 55px;
+      letter-spacing: -1.3px; }
+    .page-home > .banner > .main > .slide > .cta > .group_3 {
+      font-family: PTSerif-Regular;
+      font-size: 20.51px;
+      color: #CEDFE1;
+      line-height: 26px;
+      margin: 17px 0 32px; }
+    .page-home > .banner > .main > .slide > .cta > .group_4 > .button_left {
+      display: inline-block;
+      font-family: Montserrat-Bold;
+      font-size: 10px;
+      color: #FFFFFF;
+      letter-spacing: 2px;
+      line-height: 12px;
+      border: 1px solid rgba(206, 223, 225, 0.6);
+      border-radius: 40px;
+      background: url("imgs/icon_photos.svg") 21px 9px no-repeat;
+      padding: 10px 30px 10px 64px;
+      cursor: pointer; }
+    .page-home > .banner > .main > .slide > .cta > .group_4 > .button_right {
+      background: #6848E1;
+      border-radius: 40px;
+      display: inline-block;
+      font-family: Montserrat-Bold;
+      font-size: 10px;
+      color: #FFFFFF;
+      letter-spacing: 2px;
+      line-height: 12px;
+      padding: 10px 20px;
+      margin-left: 10px;
+      cursor: pointer; }
+  .page-home > .banner > .main > .slide > .background {
     left: 0;
     position: absolute;
     text-align: center;
-    top: 0; }
-  .page-home .banner .main .panel {
+    top: 0;
+    right: 240px;
+    z-index: 0; }
+    .page-home > .banner > .main > .slide > .background > .cover {
+      opacity: 0.6;
+      background: #3C3D41;
+      border-radius: 0;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    .page-home > .banner > .main > .slide > .background > img {
+      min-height: 635px;
+      min-width: 100%; }
+  .page-home > .banner > .panel {
     border-radius: 0;
     bottom: 0;
     margin-bottom: 0;
     position: absolute;
     right: 0;
-    top: 0; }
+    top: 0;
+    width: 240px; }
+    .page-home > .banner > .panel > .title {
+      font-family: Montserrat-Bold;
+      font-size: 11px;
+      color: #656C83;
+      letter-spacing: 2px;
+      line-height: 13px;
+      border-bottom: 1px solid #EEEEEE;
+      padding: 20px 28px; }
+    .page-home > .banner > .panel > .banner--item > .slide {
+      border-bottom: 1px solid #EEEEEE; }
+      .page-home > .banner > .panel > .banner--item > .slide > .icon {
+        float: left;
+        width: 30%;
+        padding: 23px 19px; }
+      .page-home > .banner > .panel > .banner--item > .slide > .content {
+        float: left;
+        width: 70%;
+        padding-top: 23px;
+        padding-bottom: 20px; }
+        .page-home > .banner > .panel > .banner--item > .slide > .content > .category {
+          font-family: Montserrat-Bold;
+          font-size: 10px;
+          color: #838D8F;
+          letter-spacing: 1px;
+          line-height: 12px; }
+        .page-home > .banner > .panel > .banner--item > .slide > .content > .title {
+          font-family: PTSerif-Regular;
+          font-size: 14px;
+          color: #656B6F;
+          line-height: 18px; }
+    .page-home > .banner > .panel > .more {
+      border-top: 1px solid #EEEEEE;
+      position: absolute;
+      bottom: -1px;
+      font-family: Montserrat-Bold;
+      font-size: 10px;
+      color: #838D8F;
+      letter-spacing: 2px;
+      line-height: 12px;
+      right: -1px;
+      width: 240px;
+      text-align: center;
+      background-color: #fff;
+      padding: 14px 0; }
+.page-home > .adv {
+  width: 100%;
+  height: 313px;
+  overflow: hidden;
+  position: relative; }
+  .page-home > .adv > .cta {
+    position: absolute; }
+.page-home .area_1 {
+  float: left;
+  padding: 19px 16px;
+  width: 262px;
+  padding-bottom: 22px; }
+.page-home .area_2 {
+  float: left;
+  width: 500px;
+  padding: 19px 11px;
+  padding-bottom: 22px; }
+.page-home .area_3 {
+  float: left;
+  padding: 19px 16px;
+  width: 262px;
+  padding-bottom: 22px; }
 
 /*# sourceMappingURL=main.css.map */
