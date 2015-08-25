@@ -12,15 +12,15 @@
 					.group_3
 						| Whether it’s Montreal winter hub or Switzerland’s mountain majesty, these go-now destinations will send you packing.
 					.group_4
-						.button
+						.button_left
 							| MORE TRAVEL
-						.right
-							| MORE TRAVEL
+						.button_right
+							| EXPLORE WEEKLY DEALS
 				.background
-					img.img-responsive(src="imgs/home--banner--1.png")
-		.panel
-			.title
-				| CURRENTLY TRENDING
-			each val in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-				include banner--item
+					.cover
+					img.responsive(src="imgs/home--banner--1.png")
+	.panel
+		.title
+			| CURRENTLY TRENDING
+		include banner--item
 // Banner end
