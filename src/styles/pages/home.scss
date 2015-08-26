@@ -1,22 +1,29 @@
 .page-home {
 	> .area_1 {
-		float: left;
-		padding: 19px 16px 22px;
-		width: 230px;
+		width: 100%;
 	}
 	> .area_2 {
-		float: left;
-		width: 478px;
-		padding: 0 11px;
-		> .area_2--1,
-		> .area_2--2 {
-			padding: 19px 0 22px;
-			width: 100%;
-		}
+		margin-top: 15px;
+		width: 100%;
 	}
 	> .area_3 {
 		float: left;
-		margin: 19px 16px 22px;
-		width: 230px;
+		padding: 23px 16px 22px;
+		width: 262px;
+	}
+	> .area_4 {
+		float: left;
+		width: 500px;
+		padding: 0 11px;
+		> .area_4--1,
+		> .area_4--2 {
+			padding: 23px 0 22px;
+			width: 100%;
+		}
+	}
+	> .area_5 {
+		float: left;
+		padding: 23px 16px 22px;
+		width: 262px;
 	}
 }
