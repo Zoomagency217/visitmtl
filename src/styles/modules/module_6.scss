@@ -18,8 +18,11 @@
 		.title {
 			font-family: PTSerif-Regular;
 			font-size: 14px;
-			color: #838C8E;
 			line-height: 18px;
+			color: #838C8E;
+			a {
+				color: #838C8E;
+			}
 		}
 	}
 	.module_6--item {
@@ -28,11 +31,14 @@
 		.title {
 			font-family: PTSerif-Regular;
 			font-size: 16px;
-			color: #666E70;
 			line-height: 18px;
 			text-align: center;
 			width: 160px;
 			margin: auto;
+			color: #666E70;
+			a {
+				color: #666E70;
+			}
 		}
 		.hr-line {
 			border-top: #DDDDDD 1px solid;
@@ -59,9 +65,12 @@
 				.name {
 					font-family: Montserrat-Bold;
 					font-size: 10px;
-					color: #3B3D40;
 					letter-spacing: 2px;
 					line-height: 12px;
+					color: #3B3D40;
+					a {
+						color: #3B3D40;
+					}
 				}
 				.position {
 					font-family: PTSerif-Regular;

@@ -26,6 +26,9 @@
 			letter-spacing: 1px;
 			line-height: 12px;
 			margin-top: 17px;
+			a {
+				color: #838C8D;
+			}
 		}
 		.title {
 			font-family: Montserrat-Bold;
@@ -33,6 +36,9 @@
 			color: #3A3D3F;
 			line-height: 18px;
 			margin-top: 10px;
+			a {
+				color: #3A3D3F;
+			}
 		}
 	}
 	.module_3--item {
@@ -41,27 +47,34 @@
 		.category {
 			font-family: Montserrat-Bold;
 			font-size: 10px;
-			color: #838C8D;
 			letter-spacing: 1px;
 			line-height: 12px;
+			color: #838C8D;
+			a {
+				color: #838D8F;
+			}
 		}
 		.title {
 			font-family: PTSerif-Regular;
 			font-size: 13.14px;
-			color: #838D8F;
 			line-height: 22.39px;
 			margin-top: 3px;
+			color: #838D8F;
+			a {
+				color: #838D8F;
+			}
 		}
 	}
 	> .more {
 		padding: 9px;
 		text-align: center;
 		line-height: 12px;
+		font-family: Montserrat-Bold;
+		font-size: 10px;
+		letter-spacing: 2px;
+		color: #838C8D;
 		a {
-			font-family: Montserrat-Bold;
-			font-size: 10px;
 			color: #838C8D;
-			letter-spacing: 2px;
 		}
 	}
 }

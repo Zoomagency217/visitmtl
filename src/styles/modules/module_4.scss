@@ -25,9 +25,12 @@
 		.title {
 			font-family: Montserrat-Bold;
 			font-size: 22px;
-			color: #3C3D41;
 			line-height: 27px;
 			margin-bottom: 10px;
+			color: #3C3D41;
+			a {
+				color: #3C3D41;
+			}
 		}
 		.description {
 			font-family: PTSerif-Regular;

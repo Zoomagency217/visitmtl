@@ -35,7 +35,6 @@ footer {
 							color: #FFFFFF;
 							letter-spacing: 1px;
 							line-height: 13px;
-							text-decoration: none;
 						}
 					}
 					.col_2 {
@@ -47,7 +46,6 @@ footer {
 							font-size: 10.56px;
 							color: #FFFFFF;
 							line-height: 13px;
-							text-decoration: none;
 						}
 					}
 				}
@@ -71,11 +69,13 @@ footer {
 					padding: 0;
 					li {
 						opacity: 0.56;
-						font-family: Montserrat-Regular;
-						font-size: 10.56px;
-						color: #FFFFFF;
-						line-height: 13px;
-						padding: 0 0 14px 28px;
+						line-height: 9px;
+						padding: 0 0 15px 28px;
+						a {
+							font-family: Montserrat-Regular;
+							font-size: 10.56px;
+							color: #FFFFFF;
+						}
 						&.facebook {
 							background: url(imgs/footer_facebook.svg) 4px 0 no-repeat;
 						}

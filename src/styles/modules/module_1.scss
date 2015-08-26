@@ -104,11 +104,14 @@
 		> .title {
 			font-family: Montserrat-Bold;
 			font-size: 11px;
-			color: #656C83;
 			letter-spacing: 2px;
 			line-height: 13px;
 			border-bottom: 1px solid #EEEEEE;
-			padding: 20px 28px
+			padding: 20px 28px;
+			color: #656C83;
+			a {
+				color: #656C83;
+			}
 		}
 		> .module_1--item {
 			> .slide {
@@ -126,15 +129,21 @@
 					> .category {
 						font-family: Montserrat-Bold;
 						font-size: 10px;
-						color: #838D8F;
 						letter-spacing: 1px;
 						line-height: 12px;
+						color: #838D8F;
+						a {
+							color: #838D8F;
+						}
 					}
 					> .title {
 						font-family: PTSerif-Regular;
 						font-size: 14px;
-						color: #656B6F;
 						line-height: 18px;
+						color: #656B6F;
+						a {
+							color: #656B6F;
+						}
 					}
 				}
 			}
@@ -145,7 +154,6 @@
 			bottom: -1px;
 			font-family: Montserrat-Bold;
 			font-size: 10px;
-			color: #838D8F;
 			letter-spacing: 2px;
 			line-height: 12px;
 			right: -1px;
@@ -153,6 +161,10 @@
 			text-align: center;
 			background-color: #fff;
 			padding: 14px 0;
+			color: #838D8F;
+			a {
+				color: #838D8F;
+			}
 		}
 	}
 }

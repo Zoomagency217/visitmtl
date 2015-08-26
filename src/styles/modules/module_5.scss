@@ -35,16 +35,18 @@
 			.title {
 				font-family: Montserrat-Bold;
 				font-size: 15px;
-				color: #3B3D40;
 				line-height: 18px;
-				padding: 0 0px 8px 22px
+				padding: 0 0px 8px 22px;
+				a {
+					color: #3B3D40;
+				}
 			}
 			.description {
 				font-family: PTSerif-Regular;
 				font-size: 14px;
 				color: #838C8E;
 				line-height: 18px;
-				padding: 0 0px 8px 22px
+				padding: 0 0px 8px 22px;
 			}
 		}
 	}
@@ -64,8 +66,10 @@
 		.title {
 			font-family: PTSerif-Regular;
 			font-size: 13px;
-			color: #666D70;
 			line-height: 17px;
+			a {
+				color: #666D70;
+			}
 		}
 	}
 	.more {
@@ -77,7 +81,6 @@
 			font-size: 10px;
 			color: #838C8D;
 			letter-spacing: 2px;
-			text-decoration: none;
 		}
 	}
 }
