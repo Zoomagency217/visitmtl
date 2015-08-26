@@ -1,0 +1,28 @@
+// Module 1 start
+.module_1
+	.main
+		each val in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+			.slide(id="banner--slide_#{val}")
+				.cta
+					.group_1
+						.button
+							| GET HERE
+					.group_2
+						| Winter is not for everyone...
+					.group_3
+						| Whether it’s Montreal winter hub or Switzerland’s mountain majesty, these go-now destinations will send you packing.
+					.group_4
+						.button_left
+							| MORE TRAVEL
+						.button_right
+							| EXPLORE WEEKLY DEALS
+				.background
+					.cover
+					img.responsive(src="imgs/home--banner--1.png")
+	.panel
+		.title
+			| CURRENTLY TRENDING
+		include module_1--item
+		.more
+			| MORE
+// Module 1 end

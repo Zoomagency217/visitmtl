@@ -1,0 +1,60 @@
+.module_6 {
+	background: #fff;
+	border-radius: 4px;
+	width: 100%;
+	.title {
+		font-family: Montserrat-Bold;
+		font-size: 11px;
+		color: #3B3D40;
+		letter-spacing: 2px;
+		line-height: 13px;
+	}
+	.area_3--feature {
+		.title {
+			font-family: PTSerif-Regular;
+			font-size: 14px;
+			color: #838C8E;
+			line-height: 18px;
+		}
+	}
+	.area_3--item {
+		.title {
+			font-family: PTSerif-Regular;
+			font-size: 16px;
+			color: #666E70;
+			line-height: 18px;
+		}
+		.author {
+			.avatar {
+				width: 30px;
+				border-radius: 30px;
+				overflow: hidden;
+				img {
+					width: 100%;
+				}
+			}
+			.info {
+				.name {
+					font-family: Montserrat-Bold;
+					font-size: 10px;
+					color: #3B3D40;
+					letter-spacing: 2px;
+					line-height: 12px;
+				}
+				.position {
+					font-family: PTSerif-Regular;
+					font-size: 12px;
+					color: #858585;
+					line-height: 15px;
+				}
+			}
+		}
+	}
+	.more {
+		font-family: Montserrat-Bold;
+		font-size: 10px;
+		color: #838C8D;
+		letter-spacing: 2px;
+		line-height: 12px;
+	}
+}

@@ -1,0 +1,46 @@
+.module_3 {
+	background: #fff;
+	border-radius: 4px;
+	width: 100%;
+	.title {
+		font-family: Montserrat-Bold;
+		font-size: 11px;
+		color: #3B3D40;
+		letter-spacing: 2px;
+		line-height: 13px;
+	}
+	.area_1--feature {
+		padding: 15px 20px 20px;
+		.image {
+			width: 100%;
+		}
+		.category {
+			font-family: Montserrat-Bold;
+			font-size: 10px;
+			color: #838C8D;
+			letter-spacing: 1px;
+			line-height: 12px;
+		}
+		.title {
+			font-family: Montserrat-Bold;
+			font-size: 15px;
+			color: #3A3D3F;
+			line-height: 18px;
+		}
+	}
+	.area_1--item {
+		.category {
+			font-family: Montserrat-Bold;
+			font-size: 10px;
+			color: #838C8D;
+			letter-spacing: 1px;
+			line-height: 12px;
+		}
+		.title {
+			font-family: PTSerif-Regular;
+			font-size: 13.14px;
+			color: #838D8F;
+			line-height: 22.39px;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.module_4 {
+	background: #fff;
+	border-radius: 4px;
+	width: 100%;
+	.content {
+		.category {}
+		.title {
+			font-family: Montserrat-Bold;
+			font-size: 22px;
+			color: #3C3D41;
+			line-height: 27px;
+		}
+		.description {
+			font-family: PTSerif-Regular;
+			font-size: 14px;
+			color: #818A8C;
+			line-height: 18px;
+		}
+		.button {
+			opacity: 0.6;
+			border: 1px solid #E1E1E1;
+			border-radius: 40px;
+			.readmore {
+				font-family: Montserrat-Bold;
+				font-size: 10px;
+				color: #3C3D41;
+				letter-spacing: 2px;
+				line-height: 12px;
+			}
+		}
+	}
+	.image {
+		padding: 20px 25px;
+	}
+}

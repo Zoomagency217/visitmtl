@@ -1,0 +1,60 @@
+.module_5 {
+	background: #fff;
+	border-radius: 4px;
+	width: 100%;
+	.title {
+		font-family: Montserrat-Bold;
+		font-size: 11px;
+		color: #3B3D40;
+		letter-spacing: 2px;
+		line-height: 12px;
+	}
+	.area_2--2--feature {
+		background: #F9F9F9;
+		.image {
+			float: left;
+			width: 190px;
+		}
+		.content {
+			.time {
+				font-family: PTSerif-Italic;
+				font-size: 12px;
+				color: #AAAAAA;
+				line-height: 15px;
+			}
+			.title {
+				font-family: Montserrat-Bold;
+				font-size: 15px;
+				color: #3B3D40;
+				line-height: 18px;
+			}
+			.title {
+				font-family: PTSerif-Regular;
+				font-size: 14px;
+				color: #838C8E;
+				line-height: 18px;
+			}
+		}
+	}
+	.area_2--2--item {
+		.time {
+			font-family: PTSerif-Italic;
+			font-size: 12px;
+			color: #AAAAAA;
+			line-height: 15px;
+		}
+		.title {
+			font-family: PTSerif-Regular;
+			font-size: 13px;
+			color: #666D70;
+			line-height: 17px;
+		}
+	}
+	.more {
+		font-family: Montserrat-Bold;
+		font-size: 10px;
+		color: #838C8D;
+		letter-spacing: 2px;
+		line-height: 12px;
+	}
+}

@@ -1,9 +1,15 @@
 // Page Home start
 .page-home
-	include ../modules/home/banner.jade
-	include ../modules/home/adv.jade
-	include ../modules/home/area_1.jade
-	include ../modules/home/area_2.jade
-	include ../modules/home/area_3.jade
+	include ../modules/module_1
+	include ../modules/module_2
+	.area_1
+		include ../modules/module_1
+	.area_2
+		.area_2_1
+			include ../modules/module_2
+		.area_2_2
+			include ../modules/module_3
+	.area_3
+		include ../modules/module_4
 	.clearfix
 // Page Home end

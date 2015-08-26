@@ -1,0 +1,161 @@
+footer {
+	background: #fff;
+	> .area_1.area {
+		background: #3C3D41;
+		> .group_1 {
+			float: left;
+			width: 253px;
+		}
+		> .group_2 {
+			float: left;
+			width: 283px;
+			.line {
+				.col_1 {
+					a {
+						font-family: Montserrat-Bold;
+						font-size: 10.56px;
+						color: #FFFFFF;
+						letter-spacing: 1px;
+						line-height: 13px;
+						text-decoration: none;
+					}
+				}
+				.col_2 {
+					a {
+						opacity: 0.56;
+						font-family: Montserrat-Regular;
+						font-size: 10.56px;
+						color: #FFFFFF;
+						line-height: 13px;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		> .group_3 {
+			float: left;
+			width: 163px;
+			.title {
+				font-family: Montserrat-Bold;
+				font-size: 8.64px;
+				color: #FFFFFF;
+				letter-spacing: 1.69px;
+				line-height: 10px;
+			}
+			ul.content {
+				list-style-type: none;
+				li {
+					opacity: 0.56;
+					font-family: Montserrat-Regular;
+					font-size: 10.56px;
+					color: #FFFFFF;
+					line-height: 13px;
+					&.facebook {}
+					&.twitter {}
+					&.instagram {}
+					&.rss {}
+				}
+			}
+		}
+		> .group_4 {
+			float: left;
+			width: 325px;
+			.title {
+				font-family: Montserrat-Bold;
+				font-size: 8.64px;
+				color: #FFFFFF;
+				letter-spacing: 2px;
+				line-height: 10px;
+			}
+			.description {
+				font-family: PTSerif-Regular;
+				font-size: 11.66px;
+				color: #666666;
+				letter-spacing: 0.2px;
+				line-height: 18px;
+			}
+			.form {
+				background: #2E2E30;
+				border-radius: 4px;
+				.input {
+					input {
+						font-family: Montserrat-Regular;
+						font-size: 11.66px;
+						color: #868686;
+						letter-spacing: 0.4px;
+						line-height: 14px;
+					}
+				}
+				.button {
+					button.email {}
+				}
+			}
+		}
+	}
+	> .area_2.area {
+		> .group_1 {
+			float: left;
+			width: 253px;
+		}
+		> .group_2 {
+			float: left;
+			width: 283px;
+			font-family: PTSerif-Regular;
+			font-size: 10.83px;
+			color: #888888;
+			line-height: 14px;
+		}
+		> .group_3 {
+			float: left;
+			width: 163px;
+			font-family: PTSerif-Regular;
+			font-size: 10.83px;
+			color: #888888;
+			line-height: 14px;
+		}
+		> .group_4 {
+			float: left;
+			width: 325px;
+			.form {
+				.input {
+					input {
+						background: #EDEDED;
+						border-radius: 40px;
+					}
+				}
+				.button {
+					button.search {}
+				}
+			}
+		}
+	}
+	> .area_3 {
+		iframe {}
+	}
+	> .area_4 {
+		.copyright {
+			float: left;
+			width: 50%;
+			opacity: 0.44;
+			font-family: PTSerif-Regular;
+			font-size: 10.83px;
+			color: #323335;
+			letter-spacing: 0.1px;
+			line-height: 14px;
+		}
+		ul.menu {
+			float: left;
+			width: 50%;
+			list-style-type: none;
+			li {
+				float: left;
+				a {
+					font-family: Montserrat-Regular;
+					font-size: 10.56px;
+					color: #3C3D41;
+					line-height: 13px;
+				}
+			}
+		}
+	}
+}

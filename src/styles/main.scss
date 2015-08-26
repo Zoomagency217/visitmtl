@@ -14,9 +14,17 @@ body {
 	}
 }
 
-@import 'font';
-@import 'header';
-@import 'footer';
+@import 'common/font';
 
 // Pages
-@import 'home';
+@import 'pages/home';
+
+// Modules
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/module_1';
+@import 'modules/module_2';
+@import 'modules/module_3';
+@import 'modules/module_4';
+@import 'modules/module_5';
+@import 'modules/module_6';

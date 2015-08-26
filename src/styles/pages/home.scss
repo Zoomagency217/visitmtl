@@ -1,0 +1,22 @@
+.page-home {
+	> .area_1 {
+		float: left;
+		padding: 19px 16px 22px;
+		width: 230px;
+	}
+	> .area_2 {
+		float: left;
+		width: 478px;
+		padding: 0 11px;
+		> .area_2--1,
+		> .area_2--2 {
+			padding: 19px 0 22px;
+			width: 100%;
+		}
+	}
+	> .area_3 {
+		float: left;
+		margin: 19px 16px 22px;
+		width: 230px;
+	}
+}
