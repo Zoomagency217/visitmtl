@@ -2,14 +2,19 @@
 	background: #fff;
 	border-radius: 4px;
 	width: 100%;
-	.title {
+	> .title {
 		font-family: Montserrat-Bold;
 		font-size: 11px;
 		color: #3B3D40;
 		letter-spacing: 2px;
 		line-height: 13px;
+		padding: 18px;
+		text-align: center;
+		border-bottom: #eeeeee 1px solid;
 	}
 	.module_6--feature {
+		padding: 15px;
+		border-bottom: #eeeeee 1px solid;
 		.title {
 			font-family: PTSerif-Regular;
 			font-size: 14px;
@@ -18,22 +23,39 @@
 		}
 	}
 	.module_6--item {
+		border-bottom: #eeeeee 1px solid;
+		padding: 26px 0;
 		.title {
 			font-family: PTSerif-Regular;
 			font-size: 16px;
 			color: #666E70;
 			line-height: 18px;
+			text-align: center;
+			width: 160px;
+			margin: auto;
+		}
+		.hr-line {
+			border-top: #DDDDDD 1px solid;
+			height: 1px;
+			width: 20px;
+			margin: 15px auto;
 		}
 		.author {
+			width: 124px;
+			margin: auto;
 			.avatar {
 				width: 30px;
 				border-radius: 30px;
 				overflow: hidden;
+				float: left;
+				margin-right: 12px;
 				img {
 					width: 100%;
 				}
 			}
 			.info {
+				width: 82px;
+				float: left;
 				.name {
 					font-family: Montserrat-Bold;
 					font-size: 10px;
@@ -51,10 +73,14 @@
 		}
 	}
 	.more {
-		font-family: Montserrat-Bold;
-		font-size: 10px;
-		color: #838C8D;
-		letter-spacing: 2px;
 		line-height: 12px;
+		text-align: center;
+		padding: 9px;
+		a {
+			font-family: Montserrat-Bold;
+			font-size: 10px;
+			color: #838C8D;
+			letter-spacing: 2px;
+		}
 	}
 }

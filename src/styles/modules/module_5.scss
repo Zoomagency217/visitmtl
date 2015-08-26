@@ -2,46 +2,64 @@
 	background: #fff;
 	border-radius: 4px;
 	width: 100%;
-	.title {
+	> .title {
 		font-family: Montserrat-Bold;
 		font-size: 11px;
 		color: #3B3D40;
 		letter-spacing: 2px;
 		line-height: 12px;
+		padding: 18px 20px;
+		border-bottom: #eeeeee 1px solid;
 	}
 	.module_5--feature {
 		background: #F9F9F9;
+		padding: 19px 20px;
+		border-bottom: #eeeeee 1px solid;
 		.image {
 			float: left;
 			width: 190px;
+			border-radius: 4px;
+			overflow: hidden;
 		}
 		.content {
+			float: left;
+			width: 248px;
 			.time {
 				font-family: PTSerif-Italic;
 				font-size: 12px;
 				color: #AAAAAA;
 				line-height: 15px;
+				background: url(imgs/icon_clock.svg) 23px 0 no-repeat;
+				padding: 0 0 8px 42px
 			}
 			.title {
 				font-family: Montserrat-Bold;
 				font-size: 15px;
 				color: #3B3D40;
 				line-height: 18px;
+				padding: 0 0px 8px 22px
 			}
-			.title {
+			.description {
 				font-family: PTSerif-Regular;
 				font-size: 14px;
 				color: #838C8E;
 				line-height: 18px;
+				padding: 0 0px 8px 22px
 			}
 		}
 	}
 	.module_5--item {
+		padding: 14px 0;
+		border-bottom: #eeeeee 1px solid;
 		.time {
 			font-family: PTSerif-Italic;
 			font-size: 12px;
 			color: #AAAAAA;
 			line-height: 15px;
+			padding: 0 10px 0 40px;
+			background: url(imgs/icon_clock.svg) 21px 2px no-repeat;
+			float: left;
+			width: 118px;
 		}
 		.title {
 			font-family: PTSerif-Regular;
@@ -51,10 +69,15 @@
 		}
 	}
 	.more {
-		font-family: Montserrat-Bold;
-		font-size: 10px;
-		color: #838C8D;
-		letter-spacing: 2px;
 		line-height: 12px;
+		text-align: center;
+		padding: 9px;
+		a {
+			font-family: Montserrat-Bold;
+			font-size: 10px;
+			color: #838C8D;
+			letter-spacing: 2px;
+			text-decoration: none;
+		}
 	}
 }

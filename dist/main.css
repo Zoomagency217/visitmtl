@@ -30,9 +30,11 @@ body {
   float: left;
   width: 500px;
   padding: 0 11px; }
-  .page-home > .area_4 > .area_4--1,
+  .page-home > .area_4 > .area_4--1 {
+    padding: 23px 0 20px;
+    width: 100%; }
   .page-home > .area_4 > .area_4--2 {
-    padding: 23px 0 22px;
+    padding: 0 0 22px;
     width: 100%; }
 .page-home > .area_5 {
   float: left;
@@ -458,7 +460,7 @@ footer {
       line-height: 22.39px;
       margin-top: 3px; }
   .module_3 > .more {
-    padding: 8px;
+    padding: 9px;
     text-align: center;
     line-height: 12px; }
     .module_3 > .more a {
@@ -471,118 +473,196 @@ footer {
   background: #fff;
   border-radius: 4px;
   width: 100%; }
-  .module_4 .content .title {
-    font-family: Montserrat-Bold;
-    font-size: 22px;
-    color: #3C3D41;
-    line-height: 27px; }
-  .module_4 .content .description {
-    font-family: PTSerif-Regular;
-    font-size: 14px;
-    color: #818A8C;
-    line-height: 18px; }
-  .module_4 .content .button {
-    opacity: 0.6;
-    border: 1px solid #E1E1E1;
-    border-radius: 40px; }
-    .module_4 .content .button .readmore {
+  .module_4 > .content {
+    float: left;
+    width: 270px;
+    padding: 30px 0 20px 30px; }
+    .module_4 > .content > .category {
+      background: #387AC2;
+      border-radius: 3px;
+      padding: 3px 5px;
       font-family: Montserrat-Bold;
       font-size: 10px;
+      color: #FFFFFF;
+      letter-spacing: 1px;
+      line-height: 12px;
+      float: left;
+      white-space: nowrap;
+      margin-bottom: 16px; }
+      .module_4 > .content > .category > img {
+        margin-right: 10px; }
+    .module_4 > .content .title {
+      font-family: Montserrat-Bold;
+      font-size: 22px;
       color: #3C3D41;
-      letter-spacing: 2px;
-      line-height: 12px; }
+      line-height: 27px;
+      margin-bottom: 10px; }
+    .module_4 > .content .description {
+      font-family: PTSerif-Regular;
+      font-size: 14px;
+      color: #818A8C;
+      line-height: 18px;
+      margin-bottom: 30px; }
+    .module_4 > .content .button {
+      opacity: 0.6;
+      border: 1px solid #E1E1E1;
+      border-radius: 40px;
+      padding: 9px 35px 9px 68px;
+      margin-bottom: 10px;
+      float: left;
+      background: url(imgs/icon_photos.svg) 21px 8px no-repeat; }
+      .module_4 > .content .button .readmore {
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+        color: #3C3D41;
+        letter-spacing: 2px;
+        line-height: 12px; }
   .module_4 .image {
-    padding: 20px 25px; }
+    float: left;
+    width: 208px;
+    padding: 23px 6px 13px; }
 
 .module_5 {
   background: #fff;
   border-radius: 4px;
   width: 100%; }
-  .module_5 .title {
+  .module_5 > .title {
     font-family: Montserrat-Bold;
     font-size: 11px;
     color: #3B3D40;
     letter-spacing: 2px;
-    line-height: 12px; }
+    line-height: 12px;
+    padding: 18px 20px;
+    border-bottom: #eeeeee 1px solid; }
   .module_5 .module_5--feature {
-    background: #F9F9F9; }
+    background: #F9F9F9;
+    padding: 19px 20px;
+    border-bottom: #eeeeee 1px solid; }
     .module_5 .module_5--feature .image {
       float: left;
-      width: 190px; }
-    .module_5 .module_5--feature .content .time {
+      width: 190px;
+      border-radius: 4px;
+      overflow: hidden; }
+    .module_5 .module_5--feature .content {
+      float: left;
+      width: 248px; }
+      .module_5 .module_5--feature .content .time {
+        font-family: PTSerif-Italic;
+        font-size: 12px;
+        color: #AAAAAA;
+        line-height: 15px;
+        background: url(imgs/icon_clock.svg) 23px 0 no-repeat;
+        padding: 0 0 8px 42px; }
+      .module_5 .module_5--feature .content .title {
+        font-family: Montserrat-Bold;
+        font-size: 15px;
+        color: #3B3D40;
+        line-height: 18px;
+        padding: 0 0px 8px 22px; }
+      .module_5 .module_5--feature .content .description {
+        font-family: PTSerif-Regular;
+        font-size: 14px;
+        color: #838C8E;
+        line-height: 18px;
+        padding: 0 0px 8px 22px; }
+  .module_5 .module_5--item {
+    padding: 14px 0;
+    border-bottom: #eeeeee 1px solid; }
+    .module_5 .module_5--item .time {
       font-family: PTSerif-Italic;
       font-size: 12px;
       color: #AAAAAA;
-      line-height: 15px; }
-    .module_5 .module_5--feature .content .title {
-      font-family: Montserrat-Bold;
-      font-size: 15px;
-      color: #3B3D40;
-      line-height: 18px; }
-    .module_5 .module_5--feature .content .title {
+      line-height: 15px;
+      padding: 0 10px 0 40px;
+      background: url(imgs/icon_clock.svg) 21px 2px no-repeat;
+      float: left;
+      width: 118px; }
+    .module_5 .module_5--item .title {
       font-family: PTSerif-Regular;
-      font-size: 14px;
-      color: #838C8E;
-      line-height: 18px; }
-  .module_5 .module_5--item .time {
-    font-family: PTSerif-Italic;
-    font-size: 12px;
-    color: #AAAAAA;
-    line-height: 15px; }
-  .module_5 .module_5--item .title {
-    font-family: PTSerif-Regular;
-    font-size: 13px;
-    color: #666D70;
-    line-height: 17px; }
+      font-size: 13px;
+      color: #666D70;
+      line-height: 17px; }
   .module_5 .more {
-    font-family: Montserrat-Bold;
-    font-size: 10px;
-    color: #838C8D;
-    letter-spacing: 2px;
-    line-height: 12px; }
+    line-height: 12px;
+    text-align: center;
+    padding: 9px; }
+    .module_5 .more a {
+      font-family: Montserrat-Bold;
+      font-size: 10px;
+      color: #838C8D;
+      letter-spacing: 2px;
+      text-decoration: none; }
 
 .module_6 {
   background: #fff;
   border-radius: 4px;
   width: 100%; }
-  .module_6 .title {
+  .module_6 > .title {
     font-family: Montserrat-Bold;
     font-size: 11px;
     color: #3B3D40;
     letter-spacing: 2px;
-    line-height: 13px; }
-  .module_6 .module_6--feature .title {
-    font-family: PTSerif-Regular;
-    font-size: 14px;
-    color: #838C8E;
-    line-height: 18px; }
-  .module_6 .module_6--item .title {
-    font-family: PTSerif-Regular;
-    font-size: 16px;
-    color: #666E70;
-    line-height: 18px; }
-  .module_6 .module_6--item .author .avatar {
-    width: 30px;
-    border-radius: 30px;
-    overflow: hidden; }
-    .module_6 .module_6--item .author .avatar img {
-      width: 100%; }
-  .module_6 .module_6--item .author .info .name {
-    font-family: Montserrat-Bold;
-    font-size: 10px;
-    color: #3B3D40;
-    letter-spacing: 2px;
-    line-height: 12px; }
-  .module_6 .module_6--item .author .info .position {
-    font-family: PTSerif-Regular;
-    font-size: 12px;
-    color: #858585;
-    line-height: 15px; }
+    line-height: 13px;
+    padding: 18px;
+    text-align: center;
+    border-bottom: #eeeeee 1px solid; }
+  .module_6 .module_6--feature {
+    padding: 15px;
+    border-bottom: #eeeeee 1px solid; }
+    .module_6 .module_6--feature .title {
+      font-family: PTSerif-Regular;
+      font-size: 14px;
+      color: #838C8E;
+      line-height: 18px; }
+  .module_6 .module_6--item {
+    border-bottom: #eeeeee 1px solid;
+    padding: 26px 0; }
+    .module_6 .module_6--item .title {
+      font-family: PTSerif-Regular;
+      font-size: 16px;
+      color: #666E70;
+      line-height: 18px;
+      text-align: center;
+      width: 160px;
+      margin: auto; }
+    .module_6 .module_6--item .hr-line {
+      border-top: #DDDDDD 1px solid;
+      height: 1px;
+      width: 20px;
+      margin: 15px auto; }
+    .module_6 .module_6--item .author {
+      width: 124px;
+      margin: auto; }
+      .module_6 .module_6--item .author .avatar {
+        width: 30px;
+        border-radius: 30px;
+        overflow: hidden;
+        float: left;
+        margin-right: 12px; }
+        .module_6 .module_6--item .author .avatar img {
+          width: 100%; }
+      .module_6 .module_6--item .author .info {
+        width: 82px;
+        float: left; }
+        .module_6 .module_6--item .author .info .name {
+          font-family: Montserrat-Bold;
+          font-size: 10px;
+          color: #3B3D40;
+          letter-spacing: 2px;
+          line-height: 12px; }
+        .module_6 .module_6--item .author .info .position {
+          font-family: PTSerif-Regular;
+          font-size: 12px;
+          color: #858585;
+          line-height: 15px; }
   .module_6 .more {
-    font-family: Montserrat-Bold;
-    font-size: 10px;
-    color: #838C8D;
-    letter-spacing: 2px;
-    line-height: 12px; }
+    line-height: 12px;
+    text-align: center;
+    padding: 9px; }
+    .module_6 .more a {
+      font-family: Montserrat-Bold;
+      font-size: 10px;
+      color: #838C8D;
+      letter-spacing: 2px; }
 
 /*# sourceMappingURL=main.css.map */

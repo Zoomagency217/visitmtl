@@ -15,9 +15,12 @@
 		float: left;
 		width: 500px;
 		padding: 0 11px;
-		> .area_4--1,
+		> .area_4--1 {
+			padding: 23px 0 20px;
+			width: 100%;
+		}
 		> .area_4--2 {
-			padding: 23px 0 22px;
+			padding: 0 0 22px;
 			width: 100%;
 		}
 	}
