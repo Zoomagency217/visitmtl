@@ -5,6 +5,13 @@ header {
 	padding-left: 155px;
 	padding-right: 33px;
 	width: 100%;
+	.sm &,
+	.xs & {
+		background-size: 50px;
+		background-position: 10px 5px;
+		height: 60px;
+		padding-right: 0;
+	}
 	.main {
 		.top {
 			border-bottom: 1px solid #434A54;
@@ -54,6 +61,10 @@ header {
 					}
 				}
 			}
+			.sm &,
+			.xs & {
+				display: none;
+			}
 		}
 		.bottom {
 			display: table;
@@ -77,12 +88,24 @@ header {
 						}
 					}
 				}
+				.sm &,
+				.xs & {
+					display: none;
+				}
 			}
 			.right {
-				border-left: 1px solid #434A54;
 				display: table-cell;
 				width: 102px;
 				vertical-align: top;
+				border-left: 1px solid #434A54;
+				.sm &,
+				.xs & {
+					display: block;
+					float: right;
+					width: 86px;
+					margin-top: 11px;
+					height: 38px;
+				}
 				.icon {
 					background-position: center;
 					background-repeat: no-repeat;
@@ -93,9 +116,20 @@ header {
 					width: 29px;
 					&.search {
 						background-image: url('imgs/icon_search.svg');
+						.sm &,
+						.xs & {
+							float: right;
+							margin: 6px 6px 0 0;
+						}
 					}
 					&.hamburger {
 						background-image: url('imgs/icon_hamburger.svg');
+						.sm &,
+						.xs & {
+							float: right;
+							margin: 6px 6px 0 0;
+							background-size: 22px;
+						}
 					}
 				}
 			}

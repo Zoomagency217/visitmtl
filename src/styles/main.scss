@@ -4,6 +4,7 @@ body {
 	color: #666D70;
 	line-height: 27px;
 	background: #eaeaea;
+	display: none;
 	* {
 		box-sizing: border-box !important;
 	}
@@ -12,13 +13,23 @@ body {
 		padding-left: 0;
 		padding-right: 0;
 	}
+	&.sm,
+	&.xs {
+		.container {
+			width: 100%;
+		}
+	}
+	&.sm,
+	&.xs,
+	&.md,
+	&.lg {
+		display: block;
+	}
 }
 
 @import 'common/font';
-
 // Pages
 @import 'pages/home';
-
 // Modules
 @import 'modules/header';
 @import 'modules/footer';

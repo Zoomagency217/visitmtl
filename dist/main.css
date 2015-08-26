@@ -3,13 +3,18 @@ body {
   font-size: 18.66px;
   color: #666D70;
   line-height: 27px;
-  background: #eaeaea; }
+  background: #eaeaea;
+  display: none; }
   body * {
     box-sizing: border-box !important; }
   body .container {
     width: 1024px;
     padding-left: 0;
     padding-right: 0; }
+  body.sm .container, body.xs .container {
+    width: 100%; }
+  body.sm, body.xs, body.md, body.lg {
+    display: block; }
 
 @font-face {
   font-family: 'PTSerif-Regular';
@@ -48,6 +53,11 @@ header {
   padding-left: 155px;
   padding-right: 33px;
   width: 100%; }
+  .sm header, .xs header {
+    background-size: 50px;
+    background-position: 10px 5px;
+    height: 60px;
+    padding-right: 0; }
   header .main .top {
     border-bottom: 1px solid #434A54;
     height: 60px; }
@@ -88,6 +98,8 @@ header {
         width: 103px; }
         header .main .top .signin .button:hover {
           text-decoration: none; }
+    .sm header .main .top, .xs header .main .top {
+      display: none; }
   header .main .bottom {
     display: table;
     width: 100%;
@@ -107,11 +119,19 @@ header {
             font-size: 16px;
             color: #434A54;
             line-height: 19px; }
+      .sm header .main .bottom .left, .xs header .main .bottom .left {
+        display: none; }
     header .main .bottom .right {
-      border-left: 1px solid #434A54;
       display: table-cell;
       width: 102px;
-      vertical-align: top; }
+      vertical-align: top;
+      border-left: 1px solid #434A54; }
+      .sm header .main .bottom .right, .xs header .main .bottom .right {
+        display: block;
+        float: right;
+        width: 86px;
+        margin-top: 11px;
+        height: 38px; }
       header .main .bottom .right .icon {
         background-position: center;
         background-repeat: no-repeat;
@@ -122,8 +142,15 @@ header {
         width: 29px; }
         header .main .bottom .right .icon.search {
           background-image: url("imgs/icon_search.svg"); }
+          .sm header .main .bottom .right .icon.search, .xs header .main .bottom .right .icon.search {
+            float: right;
+            margin: 6px 6px 0 0; }
         header .main .bottom .right .icon.hamburger {
           background-image: url("imgs/icon_hamburger.svg"); }
+          .sm header .main .bottom .right .icon.hamburger, .xs header .main .bottom .right .icon.hamburger {
+            float: right;
+            margin: 6px 6px 0 0;
+            background-size: 22px; }
 
 footer {
   background: #fff; }
