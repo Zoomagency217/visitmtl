@@ -371,10 +371,17 @@ footer {
   position: relative;
   width: 100%;
   border-radius: 4px; }
+  .xs .module_1, .sm .module_1 {
+    height: 188px;
+    border-radius: 0; }
+  .xs .module_1 > .main, .sm .module_1 > .main {
+    top: 0; }
   .module_1 > .main > .slide > .cta {
     margin: 259px 530px 0 62px;
     position: relative;
     z-index: 2; }
+    .xs .module_1 > .main > .slide > .cta, .sm .module_1 > .main > .slide > .cta {
+      margin: 30px 25px 0 25px; }
     .module_1 > .main > .slide > .cta > .group_1 {
       margin-bottom: 16px; }
       .module_1 > .main > .slide > .cta > .group_1 > .button {
@@ -431,6 +438,8 @@ footer {
     top: 0;
     right: 240px;
     z-index: 0; }
+    .xs .module_1 > .main > .slide > .background, .sm .module_1 > .main > .slide > .background {
+      right: 0; }
     .module_1 > .main > .slide > .background > .cover {
       opacity: 0.6;
       background: #3C3D41;
@@ -444,6 +453,9 @@ footer {
     .module_1 > .main > .slide > .background > img {
       min-height: 635px;
       min-width: 100%; }
+      .xs .module_1 > .main > .slide > .background > img, .sm .module_1 > .main > .slide > .background > img {
+        min-height: 0;
+        width: 100%; }
   .module_1 > .panel {
     border-radius: 0;
     bottom: 0;
@@ -452,6 +464,8 @@ footer {
     right: 0;
     top: 0;
     width: 240px; }
+    .xs .module_1 > .panel, .sm .module_1 > .panel {
+      display: none; }
     .module_1 > .panel > .title {
       font-family: Montserrat-Bold;
       font-size: 11px;
@@ -463,7 +477,22 @@ footer {
       .module_1 > .panel > .title a {
         color: #656C83; }
     .module_1 > .panel > .module_1--item > .slide {
-      border-bottom: 1px solid #EEEEEE; }
+      border-bottom: 1px solid #EEEEEE;
+      cursor: pointer; }
+      .module_1 > .panel > .module_1--item > .slide.active {
+        background: #F9F9F9;
+        position: relative;
+        cursor: auto; }
+        .module_1 > .panel > .module_1--item > .slide.active:before {
+          border-right: #F9F9F9 8px solid;
+          border-top: transparent 8px solid;
+          border-bottom: transparent 8px solid;
+          width: 8px;
+          height: 16px;
+          position: absolute;
+          left: -8px;
+          top: 46%;
+          content: ''; }
       .module_1 > .panel > .module_1--item > .slide > .icon {
         float: left;
         width: 30%;
@@ -564,7 +593,8 @@ footer {
     color: #3B3D40;
     letter-spacing: 2px;
     line-height: 13px;
-    padding: 18px 20px; }
+    padding: 18px 20px;
+    background: url(imgs/icon_flag.svg) 202px -2px no-repeat; }
   .module_3 .module_3--feature {
     padding: 15px 20px 20px;
     border-bottom: #EEEEEE 1px solid; }

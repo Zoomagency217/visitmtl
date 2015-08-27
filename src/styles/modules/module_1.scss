@@ -4,12 +4,25 @@
 	position: relative;
 	width: 100%;
 	border-radius: 4px;
+	.xs &,
+	.sm & {
+		height: 188px;
+		border-radius: 0;
+	}
 	> .main {
+		.xs &,
+		.sm & {
+			top: 0;
+		}
 		> .slide {
 			> .cta {
 				margin: 259px 530px 0 62px;
 				position: relative;
 				z-index: 2;
+				.xs &,
+				.sm & {
+					margin: 30px 25px 0 25px;
+				}
 				> .group_1 {
 					margin-bottom: 16px;
 					> .button {
@@ -75,6 +88,10 @@
 				top: 0;
 				right: 240px;
 				z-index: 0;
+				.xs &,
+				.sm & {
+					right: 0;
+				}
 				> .cover {
 					opacity: 0.6;
 					background: #3C3D41;
@@ -89,6 +106,11 @@
 				> img {
 					min-height: 635px;
 					min-width: 100%;
+					.xs &,
+					.sm & {
+						min-height: 0;
+						width: 100%;
+					}
 				}
 			}
 		}
@@ -101,6 +123,10 @@
 		right: 0;
 		top: 0;
 		width: 240px;
+		.xs &,
+		.sm & {
+			display: none;
+		}
 		> .title {
 			font-family: Montserrat-Bold;
 			font-size: 11px;
@@ -116,6 +142,23 @@
 		> .module_1--item {
 			> .slide {
 				border-bottom: 1px solid #EEEEEE;
+				cursor: pointer;
+				&.active {
+					background: #F9F9F9;
+					position: relative;
+					cursor: auto;
+					&:before {
+						border-right: #F9F9F9 8px solid;
+						border-top: transparent 8px solid;
+						border-bottom: transparent 8px solid;
+						width: 8px;
+						height: 16px;
+						position: absolute;
+						left: -8px;
+						top: 46%;
+						content: '';
+					}
+				}
 				> .icon {
 					float: left;
 					width: 30%;

@@ -1,13 +1,20 @@
 // Module 1 Item start
+mixin slide
+	.icon
+		img.img-responsive(src="imgs/module_1--icon.svg")
+	.content
+		.category
+			a(href="#") GET HERE
+		.title
+			a(href="#") Must See Places of the New Year
+	.clearfix
+		
 .module_1--item
-	each val in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-		.slide(id="banner--slide_#{val}")
-			.icon
-				img.img-responsive(src="imgs/module_1--icon.svg")
-			.content
-				.category
-					a(href="#") GET HERE
-				.title
-					a(href="#") Must See Places of the New Year
-			.clearfix
+	each val in [1, 2, 3, 4, 5, 6]
+		if val == 1
+			.slide(id="banner--slide_#{val}").active
+				+ slide
+		else
+			.slide(id="banner--slide_#{val}")
+				+ slide
 // Module 1 Item end
