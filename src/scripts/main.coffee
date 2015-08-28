@@ -1,2 +1,3 @@
 $ ->
-	console.log 'test'
+	$('.carousel').carousel ->
+		interval: 2000

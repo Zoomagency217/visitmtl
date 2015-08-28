@@ -1,6 +1,10 @@
 (function() {
   $(function() {
-    return console.log('test');
+    return $('.carousel').carousel(function() {
+      return {
+        interval: 2000
+      };
+    });
   });
 
 }).call(this);

@@ -1,0 +1,28 @@
+mixin slide
+	.background
+		.cover
+		img.responsive(src="http://lorempixel.com/1024/635/nature")
+	.cta
+		.group_1
+			a(href="#").button
+				| GET HERE
+		.group_2
+			| Winter is not for everyone...
+		.group_3
+			| Whether it’s Montreal winter hub or Switzerland’s mountain majesty, these go-now destinations will send you packing.
+		.group_4
+			.button_left
+				| MORE TRAVEL
+			.button_right
+				| EXPLORE WEEKLY DEALS
+
+.carousel.slide#banner--slide(data-ride="carousel")
+	.main.carousel-inner(role="listbox")
+		each val in [1, 2, 3, 4, 5, 6]
+			if val == 1
+				.slide.item.active
+					+ slide
+			else
+				.slide.item
+					+ slide
+	include module_1--panel

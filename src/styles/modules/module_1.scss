@@ -1,5 +1,6 @@
+$module_1__desktop_height: 635px;
 .module_1 {
-	height: 635px;
+	height: $module_1__desktop_height;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
@@ -9,16 +10,17 @@
 		height: 188px;
 		border-radius: 0;
 	}
-	> .main {
+	.main {
 		.xs &,
 		.sm & {
 			top: 0;
 		}
 		> .slide {
 			> .cta {
-				margin: 259px 530px 0 62px;
+				padding: 259px 530px 0 62px;
 				position: relative;
 				z-index: 2;
+				height: $module_1__desktop_height;
 				.xs &,
 				.sm & {
 					margin: 30px 25px 0 25px;
@@ -86,12 +88,8 @@
 				position: absolute;
 				text-align: center;
 				top: 0;
-				right: 240px;
+				right: 0;
 				z-index: 0;
-				.xs &,
-				.sm & {
-					right: 0;
-				}
 				> .cover {
 					opacity: 0.6;
 					background: #3C3D41;
@@ -115,7 +113,7 @@
 			}
 		}
 	}
-	> .panel {
+	.panel {
 		border-radius: 0;
 		bottom: 0;
 		margin-bottom: 0;
@@ -126,6 +124,20 @@
 		.xs &,
 		.sm & {
 			display: none;
+		}
+		.md &,
+		.lg & {
+			.carousel-indicators {
+				bottom: auto;
+				left: 0;
+				width: 100%;
+				margin-left: 0;
+				text-align: left;
+				.active {
+					width: auto;
+					height: auto;
+				}
+			}
 		}
 		> .title {
 			font-family: Montserrat-Bold;
@@ -167,8 +179,7 @@
 				> .content {
 					float: left;
 					width: 70%;
-					padding-top: 23px;
-					padding-bottom: 20px;
+					padding: 22px 0 19px;
 					> .category {
 						font-family: Montserrat-Bold;
 						font-size: 10px;
