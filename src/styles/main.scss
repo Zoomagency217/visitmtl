@@ -1,15 +1,23 @@
+// Common
+@import 'common/font';
+@import 'common/color';
+@import 'common/size';
+
 body {
 	font-family: PTSerif-Regular;
 	font-size: 18.66px;
-	color: #666D70;
+	color: $text-color;
 	line-height: 27px;
-	background: #eaeaea;
+	background: $background-color;
 	display: none;
 	* {
 		box-sizing: border-box !important;
+		&:focus {
+			outline: none;
+		}
 	}
 	.container {
-		width: 1024px;
+		width: $container-width;
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -27,9 +35,10 @@ body {
 	}
 }
 
-@import 'common/font';
-// Pages
-@import 'pages/home';
+.page {
+	margin-top: $header-height;
+}
+
 // Modules
 @import 'modules/header';
 @import 'modules/footer';
@@ -39,3 +48,6 @@ body {
 @import 'modules/module_4';
 @import 'modules/module_5';
 @import 'modules/module_6';
+
+// Pages
+@import 'pages/home';

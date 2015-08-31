@@ -1,10 +1,13 @@
 header {
-	background: url(imgs/logo.png) 24px 16px no-repeat;
-	height: 128px;
+	background: $background-color;
 	margin: auto;
-	padding-left: 155px;
-	padding-right: 33px;
+	height: $header-height;
 	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999999999;
 	.sm &,
 	.xs & {
 		background-size: 50px;
@@ -13,9 +16,17 @@ header {
 		padding-right: 0;
 	}
 	.main {
+		background: url(imgs/logo.png) 24px 16px no-repeat;
+		height: $header-height;
+		margin: auto;
+		padding: 0 33px 0 155px;
+		width: 1024px;
 		.top {
 			border-bottom: 1px solid #434A54;
 			height: 60px;
+			max-height: 60px;
+			transition: max-height .5s;
+			overflow: hidden;
 			.social {
 				float: left;
 				width: 115px;
@@ -67,6 +78,7 @@ header {
 			}
 		}
 		.bottom {
+			transition: color .5s;
 			display: table;
 			width: 100%;
 			height: 66px;
@@ -98,6 +110,7 @@ header {
 				width: 102px;
 				vertical-align: top;
 				border-left: 1px solid #434A54;
+				position: relative;
 				.sm &,
 				.xs & {
 					display: block;
@@ -106,7 +119,7 @@ header {
 					margin-top: 11px;
 					height: 38px;
 				}
-				.icon {
+				> .icon {
 					background-position: center;
 					background-repeat: no-repeat;
 					display: block;
@@ -132,6 +145,165 @@ header {
 						}
 					}
 				}
+				.hamburger-menu {
+					background: #434A54;
+					position: absolute;
+					top: 0;
+					right: -33px;
+					width: 303px;
+					max-width: 0;
+					overflow: hidden;
+					transition: max-width .5s;
+					&.active {
+						max-width: 303px;
+					}
+					> .icon {
+						padding: 20px 0 0 20px;
+					}
+					.title {
+						padding: 25px 0 0 20px;
+						opacity: 0.61;
+						font-family: Montserrat-Regular;
+						font-size: 24px;
+						color: #FFFFFF;
+						line-height: 28px;
+						white-space: nowrap;
+					}
+					.menu {
+						list-style-type: none;
+						padding: 0;
+						margin: 35px 0 0;
+						> li {
+							line-height: 28px;
+							border-top: 1px solid #838D8F;
+							a {
+								font-family: Montserrat-Regular;
+								color: white;
+								padding: 10px 35px;
+								display: inline-block;
+								font-size: 24px;
+								white-space: nowrap;
+								width: 100%;
+								text-decoration: none;
+								> .icon {
+									width: 27px;
+									display: inline-block;
+									text-align: center;
+									margin-right: 23px;
+								}
+							}
+							&:hover {
+								background: #E5555B;
+							}
+						}
+					}
+				}
+			}
+		}
+		.video-group {
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 1s;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: -1;
+			background: $background-color;
+			.cta {
+				.group-1 {
+					font-family: Montserrat-Bold;
+					font-size: 52px;
+					color: #FFFFFF;
+					line-height: 60px;
+					text-align: center;
+					margin: auto;
+					padding-top: 159px;
+					max-width: 980px;
+				}
+				.group-2 {
+					font-family: PTSerif-Regular;
+					font-size: 26px;
+					color: #CDDFE0;
+					line-height: 33px;
+					text-align: center;
+				}
+				.group-3 {
+					margin-top: 56px;
+					text-align: center;
+					.button {
+						border: 1px solid #FFFFFF;
+						border-radius: 40px;
+						font-family: Montserrat-Bold;
+						font-size: 10px;
+						color: #FFFFFF;
+						letter-spacing: 2px;
+						line-height: 12px;
+						padding: 15px 45px;
+						background: transparent;
+						box-shadow: none;
+						-moz-appearance: none;
+						-webkit-appearance: none;
+						&:focus {
+							border: 1px solid $text-color;
+						}
+						&:hover {
+							background: $text-color;
+							color: $background-color;
+						}
+					}
+				}
+			}
+			.video {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				z-index: -1;
+				text-align: center;
+				video {
+					width: 1024px;
+				}
+			}
+		}
+	}
+	.top-0 & {
+		.main {
+			.top {
+				max-height: 0;
+				border: none;
+			}
+			.bottom {
+				.left {
+					ul.menu {
+						li {
+							a {
+								color: #ffffff;
+							}
+						}
+					}
+					.sm &,
+					.xs & {
+						display: none;
+					}
+				}
+				.right {
+					border-left: 1px solid #ffffff;
+					.icon {
+						width: 29px;
+						&.search {
+							background-image: url('imgs/icon_search_white.svg');
+						}
+						&.hamburger {
+							background-image: url('imgs/icon_hamburger_white.svg');
+						}
+					}
+				}
+			}
+			.video-group {
+				max-height: 2000px;
 			}
 		}
 	}

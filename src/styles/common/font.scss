@@ -1,8 +1,89 @@
 @font-face {
-	font-family: 'PTSerif-Regular';
-	src: url('fonts/PTSerif-Regular.ttf');
+	font-family: "PTSerif-Regular";
+	src: url("fonts/PTSerif/PTSerif-Regular.eot");
+	src: local("PTSerif-Regular"),
+		url("fonts/PTSerif/PTSerif-Regular.woff") format("woff"),
+		url("fonts/PTSerif/PTSerif-Regular.ttf") format("truetype"),
+		url("fonts/PTSerif/PTSerif-Regular.svg") format("svg");
 }
+
 @font-face {
-	font-family: 'PTSerif-Bold';
-	src: url('fonts/PTSerif-Bold.ttf');
+	font-family: "PTSerif-Bold";
+	src: url("fonts/PTSerif/PTSerif-Bold.eot");
+	src: local("PTSerif-Bold"),
+		url("fonts/PTSerif/PTSerif-Bold.woff") format("woff"),
+		url("fonts/PTSerif/PTSerif-Bold.ttf") format("truetype"),
+		url("fonts/PTSerif/PTSerif-Bold.svg") format("svg");
+}
+
+@font-face {
+	font-family: "PTSerif-Italic";
+	src: url("fonts/PTSerif/PTSerif-Italic.eot");
+	src: local("PTSerif-Italic"),
+		url("fonts/PTSerif/PTSerif-Italic.woff") format("woff"),
+		url("fonts/PTSerif/PTSerif-Italic.ttf") format("truetype"),
+		url("fonts/PTSerif/PTSerif-Italic.svg") format("svg");
+}
+
+@font-face {
+	font-family: "PTSerif-BoldItalic";
+	src: url("fonts/PTSerif/PTSerif-BoldItalic.eot");
+	src: local("PTSerif-BoldItalic"),
+		url("fonts/PTSerif/PTSerif-BoldItalic.woff") format("woff"),
+		url("fonts/PTSerif/PTSerif-BoldItalic.ttf") format("truetype"),
+		url("fonts/PTSerif/PTSerif-BoldItalic.svg") format("svg");
+}
+
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url("fonts/Montserrat/Montserrat-Regular.eot");
+	src: local("Montserrat-Regular"),
+		url("fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
+		url("fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"),
+		url("fonts/Montserrat/Montserrat-Regular.svg") format("svg");
+}
+
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url("fonts/Montserrat/Montserrat-Bold.eot");
+	src: local("Montserrat-Bold"),
+		url("fonts/Montserrat/Montserrat-Bold.woff") format("woff"),
+		url("fonts/Montserrat/Montserrat-Bold.ttf") format("truetype"),
+		url("fonts/Montserrat/Montserrat-Bold.svg") format("svg");
+}
+
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("fonts/OpenSans/OpenSans-Regular.eot");
+	src: local("OpenSans-Regular"),
+		url("fonts/OpenSans/OpenSans-Regular.woff") format("woff"),
+		url("fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"),
+		url("fonts/OpenSans/OpenSans-Regular.svg") format("svg");
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("fonts/OpenSans/OpenSans-Bold.eot");
+	src: local("OpenSans-Bold"),
+		url("fonts/OpenSans/OpenSans-Bold.woff") format("woff"),
+		url("fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"),
+		url("fonts/OpenSans/OpenSans-Bold.svg") format("svg");
+}
+
+@font-face {
+	font-family: "OpenSans-Italic";
+	src: url("fonts/OpenSans/OpenSans-Italic.eot");
+	src: local("OpenSans-Italic"),
+		url("fonts/OpenSans/OpenSans-Italic.woff") format("woff"),
+		url("fonts/OpenSans/OpenSans-Italic.ttf") format("truetype"),
+		url("fonts/OpenSans/OpenSans-Italic.svg") format("svg");
+}
+
+@font-face {
+	font-family: "OpenSans-BoldItalic";
+	src: url("fonts/OpenSans/OpenSans-BoldItalic.eot");
+	src: local("OpenSans-BoldItalic"),
+		url("fonts/OpenSans/OpenSans-BoldItalic.woff") format("woff"),
+		url("fonts/OpenSans/OpenSans-BoldItalic.ttf") format("truetype"),
+		url("fonts/OpenSans/OpenSans-BoldItalic.svg") format("svg");
 }
