@@ -1,5 +1,5 @@
 (function() {
-  var toggle;
+  var resizeVideo, toggle;
 
   toggle = function(item) {
     switch (item) {
@@ -8,6 +8,28 @@
           return $('#hamburger').toggleClass('active');
         }
     }
+  };
+
+  resizeVideo = function(ele) {
+    var itv;
+    return itv = setInterval(function() {
+      var scale;
+      console.log('itv');
+      if (!scale && $(ele).height()) {
+        scale = $(ele).width() / $(ele).height();
+      }
+      if (scale) {
+        if ($(ele).height() < $(window).innerHeight()) {
+          $(ele).height($(window).innerHeight());
+          $(ele).width($(ele).height() * scale);
+          $(ele).css('margin-left', ($(window).innerWidth() - $(ele).width()) / 2 + 'px');
+        } else {
+          $(ele).width('100%');
+          $(ele).height($(ele).width() / scale);
+        }
+        return clearInterval(itv);
+      }
+    }, 100);
   };
 
   $(function() {

@@ -1,5 +1,5 @@
 header {
-	background: $background-color;
+	background: white;
 	margin: auto;
 	height: $header-height;
 	width: 100%;
@@ -264,7 +264,10 @@ header {
 				z-index: -1;
 				text-align: center;
 				video {
-					width: 1024px;
+					min-width: 100%;
+					min-height: 100%;
+					width: auto;
+					height: auto;
 				}
 			}
 		}

@@ -62,7 +62,7 @@ body {
   margin-top: 128px; }
 
 header {
-  background: #eaeaea;
+  background: white;
   margin: auto;
   height: 128px;
   width: 100%;
@@ -280,7 +280,10 @@ header {
         z-index: -1;
         text-align: center; }
         header .main .video-group .video video {
-          width: 1024px; }
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto; }
   .top-0 header .main .top {
     max-height: 0;
     border: none; }
