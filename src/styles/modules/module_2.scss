@@ -17,7 +17,7 @@
 				border-radius: 3px;
 				font-family: Montserrat-Bold;
 				font-size: 10px;
-				color: #FFFFFF;
+				color: $white;
 				letter-spacing: 1px;
 				line-height: 12px;
 				padding: 2px 5px;
@@ -29,10 +29,10 @@
 			text-align: center;
 			font-family: Montserrat-Bold;
 			font-size: 54.36px;
-			color: #FFFFFF;
+			color: $white;
 			line-height: 55px;
 			a {
-				color: #FFFFFF;
+				color: $white;
 			}
 		}
 		> .group_3 {

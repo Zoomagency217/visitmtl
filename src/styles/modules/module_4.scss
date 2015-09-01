@@ -1,5 +1,5 @@
 .module_4 {
-	background: #fff;
+	background: $white;
 	border-radius: 4px;
 	width: 100%;
 	> .content {
@@ -12,7 +12,7 @@
 			padding: 3px 5px;
 			font-family: Montserrat-Bold;
 			font-size: 10px;
-			color: #FFFFFF;
+			color: $white;
 			letter-spacing: 1px;
 			line-height: 12px;
 			float: left;

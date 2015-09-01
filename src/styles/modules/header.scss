@@ -1,5 +1,5 @@
 header {
-	background: white;
+	background: $white;
 	margin: auto;
 	height: $header-height;
 	width: 100%;
@@ -165,7 +165,7 @@ header {
 						opacity: 0.61;
 						font-family: Montserrat-Regular;
 						font-size: 24px;
-						color: #FFFFFF;
+						color: $white;
 						line-height: 28px;
 						white-space: nowrap;
 					}
@@ -175,10 +175,10 @@ header {
 						margin: 35px 0 0;
 						> li {
 							line-height: 28px;
-							border-top: 1px solid #838D8F;
+							border-top: 1px solid $grey-text;
 							a {
 								font-family: Montserrat-Regular;
-								color: white;
+								color: $white;
 								padding: 10px 35px;
 								display: inline-block;
 								font-size: 24px;
@@ -215,7 +215,7 @@ header {
 				.group-1 {
 					font-family: Montserrat-Bold;
 					font-size: 52px;
-					color: #FFFFFF;
+					color: $white;
 					line-height: 60px;
 					text-align: center;
 					margin: auto;
@@ -233,11 +233,11 @@ header {
 					margin-top: 56px;
 					text-align: center;
 					.button {
-						border: 1px solid #FFFFFF;
+						border: 1px solid $white;
 						border-radius: 40px;
 						font-family: Montserrat-Bold;
 						font-size: 10px;
-						color: #FFFFFF;
+						color: $white;
 						letter-spacing: 2px;
 						line-height: 12px;
 						padding: 15px 45px;
@@ -283,7 +283,7 @@ header {
 					ul.menu {
 						li {
 							a {
-								color: #ffffff;
+								color: $white;
 							}
 						}
 					}
@@ -293,7 +293,7 @@ header {
 					}
 				}
 				.right {
-					border-left: 1px solid #ffffff;
+					border-left: 1px solid $white;
 					.icon {
 						width: 29px;
 						&.search {

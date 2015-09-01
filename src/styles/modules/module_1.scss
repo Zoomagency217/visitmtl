@@ -33,7 +33,7 @@ $module_1__desktop_height: 635px;
 						font-family: Montserrat-Bold;
 						font-size: 10px;
 						display: inline-block;
-						color: #FFFFFF;
+						color: $white;
 						letter-spacing: 1px;
 						line-height: 12px;
 						text-align: center;
@@ -43,7 +43,7 @@ $module_1__desktop_height: 635px;
 				> .group_2 {
 					font-family: Montserrat-Bold;
 					font-size: 52.94px;
-					color: #FFFFFF;
+					color: $white;
 					line-height: 55px;
 					letter-spacing: -1.3px;
 				}
@@ -59,7 +59,7 @@ $module_1__desktop_height: 635px;
 						display: inline-block;
 						font-family: Montserrat-Bold;
 						font-size: 10px;
-						color: #FFFFFF;
+						color: $white;
 						letter-spacing: 2px;
 						line-height: 12px;
 						border: 1px solid rgba(206, 223, 225, 0.6);
@@ -74,7 +74,7 @@ $module_1__desktop_height: 635px;
 						display: inline-block;
 						font-family: Montserrat-Bold;
 						font-size: 10px;
-						color: #FFFFFF;
+						color: $white;
 						letter-spacing: 2px;
 						line-height: 12px;
 						padding: 10px 20px;
@@ -186,9 +186,9 @@ $module_1__desktop_height: 635px;
 						font-size: 10px;
 						letter-spacing: 1px;
 						line-height: 12px;
-						color: #838D8F;
+						color: $grey-text;
 						a {
-							color: #838D8F;
+							color: $grey-text;
 						}
 					}
 					> .title {
@@ -214,11 +214,11 @@ $module_1__desktop_height: 635px;
 			right: -1px;
 			width: 240px;
 			text-align: center;
-			background-color: #fff;
+			background-color: $white;
 			padding: 14px 0;
-			color: #838D8F;
+			color: $grey-text;
 			a {
-				color: #838D8F;
+				color: $grey-text;
 			}
 		}
 	}

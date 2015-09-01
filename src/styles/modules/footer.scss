@@ -1,5 +1,5 @@
 footer {
-	background: #fff;
+	background: $white;
 	> .area_1.area {
 		background: #3C3D41;
 		padding: 34px 0;
@@ -32,7 +32,7 @@ footer {
 						a {
 							font-family: Montserrat-Bold;
 							font-size: 10.56px;
-							color: #FFFFFF;
+							color: $white;
 							letter-spacing: 1px;
 							line-height: 13px;
 						}
@@ -44,7 +44,7 @@ footer {
 							opacity: 0.56;
 							font-family: Montserrat-Regular;
 							font-size: 10.56px;
-							color: #FFFFFF;
+							color: $white;
 							line-height: 13px;
 						}
 					}
@@ -59,7 +59,7 @@ footer {
 				.title {
 					font-family: Montserrat-Bold;
 					font-size: 8.64px;
-					color: #FFFFFF;
+					color: $white;
 					letter-spacing: 1.69px;
 					line-height: 10px;
 					margin-bottom: 24px;
@@ -74,7 +74,7 @@ footer {
 						a {
 							font-family: Montserrat-Regular;
 							font-size: 10.56px;
-							color: #FFFFFF;
+							color: $white;
 						}
 						&.facebook {
 							background: url(imgs/footer_facebook.svg) 4px 0 no-repeat;
@@ -99,7 +99,7 @@ footer {
 				.title {
 					font-family: Montserrat-Bold;
 					font-size: 8.64px;
-					color: #FFFFFF;
+					color: $white;
 					letter-spacing: 2px;
 					line-height: 10px;
 					padding-bottom: 15px;
@@ -230,7 +230,6 @@ footer {
 	}
 	> .area_3 {
 		height: 348px;
-
 	}
 	> .area_4 {
 		height: 50px;

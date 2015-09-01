@@ -39,6 +39,14 @@ body {
 	margin-top: $header-height;
 }
 
+a {
+	&.hover-blue:hover,
+	&.hover-blue:focus {
+		color: #387AC2 !important;
+		text-decoration: none;
+	}
+}
+
 // Modules
 @import 'modules/header';
 @import 'modules/footer';
