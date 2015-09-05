@@ -1,81 +1,71 @@
 .module_3 {
-	background: $white;
-	border-radius: 4px;
-	width: 100%;
-	> .title {
-		font-family: Montserrat-Bold;
-		font-size: 11px;
-		border-bottom: #EEEEEE 1px solid;
-		color: #3B3D40;
-		letter-spacing: 2px;
-		line-height: 13px;
-		padding: 18px 20px;
-		background: url(imgs/icon_flag.svg) 202px -2px no-repeat;
-	}
-	.module_3--feature {
-		padding: 15px 20px 20px;
-		border-bottom: #EEEEEE 1px solid;
-		.image {
-			width: 100%;
-			border-radius: 4px;
-			overflow: hidden;
-		}
-		.category {
+	> .module_content {
+		> .title {
 			font-family: Montserrat-Bold;
-			font-size: 10px;
-			color: #838C8D;
-			letter-spacing: 1px;
-			line-height: 12px;
-			margin-top: 17px;
-			a {
+			font-size: 11px;
+			border-bottom: #EEEEEE 1px solid;
+			color: #3B3D40;
+			letter-spacing: 2px;
+			line-height: 13px;
+			padding: 18px 20px;
+			background: url(imgs/icon_flag.svg) 202px -2px no-repeat;
+		}
+		.module_3--feature {
+			padding: 18px 20px;
+			border-bottom: #EEEEEE 1px solid;
+			.image {
+				width: 100%;
+				border-radius: 4px;
+				overflow: hidden;
+				img {
+					width: 100%;
+				}
+			}
+			.category {
+				font-family: Montserrat-Bold;
+				font-size: 10px;
 				color: #838C8D;
+				letter-spacing: 1px;
+				line-height: 12px;
+				margin-top: 18px;
+				a {
+					color: #838C8D;
+				}
 			}
-		}
-		.title {
-			font-family: Montserrat-Bold;
-			font-size: 15px;
-			color: #3A3D3F;
-			line-height: 18px;
-			margin-top: 10px;
-			a {
+			.title {
+				font-family: Montserrat-Bold;
+				font-size: 15px;
 				color: #3A3D3F;
+				line-height: 18px;
+				margin-top: 10px;
+				a {
+					color: #3A3D3F;
+				}
 			}
 		}
-	}
-	.module_3--item {
-		border-bottom: #EEEEEE 1px solid;
-		padding: 16px 20px;
-		.category {
-			font-family: Montserrat-Bold;
-			font-size: 10px;
-			letter-spacing: 1px;
-			line-height: 12px;
-			color: #838C8D;
-			a {
-				color: #838D8F;
+		.module_3--item {
+			border-bottom: #EEEEEE 1px solid;
+			padding: 16px 20px;
+			.category {
+				font-family: Montserrat-Bold;
+				font-size: 10px;
+				letter-spacing: 1px;
+				line-height: 12px;
+				color: #838C8D;
+				a {
+					color: #838D8F;
+				}
 			}
-		}
-		.title {
-			font-family: PTSerif-Regular;
-			font-size: 13.14px;
-			line-height: 22.39px;
-			margin-top: 3px;
-			color: $grey-text;
-			a {
-				color: #838D8F;
+			.title {
+				font-family: PTSerif-Regular;
+				font-size: 13.14px;
+				line-height: 22.39px;
+				margin-top: 3px;
+				color: $grey-text;
+				a {
+					color: #838D8F;
+				}
 			}
-		}
-	}
-	> .more {
-		padding: 9px;
-		text-align: center;
-		line-height: 12px;
-		font-family: Montserrat-Bold;
-		font-size: 10px;
-		letter-spacing: 2px;
-		color: #838C8D;
-		a {
-			color: #838C8D;
 		}
 	}
 }

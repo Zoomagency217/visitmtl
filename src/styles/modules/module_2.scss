@@ -1,55 +1,58 @@
 .module_2 {
-	width: 100%;
-	height: 313px;
-	overflow: hidden;
-	position: relative;
-	border-radius: 4px;
-	> .cta {
-		position: relative;
-		z-index: 1;
-		padding: 70px 0 0;
-		> .group_1 {
-			position: absolute;
-			top: 60px;
-			left: 36px;
-			> .button {
-				background: #58A874;
-				border-radius: 3px;
+	> .module_content {
+		> .cta {
+			position: relative;
+			z-index: 1;
+			padding: 70px 0 41px;
+			> .group_1 {
+				position: absolute;
+				top: 60px;
+				left: 36px;
+				> .button {
+					background: #58A874;
+					border-radius: 3px;
+					font-family: Montserrat-Bold;
+					font-size: 10px;
+					color: $white;
+					letter-spacing: 1px;
+					line-height: 12px;
+					padding: 2px 5px;
+				}
+			}
+			> .group_2 {
+				width: 600px;
+				margin: auto;
+				text-align: center;
 				font-family: Montserrat-Bold;
-				font-size: 10px;
+				font-size: 54.36px;
 				color: $white;
-				letter-spacing: 1px;
-				line-height: 12px;
-				padding: 2px 5px;
+				line-height: 55px;
+				a {
+					color: $white;
+				}
+			}
+			> .group_3 {
+				width: 446px;
+				margin: 20px auto;
+				text-align: center;
+				font-family: PTSerif-Regular;
+				font-size: 20.76px;
+				color: #CFDFE2;
+				line-height: 26px;
 			}
 		}
-		> .group_2 {
-			width: 600px;
-			margin: auto;
-			text-align: center;
-			font-family: Montserrat-Bold;
-			font-size: 54.36px;
-			color: $white;
-			line-height: 55px;
-			a {
-				color: $white;
+		> .background {
+			position: absolute;
+			background-size: cover;
+			background-position: center;
+			border-radius: 4px;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			img {
+				width: 100%;
 			}
 		}
-		> .group_3 {
-			width: 446px;
-			margin: 20px auto;
-			text-align: center;
-			font-family: PTSerif-Regular;
-			font-size: 20.76px;
-			color: #CFDFE2;
-			line-height: 26px;
-		}
-	}
-	> .background {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
 	}
 }

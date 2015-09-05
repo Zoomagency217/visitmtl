@@ -1,8 +1,7 @@
 // Common
 @import 'common/font';
 @import 'common/color';
-@import 'common/size';
-
+@import 'common/variables';
 body {
 	font-family: PTSerif-Regular;
 	font-size: 18.66px;
@@ -17,7 +16,7 @@ body {
 			outline: none;
 		}
 	}
-	.container {
+	> .container {
 		width: $container-width;
 		padding-left: 0;
 		padding-right: 0;
@@ -37,6 +36,31 @@ body {
 	&.pushed {
 		margin-left: -$menu-pushed;
 		margin-right: $menu-pushed;
+	}
+	.module {
+		width: 100%;
+		padding: $gap-vertical 0;
+		&.child_module {
+			padding: $gap-vertical $gap-horizontal;
+			.more {
+				line-height: 12px;
+				text-align: center;
+				padding: 9px;
+				a {
+					font-family: Montserrat-Bold;
+					font-size: 10px;
+					color: #838C8D;
+					letter-spacing: 2px;
+				}
+			}
+		}
+		> .module_content {
+			width: 100%;
+			border-radius: 4px;
+			background-color: #ffffff;
+			overflow: hidden;
+			position: relative;
+		}
 	}
 }
 
@@ -61,6 +85,5 @@ a {
 @import 'modules/module_4';
 @import 'modules/module_5';
 @import 'modules/module_6';
-
 // Pages
 @import 'pages/home';

@@ -1,10 +1,11 @@
 // Module 6 start
-.module_6
-	.title
-		| COLUMNS
-	include module_6--feature
-	each val in [1, 2, 3]
-		include module_6--item
-	.more
-		a.hover-blue(href="javascript:") ALL COLUMNS
+.module.child_module.module_6
+	.module_content
+		.title
+			| COLUMNS
+		include module_6--feature
+		each val in [1, 2, 3]
+			include module_6--item
+		.more
+			a.hover-blue(href="javascript:") ALL COLUMNS
 // Module 6 end

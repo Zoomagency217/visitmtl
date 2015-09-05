@@ -1,11 +1,12 @@
 // Module 5 start
-.module_5
-	.title
-		| EVENTS
-	include module_5--feature
-	each val in [1, 2, 3]
-		include module_5--item
+.module.child_module.module_5
+	.module_content
+		.title
+			| EVENTS
+		include module_5--feature
+		each val in [1, 2, 3]
+			include module_5--item
 
-	.more
-		a.hover-blue(href="javascript:") MORE EVENTS
+		.more
+			a.hover-blue(href="javascript:") MORE EVENTS
 // Module 5 end

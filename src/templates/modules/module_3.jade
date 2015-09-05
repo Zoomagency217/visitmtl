@@ -1,10 +1,11 @@
 // Module 3 start
-.module_3
-	.title
-		| MTL STORIES
-	include module_3--feature
-	each val in [1, 2, 3, 4]
-		include module_3--item
-	.more
-		a.hover-blue(href="javascript:") MORE STORIES
+.module.child_module.module_3
+	.module_content
+		.title
+			| MTL STORIES
+		include module_3--feature
+		each val in [1, 2, 3, 4]
+			include module_3--item
+		.more
+			a.hover-blue(href="javascript:") MORE STORIES
 // Module 3 end
