@@ -1,25 +1,24 @@
 // Module 1 Item start
-mixin panel_item
+mixin panel_item(index)
 	.icon
-		img.img-responsive(src="imgs/module_1--icon.svg")
+		.background
+			img(src="imgs/module_1--icon_#{index}.svg")
 	.content
-		.category
-			a.hover-blue(href="javascript:") GET HERE
-		.title
-			a.hover-blue(href="javascript:") Must See Places of the New Year
+		.category GET HERE
+		.title Must See Places of the New Year
 	.clearfix
 		
 .panel
 	.title
 		| CURRENTLY TRENDING
 	.module_1--item.carousel-indicators
-		each val in [1, 2, 3, 4, 5, 6]
+		each val in [1, 2, 3, 4, 5]
 			if val == 1
 				.slide(id="banner--slide_#{val}",  data-target="#banner--slide", data-slide-to="#{val-1}").active
-					+ panel_item
+					+ panel_item(val)
 			else
 				.slide(id="banner--slide_#{val}",  data-target="#banner--slide", data-slide-to="#{val-1}")
-					+ panel_item
+					+ panel_item(val)
 	.more
 		a.hover-blue(href="javascript:") MORE
 // Module 1 Item end

@@ -150,12 +150,15 @@ $module_1__desktop_height: 635px;
 			}
 			> .module_1--item {
 				> .slide {
+					padding: 30px 0 0 0;
+					height: 108px;
 					border-bottom: 1px solid #EEEEEE;
 					cursor: pointer;
-					&.active {
+					overflow: hidden;
+					&.active,
+					&:hover {
 						background: #F9F9F9;
 						position: relative;
-						cursor: auto;
 						&:before {
 							border-right: #F9F9F9 8px solid;
 							border-top: transparent 8px solid;
@@ -168,33 +171,56 @@ $module_1__desktop_height: 635px;
 							content: '';
 						}
 					}
+					&:active {
+						cursor: auto;
+					}
+					&:nth-child(1) > .icon > .background {
+						background: #6B3DE4;
+					}
+					&:nth-child(2) > .icon > .background {
+						background: #007AC2;
+					}
+					&:nth-child(3) > .icon > .background {
+						background: #3CA773;
+					}
+					&:nth-child(4) > .icon > .background {
+						background: #D9A34A;
+					}
+					&:nth-child(5) > .icon > .background {
+						background: #EA8BFF;
+					}
 					> .icon {
 						float: left;
 						width: 30%;
-						padding: 23px 19px;
+						> .background {
+							text-align: center;
+							margin: auto;
+							border-radius: 33px;
+							width: 33px;
+							height: 33px;
+							> img {
+								display: inline-block;
+								line-height: 33px;
+							}
+						}
 					}
 					> .content {
 						float: left;
 						width: 70%;
-						padding: 22px 0 19px;
 						> .category {
 							font-family: Montserrat-Bold;
 							font-size: 10px;
 							letter-spacing: 1px;
 							line-height: 12px;
 							color: $grey-text;
-							a {
-								color: $grey-text;
-							}
+							@include noselect();
 						}
 						> .title {
 							font-family: PTSerif-Regular;
 							font-size: 14px;
 							line-height: 18px;
 							color: #656B6F;
-							a {
-								color: #656B6F;
-							}
+							@include noselect();
 						}
 					}
 				}
