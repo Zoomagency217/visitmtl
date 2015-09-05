@@ -5,7 +5,7 @@
     switch (item) {
       case 'hamburger':
         if ($('#hamburger').length) {
-          return $('#hamburger').toggleClass('active');
+          return $('body').toggleClass('pushed');
         }
     }
   };

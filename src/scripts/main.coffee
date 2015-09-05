@@ -1,7 +1,7 @@
 toggle = (item) ->
 	switch item
 		when 'hamburger'
-			if $('#hamburger').length then $('#hamburger').toggleClass 'active'
+			if $('#hamburger').length then $('body').toggleClass 'pushed'
 
 resizeVideo = (ele)->
 	itv = setInterval ->

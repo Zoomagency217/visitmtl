@@ -8,6 +8,11 @@ header {
 	left: 0;
 	right: 0;
 	z-index: 999999999;
+	transition: $menu-pushed-transition;
+	.pushed & {
+		left: -$menu-pushed;
+		right: $menu-pushed;
+	}
 	.sm &,
 	.xs & {
 		background-size: 50px;
@@ -147,15 +152,16 @@ header {
 				}
 				.hamburger-menu {
 					background: #434A54;
-					position: absolute;
+					position: fixed;
 					top: 0;
-					right: -33px;
-					width: 303px;
+					right: 0;
+					width: $menu-pushed;
 					max-width: 0;
 					overflow: hidden;
-					transition: max-width .5s;
-					&.active {
-						max-width: 303px;
+					transition: $menu-pushed-transition;
+					height: 100%;
+					.pushed & {
+						max-width: $menu-pushed;
 					}
 					> .icon {
 						padding: 20px 0 0 20px;

@@ -44,7 +44,8 @@ body {
   color: #666d70;
   line-height: 27px;
   background: #eaeaea;
-  display: none; }
+  display: none;
+  transition: all 0.3s; }
   body * {
     box-sizing: border-box !important; }
     body *:focus {
@@ -57,6 +58,9 @@ body {
     width: 100%; }
   body.sm, body.xs, body.md, body.lg {
     display: block; }
+  body.pushed {
+    margin-left: -270px;
+    margin-right: 270px; }
 
 .page {
   margin-top: 128px; }
@@ -74,7 +78,11 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999999999; }
+  z-index: 999999999;
+  transition: all 0.3s; }
+  .pushed header {
+    left: -270px;
+    right: 270px; }
   .sm header, .xs header {
     background-size: 50px;
     background-position: 10px 5px;
@@ -186,15 +194,16 @@ header {
               background-size: 22px; }
         header .main .bottom .right .hamburger-menu {
           background: #434A54;
-          position: absolute;
+          position: fixed;
           top: 0;
-          right: -33px;
-          width: 303px;
+          right: 0;
+          width: 270px;
           max-width: 0;
           overflow: hidden;
-          transition: max-width .5s; }
-          header .main .bottom .right .hamburger-menu.active {
-            max-width: 303px; }
+          transition: all 0.3s;
+          height: 100%; }
+          .pushed header .main .bottom .right .hamburger-menu {
+            max-width: 270px; }
           header .main .bottom .right .hamburger-menu > .icon {
             padding: 20px 0 0 20px; }
           header .main .bottom .right .hamburger-menu .title {

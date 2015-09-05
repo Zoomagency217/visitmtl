@@ -10,6 +10,7 @@ body {
 	line-height: 27px;
 	background: $background-color;
 	display: none;
+	transition: $menu-pushed-transition;
 	* {
 		box-sizing: border-box !important;
 		&:focus {
@@ -32,6 +33,10 @@ body {
 	&.md,
 	&.lg {
 		display: block;
+	}
+	&.pushed {
+		margin-left: -$menu-pushed;
+		margin-right: $menu-pushed;
 	}
 }
 
