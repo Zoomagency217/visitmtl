@@ -19,13 +19,21 @@ body {
 	}
 	> .container {
 		width: $container-width;
+		max-width: 100%;
 		padding-left: 0;
 		padding-right: 0;
 	}
 	&.sm,
 	&.xs {
-		.container {
-			width: 100%;
+		background: white;
+		.module {
+			padding: 0;
+			&.child_module {
+				padding: 0;
+				.more {
+					text-transform: none;
+				}
+			}
 		}
 	}
 	&.sm,
@@ -47,6 +55,7 @@ body {
 				line-height: 12px;
 				text-align: center;
 				padding: 9px;
+				text-transform: uppercase;
 				a {
 					font-family: Montserrat-Bold;
 					font-size: 10px;
@@ -67,6 +76,10 @@ body {
 
 .page {
 	margin-top: $header-height;
+	.sm &,
+	.xs & {
+		margin-top: $header-height-mobile;
+	}
 }
 
 a {

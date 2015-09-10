@@ -8,7 +8,14 @@
 			letter-spacing: 2px;
 			line-height: 13px;
 			padding: 18px 20px;
-			background: url(imgs/icon_flag.svg) 202px -2px no-repeat;
+			background: url(imgs/icon_flag.svg) no-repeat;
+			background-position: right 30px top -2px;
+			text-transform: uppercase;
+			.sm &,
+			.xs & {
+				font-size: 18px;
+				text-transform: auto;
+			}
 		}
 		.module_3--feature {
 			padding: 18px 20px;
@@ -17,6 +24,10 @@
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
+				.sm &,
+				.xs & {
+					border-radius: 0;
+				}
 				img {
 					width: 100%;
 				}

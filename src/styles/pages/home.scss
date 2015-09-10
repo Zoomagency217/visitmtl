@@ -8,13 +8,28 @@
 	> .area_3 {
 		float: left;
 		width: 25%;
+		.sm &,
+		.xs & {
+			width: 100%;
+			float: none;
+		}
 	}
 	> .area_4 {
 		float: left;
 		width: 50%;
+		.sm &,
+		.xs & {
+			width: 100%;
+			float: none;
+		}
 	}
 	> .area_5 {
 		float: left;
 		width: 25%;
+		.sm &,
+		.xs & {
+			width: 100%;
+			float: none;
+		}
 	}
 }

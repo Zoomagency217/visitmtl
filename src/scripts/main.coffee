@@ -5,7 +5,6 @@ toggle = (item) ->
 
 resizeVideo = (ele)->
 	itv = setInterval ->
-		console.log 'itv'
 		if !scale and $(ele).height()
 			scale = $(ele).width()/$(ele).height()
 

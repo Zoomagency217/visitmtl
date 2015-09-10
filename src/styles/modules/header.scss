@@ -17,7 +17,7 @@ header {
 	.xs & {
 		background-size: 50px;
 		background-position: 10px 5px;
-		height: 60px;
+		height: $header-height-mobile;
 		padding-right: 0;
 	}
 	.main {
@@ -26,6 +26,14 @@ header {
 		margin: auto;
 		padding: 0 33px 0 155px;
 		width: $container-width;
+		max-width: 100%;
+		.sm &,
+		.xs & {
+			background-size: 42px;
+			background-position: 13px 8px;
+			height: 60px;
+			padding-right: 0;
+		}
 		.top {
 			border-bottom: 1px solid #434A54;
 			height: 60px;
@@ -278,7 +286,8 @@ header {
 			}
 		}
 	}
-	.top-0 & {
+	.top-0.md &,
+	.top-0.lg & {
 		.main {
 			.top {
 				max-height: 0;

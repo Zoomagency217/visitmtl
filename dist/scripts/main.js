@@ -14,7 +14,6 @@
     var itv;
     return itv = setInterval(function() {
       var scale;
-      console.log('itv');
       if (!scale && $(ele).height()) {
         scale = $(ele).width() / $(ele).height();
       }

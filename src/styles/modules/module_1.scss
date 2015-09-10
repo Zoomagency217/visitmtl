@@ -1,9 +1,7 @@
-$module_1__desktop_height: 635px;
 .module_1 {
 	> .module_content {
 		.xs &,
 		.sm & {
-			height: 188px;
 			border-radius: 0;
 		}
 		.main {
@@ -13,13 +11,17 @@ $module_1__desktop_height: 635px;
 			}
 			> .slide {
 				> .cta {
-					padding: 259px 530px 0 62px;
-					position: relative;
+					left: 62px;
+					position: absolute;
+					top: 259px;
+					right: 530px;
 					z-index: 2;
-					height: $module_1__desktop_height;
-					.xs &,
-					.sm & {
-						margin: 30px 25px 0 25px;
+					.sm &,
+					.xs & {
+						margin: 0;
+						top: 20px;
+						left: 30px;
+						right: 30px;
 					}
 					> .group_1 {
 						margin-bottom: 16px;
@@ -35,6 +37,10 @@ $module_1__desktop_height: 635px;
 							text-align: center;
 							padding: 3px 5px;
 						}
+						.sm &,
+						.xs & {
+							margin-bottom: 10px;
+						}
 					}
 					> .group_2 {
 						font-family: Montserrat-Bold;
@@ -42,6 +48,11 @@ $module_1__desktop_height: 635px;
 						color: $white;
 						line-height: 55px;
 						letter-spacing: -1.3px;
+						.sm &,
+						.xs & {
+							font-size: 23.7px;
+							line-height: 24px;
+						}
 					}
 					> .group_3 {
 						font-family: PTSerif-Regular;
@@ -49,6 +60,12 @@ $module_1__desktop_height: 635px;
 						color: #CEDFE1;
 						line-height: 26px;
 						margin: 17px 0 32px;
+						.sm &,
+						.xs & {
+							font-size: 10px;
+							line-height: 15px;
+							margin: 8px 0;
+						}
 					}
 					> .group_4 {
 						> .button_left {
@@ -77,15 +94,20 @@ $module_1__desktop_height: 635px;
 							margin-left: 10px;
 							cursor: pointer;
 						}
+						.sm &,
+						.xs & {
+							display: none;
+						}
 					}
 				}
 				> .background {
-					left: 0;
-					position: absolute;
-					text-align: center;
-					top: 0;
-					right: 0;
 					z-index: 0;
+					text-align: center;
+					overflow: hidden;
+					.sm &,
+					.xs & {
+						height: auto;
+					}
 					> .cover {
 						opacity: 0.6;
 						background: #3C3D41;
@@ -120,7 +142,13 @@ $module_1__desktop_height: 635px;
 			z-index: 10;
 			.xs &,
 			.sm & {
-				display: none;
+				background: none;
+				left: 0;
+				top: auto;
+				height: 35px;
+				overflow: hidden;
+				text-align: center;
+				width: 100%;
 			}
 			.md &,
 			.lg & {
@@ -132,7 +160,6 @@ $module_1__desktop_height: 635px;
 					text-align: left;
 					.active {
 						width: auto;
-						height: auto;
 					}
 				}
 			}
@@ -141,24 +168,42 @@ $module_1__desktop_height: 635px;
 				font-size: 11px;
 				letter-spacing: 2px;
 				line-height: 13px;
-				border-bottom: 1px solid #EEEEEE;
 				padding: 20px 28px;
 				color: #656C83;
 				a {
 					color: #656C83;
+				}
+				.xs &,
+				.sm & {
+					display: none;
 				}
 			}
 			> .module_1--item {
 				> .slide {
 					padding: 30px 0 0 0;
 					height: 108px;
-					border-bottom: 1px solid #EEEEEE;
+					border-top: 1px solid #EEEEEE;
 					cursor: pointer;
 					overflow: hidden;
+					.xs &,
+					.sm & {
+						border: none;
+						font-size: 0;
+						display: inline-block;
+						width: 8px;
+						height: 8px;
+						border-radius: 8px;
+						background-color: white;
+						padding: 0;
+					}
 					&.active,
 					&:hover {
 						background: #F9F9F9;
 						position: relative;
+						.sm &,
+						.xs & {
+							background: #3d8bdd;
+						}
 						&:before {
 							border-right: #F9F9F9 8px solid;
 							border-top: transparent 8px solid;
@@ -169,6 +214,10 @@ $module_1__desktop_height: 635px;
 							left: -8px;
 							top: 46%;
 							content: '';
+							.sm &,
+							.xs & {
+								display: none;
+							}
 						}
 					}
 					&:active {
@@ -192,6 +241,10 @@ $module_1__desktop_height: 635px;
 					> .icon {
 						float: left;
 						width: 30%;
+						.sm &,
+						.xs & {
+							display: none;
+						}
 						> .background {
 							text-align: center;
 							margin: auto;
@@ -207,6 +260,10 @@ $module_1__desktop_height: 635px;
 					> .content {
 						float: left;
 						width: 70%;
+						.sm &,
+						.xs & {
+							display: none;
+						}
 						> .category {
 							font-family: Montserrat-Bold;
 							font-size: 10px;
@@ -241,6 +298,10 @@ $module_1__desktop_height: 635px;
 				color: $grey-text;
 				a {
 					color: $grey-text;
+				}
+				.xs &,
+				.sm & {
+					display: none;
 				}
 			}
 		}
