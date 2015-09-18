@@ -32,6 +32,9 @@ body {
 				padding: 0;
 				.more {
 					text-transform: none;
+					border-top: #ececec 1px solid;
+					border-bottom: #ececec 1px solid;
+					padding: 14px 0;
 				}
 			}
 		}
@@ -99,5 +102,6 @@ a {
 @import 'modules/module_4';
 @import 'modules/module_5';
 @import 'modules/module_6';
+@import 'modules/module_7';
 // Pages
 @import 'pages/home';

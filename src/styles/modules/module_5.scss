@@ -8,16 +8,29 @@
 			line-height: 12px;
 			padding: $padding-vertical $padding-horizontal;
 			border-bottom: #eeeeee 1px solid;
+			text-transform: uppercase;
+			.sm &,
+			.xs & {
+				text-transform: none;
+			}
 		}
 		.module_5--feature {
 			background: #F9F9F9;
 			padding: $padding-vertical $padding-horizontal;
 			border-bottom: #eeeeee 1px solid;
+			.sm &,
+			.xs & {
+				padding: 0;
+			}
 			.image {
 				float: left;
 				width: 40%;
 				border-radius: 4px;
 				overflow: hidden;
+				.sm &,
+				.xs & {
+					border-radius: 0;
+				}
 			}
 			.content {
 				float: left;
@@ -28,13 +41,23 @@
 					color: #AAAAAA;
 					line-height: 15px;
 					background: url(imgs/icon_clock.svg) 23px 0 no-repeat;
-					padding: 0 0 8px 42px
+					padding: 0 0 8px 42px;
+					.sm &,
+					.xs & {
+						display: none;
+					}
 				}
 				.title {
 					font-family: Montserrat-Bold;
 					font-size: 15px;
 					line-height: 18px;
 					padding: 0 0px 8px 22px;
+					.sm &,
+					.xs & {
+						font-size: 12px;
+						line-height: 15px;
+						padding: 10px 15px 0;
+					}
 					a {
 						color: #3B3D40;
 					}
@@ -45,12 +68,23 @@
 					color: #838C8E;
 					line-height: 18px;
 					padding: 0 0px 8px 22px;
+					.sm &,
+					.xs & {
+						font-size: 10px;
+						line-height: 12px;
+						padding: 10px 15px;
+					}
 				}
 			}
 		}
 		.module_5--item {
 			padding: 14px 0;
 			border-bottom: #eeeeee 1px solid;
+			.sm &,
+			.xs & {
+				border-top: #eeeeee 1px solid;
+				border-bottom: none;
+			}
 			.time {
 				font-family: PTSerif-Italic;
 				font-size: 12px;
@@ -60,11 +94,23 @@
 				background: url(imgs/icon_clock.svg) 21px 2px no-repeat;
 				float: left;
 				width: 118px;
+				.sm &,
+				.xs & {
+					font-size: 10px;
+					line-height: 12px;
+					background-position: 13px 0;
+					width: 95px;
+				}
 			}
 			.title {
 				font-family: PTSerif-Regular;
 				font-size: 13px;
 				line-height: 17px;
+				.sm &,
+				.xs & {
+					font-size: 10px;
+					line-height: 12px;
+				}
 				a {
 					color: #666D70;
 				}

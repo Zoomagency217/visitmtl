@@ -2,10 +2,11 @@
 .module.child_module.module_3
 	.module_content
 		.title
-			| Mtl Stories
-		include module_3--feature
-		each val in [1, 2, 3, 4]
-			include module_3--item
+			| VisitMtl Stories
+		.mobile_carousel(data-ride="carousel")
+			include module_3--feature
+			each val in [1, 2, 3, 4]
+				include module_3--item
 		.more
 			a.hover-blue(href="javascript:") More Stories
 // Module 3 end

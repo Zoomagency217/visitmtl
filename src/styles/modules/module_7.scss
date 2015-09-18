@@ -1,0 +1,39 @@
+.module.module_7 {
+	> .module_content {
+		background-color: #3C3D41;
+		border-radius: 0;
+		padding: 8px 0;
+		.title {
+			font-family: Montserrat-Bold;
+			font-size: 10px;
+			text-align: center;
+			color: white;
+		}
+		ul.content {
+			text-align: center;
+			padding: 0;
+			margin: 0;
+			li {
+				list-style-type: none;
+				display: inline-block;
+				&.facebook {
+					background: url(imgs/footer_facebook.svg) center no-repeat;
+				}
+				&.twitter {
+					background: url(imgs/footer_twitter.svg) center no-repeat;
+				}
+				&.instagram {
+					background: url(imgs/footer_instagram.svg) center no-repeat;
+				}
+				&.rss {
+					background: url(imgs/footer_rss.svg) center no-repeat;
+				}
+				a {
+					display: block;
+					width: 30px;
+					height: 30px;
+				}
+			}
+		}
+	}
+}

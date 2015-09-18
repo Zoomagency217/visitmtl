@@ -26,10 +26,7 @@ $ ->
 	$('.action-hamburger').click ->
 		toggle 'hamburger'
 
-	# if $('.video-group video').length
-	# 	resizeVideo '.video-group video'
+	console.log $('.mobile_carousel').length
 
-	# 	$(window).resize ->
-	# 		setTimeout ->
-	# 			resizeVideo '.video-group video'
-	# 		, 100
+	$('.mobile_carousel').carousel ->
+		interval: 2000

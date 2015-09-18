@@ -1,9 +1,22 @@
 .module_4 {
 	> .module_content {
+		background-position: right 30px top 30px;
+		background-repeat: no-repeat;
+		background-size: 180px;
+		.sm &,
+		.xs & {
+			background-position: right 10px top 10px;
+			background-size: 95px;
+		}
 		> .content {
 			float: left;
-			width: 54%;
-			padding: $padding-vertical $padding-horizontal;
+			padding: $padding-vertical 225px $padding-vertical $padding-horizontal;
+			min-height: 293px;
+			.sm &,
+			.xs & {
+				padding-right: 90px;
+				min-height: 0;
+			}
 			> .category {
 				background: #387AC2;
 				border-radius: 3px;
@@ -19,6 +32,10 @@
 				> img {
 					margin-right: 10px;
 				}
+				.sm &,
+				.xs & {
+					display: none;
+				}
 			}
 			.title {
 				font-family: Montserrat-Bold;
@@ -29,6 +46,11 @@
 				a {
 					color: #3C3D41;
 				}
+				.sm &,
+				.xs & {
+					font-size: 21px;
+					line-height: 25px;
+				}
 			}
 			.description {
 				font-family: PTSerif-Regular;
@@ -36,6 +58,12 @@
 				color: #818A8C;
 				line-height: 18px;
 				margin-bottom: 30px;
+				.sm &,
+				.xs & {
+					font-size: 10px;
+					line-height: 15px;
+					margin-bottom: 14px;
+				}
 			}
 			.button {
 				opacity: 0.6;
@@ -45,12 +73,23 @@
 				margin-bottom: 10px;
 				float: left;
 				background: url(imgs/icon_photos.svg) 21px 8px no-repeat;
+				text-transform: uppercase;
+				.sm &,
+				.xs & {
+					background: #454545;
+					padding: 4px 17px;
+					text-transform: none;
+				}
 				.readmore {
 					font-family: Montserrat-Bold;
 					font-size: 10px;
 					color: #3C3D41;
 					letter-spacing: 2px;
 					line-height: 12px;
+					.sm &,
+					.xs & {
+						color: white;
+					}
 				}
 			}
 		}

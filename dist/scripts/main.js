@@ -37,8 +37,14 @@
         interval: 2000
       };
     });
-    return $('.action-hamburger').click(function() {
+    $('.action-hamburger').click(function() {
       return toggle('hamburger');
+    });
+    console.log($('.mobile_carousel').length);
+    return $('.mobile_carousel').carousel(function() {
+      return {
+        interval: 2000
+      };
     });
   });
 
