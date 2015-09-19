@@ -1002,6 +1002,17 @@ footer {
         font-size: 15px;
         color: #3A3D3F;
         line-height: 18px; }
+.module_3 > .module_content #module_3--carousel {
+  padding-bottom: 40px;
+  position: relative; }
+  .module_3 > .module_content #module_3--carousel .carousel-indicators li {
+    background-color: #474747;
+    width: 9px;
+    height: 9px; }
+    .module_3 > .module_content #module_3--carousel .carousel-indicators li.active {
+      background-color: #ea5b39;
+      width: 9px;
+      height: 9px; }
 
 .module_4 > .module_content {
   background-position: right 30px top 30px;
@@ -1251,6 +1262,17 @@ footer {
         font-size: 12px;
         color: #858585;
         line-height: 15px; }
+.module_6 > .module_content #module_6--carousel {
+  padding-bottom: 40px;
+  position: relative; }
+  .module_6 > .module_content #module_6--carousel .carousel-indicators li {
+    background-color: #474747;
+    width: 9px;
+    height: 9px; }
+    .module_6 > .module_content #module_6--carousel .carousel-indicators li.active {
+      background-color: #ea5b39;
+      width: 9px;
+      height: 9px; }
 
 .module.module_7 > .module_content {
   background-color: #3C3D41;

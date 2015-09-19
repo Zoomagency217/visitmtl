@@ -32,11 +32,6 @@
   };
 
   $(function() {
-    $('.carousel').carousel(function() {
-      return {
-        interval: 2000
-      };
-    });
     $('.action-hamburger').click(function() {
       return toggle('hamburger');
     });

@@ -3,10 +3,23 @@
 	.module_content
 		.title
 			| VisitMtl Stories
-		.mobile_carousel(data-ride="carousel")
+		.hidden-sm.hidden-xs
 			include module_3--feature
 			each val in [1, 2, 3, 4]
 				include module_3--item
+		.hidden-lg.hidden-md
+			#module_3--carousel.carousel.slide(data-ride="carousel")
+				ol.carousel-indicators
+					li(data-target="#module_3--carousel", data-slide-to="0", class="active")
+					li(data-target="#module_3--carousel", data-slide-to="1")
+					li(data-target="#module_3--carousel", data-slide-to="2")
+					li(data-target="#module_3--carousel", data-slide-to="3")
+				.carousel-inner(role="listbox")
+					.item.active
+						include module_3--feature
+					each val in [1, 2, 3, 4]
+						.item
+							include module_3--item
 		.more
 			a.hover-blue(href="javascript:") More Stories
 // Module 3 end

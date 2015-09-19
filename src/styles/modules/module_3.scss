@@ -112,5 +112,21 @@
 				}
 			}
 		}
+		#module_3--carousel {
+			padding-bottom: 40px;
+			position: relative;
+			.carousel-indicators {
+				li {
+					background-color: #474747;
+					width: 9px;
+					height: 9px;
+					&.active {
+						background-color: #ea5b39;
+						width: 9px;
+						height: 9px;
+					}
+				}
+			}
+		}
 	}
 }

@@ -3,10 +3,23 @@
 	.module_content
 		.title
 			| Articles
-		.mobile-carousel
-			include module_6--feature
+		include module_6--feature
+		.hidden-sm.hidden-xs
 			each val in [1, 2, 3]
 				include module_6--item
+		.hidden-lg.hidden-md
+			#module_6--carousel.carousel.slide(data-ride="carousel")
+				ol.carousel-indicators
+					li(data-target="#module_6--carousel", data-slide-to="0", class="active")
+					li(data-target="#module_6--carousel", data-slide-to="1")
+					li(data-target="#module_6--carousel", data-slide-to="2")
+					li(data-target="#module_6--carousel", data-slide-to="3")
+				.carousel-inner(role="listbox")
+					.item.active
+						include module_6--item
+					each val in [1, 2]
+						.item
+							include module_6--item
 		.more
 			a.hover-blue(href="javascript:") More Articles
 // Module 6 end

@@ -20,8 +20,8 @@ resizeVideo = (ele)->
 	, 100
 
 $ ->
-	$('.carousel').carousel ->
-		interval: 2000
+	# $('.carousel').carousel ->
+	# 	interval: 2000
 
 	$('.action-hamburger').click ->
 		toggle 'hamburger'
