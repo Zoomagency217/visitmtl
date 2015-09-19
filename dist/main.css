@@ -102,6 +102,25 @@ a.hover-blue:hover, a.hover-blue:focus {
   color: #387AC2 !important;
   text-decoration: none; }
 
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.ellipsis--2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
+.mobile .mobile_ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis; }
+.mobile .mobile_ellipsis--2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; }
+
 header {
   background: #ffffff;
   margin: auto;
@@ -650,13 +669,14 @@ footer {
     letter-spacing: -1.3px; }
     .sm .module_1 > .module_content .main > .slide > .cta > .group_2, .xs .module_1 > .module_content .main > .slide > .cta > .group_2 {
       font-size: 23.7px;
-      line-height: 24px; }
+      line-height: 21px; }
   .module_1 > .module_content .main > .slide > .cta > .group_3 {
     font-family: PTSerif-Regular;
     font-size: 20.51px;
     color: #CEDFE1;
     line-height: 26px;
-    margin: 17px 0 32px; }
+    margin: 17px 0 32px;
+    height: 30px; }
     .sm .module_1 > .module_content .main > .slide > .cta > .group_3, .xs .module_1 > .module_content .main > .slide > .cta > .group_3 {
       font-size: 10px;
       line-height: 15px;
@@ -719,6 +739,7 @@ footer {
   width: 240px;
   z-index: 10; }
   .xs .module_1 > .module_content .panel, .sm .module_1 > .module_content .panel {
+    bottom: 13px;
     background: none;
     left: 0;
     top: auto;
@@ -757,8 +778,8 @@ footer {
       border: none;
       font-size: 0;
       display: inline-block;
-      width: 8px;
-      height: 8px;
+      width: 9px;
+      height: 9px;
       border-radius: 8px;
       background-color: white;
       padding: 0; }
@@ -855,14 +876,14 @@ footer {
     z-index: 1;
     padding: 70px 0 41px; }
     .sm .module_2.module > .module_content > .cta, .xs .module_2.module > .module_content > .cta {
-      padding: 30px 0; }
+      padding: 15px 0; }
     .module_2.module > .module_content > .cta > .group_1 {
       position: absolute;
       top: 60px;
       left: 36px; }
       .sm .module_2.module > .module_content > .cta > .group_1, .xs .module_2.module > .module_content > .cta > .group_1 {
         position: relative;
-        margin: 0 auto 10px;
+        margin: 0 auto 5px;
         top: 0;
         left: 0;
         text-align: center; }
@@ -875,6 +896,9 @@ footer {
         letter-spacing: 1px;
         line-height: 12px;
         padding: 2px 5px; }
+        .sm .module_2.module > .module_content > .cta > .group_1 > .button, .xs .module_2.module > .module_content > .cta > .group_1 > .button {
+          border-radius: 20px;
+          padding: 2px 12px; }
     .module_2.module > .module_content > .cta > .group_2 {
       width: 600px;
       margin: auto;
@@ -902,7 +926,7 @@ footer {
         width: 100%;
         font-size: 10px;
         line-height: 15px;
-        margin: 8px 0;
+        margin: 6px 0;
         padding: 0 30px; }
   .module_2.module > .module_content > .background {
     position: absolute;
@@ -1019,14 +1043,14 @@ footer {
   background-repeat: no-repeat;
   background-size: 180px; }
   .sm .module_4 > .module_content, .xs .module_4 > .module_content {
-    background-position: right 10px top 10px;
-    background-size: 95px; }
+    background-position: right 1px top 2px;
+    background-size: 112px; }
   .module_4 > .module_content > .content {
     float: left;
     padding: 18px 225px 18px 20px;
     min-height: 293px; }
     .sm .module_4 > .module_content > .content, .xs .module_4 > .module_content > .content {
-      padding-right: 90px;
+      padding: 24px 90px 13px 20px;
       min-height: 0; }
     .module_4 > .module_content > .content > .category {
       background: #387AC2;
@@ -1054,7 +1078,8 @@ footer {
         color: #3C3D41; }
       .sm .module_4 > .module_content > .content .title, .xs .module_4 > .module_content > .content .title {
         font-size: 21px;
-        line-height: 25px; }
+        line-height: 23px;
+        margin-bottom: 2px; }
     .module_4 > .module_content > .content .description {
       font-family: PTSerif-Regular;
       font-size: 14px;

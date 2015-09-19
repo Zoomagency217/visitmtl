@@ -5,8 +5,8 @@
 		background-size: 180px;
 		.sm &,
 		.xs & {
-			background-position: right 10px top 10px;
-			background-size: 95px;
+			background-position: right 1px top 2px;
+			background-size: 112px;
 		}
 		> .content {
 			float: left;
@@ -14,7 +14,7 @@
 			min-height: 293px;
 			.sm &,
 			.xs & {
-				padding-right: 90px;
+				padding: 24px 90px 13px 20px;
 				min-height: 0;
 			}
 			> .category {
@@ -49,7 +49,8 @@
 				.sm &,
 				.xs & {
 					font-size: 21px;
-					line-height: 25px;
+					line-height: 23px;
+					margin-bottom: 2px;
 				}
 			}
 			.description {

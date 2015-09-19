@@ -51,7 +51,7 @@
 						.sm &,
 						.xs & {
 							font-size: 23.7px;
-							line-height: 24px;
+							line-height: 21px;
 						}
 					}
 					> .group_3 {
@@ -60,6 +60,7 @@
 						color: #CEDFE1;
 						line-height: 26px;
 						margin: 17px 0 32px;
+						height: 30px;
 						.sm &,
 						.xs & {
 							font-size: 10px;
@@ -142,6 +143,7 @@
 			z-index: 10;
 			.xs &,
 			.sm & {
+				bottom: 13px;
 				background: none;
 				left: 0;
 				top: auto;
@@ -193,8 +195,8 @@
 						border: none;
 						font-size: 0;
 						display: inline-block;
-						width: 8px;
-						height: 8px;
+						width: 9px;
+						height: 9px;
 						border-radius: 8px;
 						background-color: white;
 						padding: 0;
