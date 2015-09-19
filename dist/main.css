@@ -519,14 +519,17 @@ footer {
               border: none; }
               footer > .area_1.area > .container > .group_4 .form .button button.email:focus {
                 outline: none; }
+  .sm footer > .area_2.area, .xs footer > .area_2.area {
+    max-width: 320px;
+    margin: auto; }
   footer > .area_2.area > .group_1 {
     float: left;
     width: 25%;
     padding: 19px 104px 10px 68px; }
     .sm footer > .area_2.area > .group_1, .xs footer > .area_2.area > .group_1 {
-      width: 20%;
-      max-width: 60px;
-      padding: 15px; }
+      width: 15%;
+      max-width: 45px;
+      padding: 15px 5px 15px 10px; }
     .sm footer > .area_2.area > .group_1 img, .xs footer > .area_2.area > .group_1 img {
       width: 30px; }
   footer > .area_2.area > .container {
@@ -536,7 +539,7 @@ footer {
     margin: 34px 0 0;
     padding: 0; }
     .sm footer > .area_2.area > .container, .xs footer > .area_2.area > .container {
-      width: 80%;
+      width: 85%;
       margin: 15px 0;
       width: 35; }
     footer > .area_2.area > .container > .group_2 {
@@ -550,8 +553,17 @@ footer {
       border-left: 1px solid rgba(131, 141, 143, 0.3);
       padding: 6px 0 10px 31px; }
       .sm footer > .area_2.area > .container > .group_2, .xs footer > .area_2.area > .container > .group_2 {
-        padding: 0 10px;
-        width: 65%; }
+        padding: 0 5px 0 20px;
+        width: 65%;
+        position: relative; }
+      .sm footer > .area_2.area > .container > .group_2:before, .xs footer > .area_2.area > .container > .group_2:before {
+        content: '\f041';
+        font-family: FontAwesome;
+        font-size: 20px;
+        color: #3c3d41;
+        position: absolute;
+        left: 5px;
+        top: 5px; }
     footer > .area_2.area > .container > .group_3 {
       display: table-cell;
       vertical-align: top;
@@ -564,7 +576,7 @@ footer {
       padding: 6px 0 10px 31px; }
       .sm footer > .area_2.area > .container > .group_3, .xs footer > .area_2.area > .container > .group_3 {
         border-left: none;
-        padding: 0 10px 0 0;
+        padding: 0 5px 0 0;
         width: 35%; }
     footer > .area_2.area > .container > .group_4 {
       display: table-cell;

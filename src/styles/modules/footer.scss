@@ -182,15 +182,20 @@ footer {
 		}
 	}
 	> .area_2.area {
+		.sm &,
+		.xs & {
+			max-width: 320px;
+			margin: auto;
+		}
 		> .group_1 {
 			float: left;
 			width: 25%;
 			padding: 19px 104px 10px 68px;
 			.sm &,
 			.xs & {
-				width: 20%;
-				max-width: 60px;
-				padding: 15px;
+				width: 15%;
+				max-width: 45px;
+				padding: 15px 5px 15px 10px;
 			}
 			img {
 				.sm &,
@@ -207,7 +212,7 @@ footer {
 			padding: 0;
 			.sm &,
 			.xs & {
-				width: 80%;
+				width: 85%;
 				margin: 15px 0;
 				width: 35
 			}
@@ -223,8 +228,21 @@ footer {
 				padding: 6px 0 10px 31px;
 				.sm &,
 				.xs & {
-					padding: 0 10px;
+					padding: 0 5px 0 20px;
 					width: 65%;
+					position: relative;
+				}
+				&:before {
+					.sm &,
+					.xs & {
+						content: '\f041';
+						font-family: FontAwesome;
+						font-size: 20px;
+						color: #3c3d41;
+						position: absolute;
+						left: 5px;
+						top: 5px;
+					}
 				}
 			}
 			> .group_3 {
@@ -240,7 +258,7 @@ footer {
 				.sm &,
 				.xs & {
 					border-left: none;
-					padding: 0 10px 0 0;
+					padding: 0 5px 0 0;
 					width: 35%;
 				}
 			}
