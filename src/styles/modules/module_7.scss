@@ -2,7 +2,7 @@
 	> .module_content {
 		background-color: #3C3D41;
 		border-radius: 0;
-		padding: 8px 0;
+		padding: 4px 0 8px;
 		.title {
 			font-family: Montserrat-Bold;
 			font-size: 10px;
@@ -12,10 +12,11 @@
 		ul.content {
 			text-align: center;
 			padding: 0;
-			margin: 0;
+			margin: -4px 0 4px;
 			li {
 				list-style-type: none;
 				display: inline-block;
+				background-size: auto 20px !important;
 				&.facebook {
 					background: url(imgs/footer_facebook.svg) center no-repeat;
 				}
@@ -30,7 +31,7 @@
 				}
 				a {
 					display: block;
-					width: 30px;
+					width: 50px;
 					height: 30px;
 				}
 			}

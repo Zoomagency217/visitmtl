@@ -12,6 +12,8 @@
 			.sm &,
 			.xs & {
 				text-transform: none;
+				font-size: 17px;
+				padding-left: 30px;
 			}
 		}
 		.module_5--feature {
@@ -24,7 +26,7 @@
 			}
 			.image {
 				float: left;
-				width: 40%;
+				width: 44%;
 				border-radius: 4px;
 				overflow: hidden;
 				.sm &,
@@ -34,7 +36,7 @@
 			}
 			.content {
 				float: left;
-				width: 60%;
+				width: 56%;
 				.time {
 					font-family: PTSerif-Italic;
 					font-size: 12px;
@@ -56,7 +58,7 @@
 					.xs & {
 						font-size: 12px;
 						line-height: 15px;
-						padding: 10px 15px 0;
+						padding: 18px 15px 0;
 					}
 					a {
 						color: #3B3D40;
@@ -72,7 +74,7 @@
 					.xs & {
 						font-size: 10px;
 						line-height: 12px;
-						padding: 10px 15px;
+						padding: 7px 15px;
 					}
 				}
 			}

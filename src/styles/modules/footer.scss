@@ -223,8 +223,7 @@ footer {
 				padding: 6px 0 10px 31px;
 				.sm &,
 				.xs & {
-					border-left: none;
-					padding: 0 10px 0 0;
+					padding: 0 10px;
 					width: 65%;
 				}
 			}
@@ -240,7 +239,8 @@ footer {
 				padding: 6px 0 10px 31px;
 				.sm &,
 				.xs & {
-					padding: 0 10px;
+					border-left: none;
+					padding: 0 10px 0 0;
 					width: 35%;
 				}
 			}
@@ -285,6 +285,10 @@ footer {
 	}
 	> .area_3 {
 		height: 348px;
+		.sm &,
+		.xs & {
+			display: none;
+		}
 	}
 	> .area_4 {
 		height: 50px;
