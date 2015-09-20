@@ -13,13 +13,13 @@
 				> .cta {
 					left: 62px;
 					position: absolute;
-					top: 259px;
+					top: 50%;
+					transform: translateY(-50%);
 					right: 530px;
 					z-index: 2;
 					.sm &,
 					.xs & {
 						margin: 0;
-						top: 20px;
 						left: 30px;
 						right: 30px;
 					}
@@ -60,9 +60,9 @@
 						color: #CEDFE1;
 						line-height: 26px;
 						margin: 17px 0 32px;
-						height: 30px;
 						.sm &,
 						.xs & {
+							height: 30px;
 							font-size: 10px;
 							line-height: 15px;
 							margin: 8px 0;
@@ -143,7 +143,7 @@
 			z-index: 10;
 			.xs &,
 			.sm & {
-				bottom: 13px;
+				bottom: 5px;
 				background: none;
 				left: 0;
 				top: auto;
@@ -189,9 +189,9 @@
 					height: 108px;
 					border-top: 1px solid #EEEEEE;
 					cursor: pointer;
-					overflow: hidden;
 					.xs &,
 					.sm & {
+						overflow: hidden;
 						border: none;
 						font-size: 0;
 						display: inline-block;

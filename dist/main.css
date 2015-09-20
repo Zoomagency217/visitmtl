@@ -652,12 +652,12 @@ footer {
 .module_1 > .module_content .main > .slide > .cta {
   left: 62px;
   position: absolute;
-  top: 259px;
+  top: 50%;
+  transform: translateY(-50%);
   right: 530px;
   z-index: 2; }
   .sm .module_1 > .module_content .main > .slide > .cta, .xs .module_1 > .module_content .main > .slide > .cta {
     margin: 0;
-    top: 20px;
     left: 30px;
     right: 30px; }
   .module_1 > .module_content .main > .slide > .cta > .group_1 {
@@ -689,9 +689,9 @@ footer {
     font-size: 20.51px;
     color: #CEDFE1;
     line-height: 26px;
-    margin: 17px 0 32px;
-    height: 30px; }
+    margin: 17px 0 32px; }
     .sm .module_1 > .module_content .main > .slide > .cta > .group_3, .xs .module_1 > .module_content .main > .slide > .cta > .group_3 {
+      height: 30px;
       font-size: 10px;
       line-height: 15px;
       margin: 8px 0; }
@@ -753,7 +753,7 @@ footer {
   width: 240px;
   z-index: 10; }
   .xs .module_1 > .module_content .panel, .sm .module_1 > .module_content .panel {
-    bottom: 13px;
+    bottom: 5px;
     background: none;
     left: 0;
     top: auto;
@@ -786,9 +786,9 @@ footer {
     padding: 30px 0 0 0;
     height: 108px;
     border-top: 1px solid #EEEEEE;
-    cursor: pointer;
-    overflow: hidden; }
+    cursor: pointer; }
     .xs .module_1 > .module_content .panel > .module_1--item > .slide, .sm .module_1 > .module_content .panel > .module_1--item > .slide {
+      overflow: hidden;
       border: none;
       font-size: 0;
       display: inline-block;
@@ -1226,26 +1226,29 @@ footer {
       color: #666D70; }
 
 .module_6 > .module_content > .title {
+  border-bottom: #eeeeee 1px solid;
+  color: #3B3D40;
   font-family: Montserrat-Bold;
   font-size: 11px;
-  color: #3B3D40;
   letter-spacing: 2px;
   line-height: 13px;
   padding: 18px;
   text-align: center;
-  border-bottom: #eeeeee 1px solid;
   text-transform: uppercase; }
   .sm .module_6 > .module_content > .title, .xs .module_6 > .module_content > .title {
-    font-size: 18px;
+    background: url(imgs/icon_flag.svg) no-repeat;
+    background-position: right 30px top 0;
+    background-size: 14px;
     border: none;
-    padding-bottom: 0;
-    text-transform: none;
-    padding-top: 23px; }
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 23px;
+    text-transform: none; }
 .module_6 > .module_content .module_6--feature {
   padding: 20px 15px 19px;
   border-bottom: #eeeeee 1px solid; }
   .sm .module_6 > .module_content .module_6--feature, .xs .module_6 > .module_content .module_6--feature {
-    padding: 10px 50px 20px; }
+    padding: 0 50px 20px; }
   .module_6 > .module_content .module_6--feature .title {
     font-family: PTSerif-Regular;
     font-size: 14px;
