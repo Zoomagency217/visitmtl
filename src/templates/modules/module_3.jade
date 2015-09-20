@@ -5,7 +5,7 @@
 			| VisitMtl Stories
 		.hidden-sm.hidden-xs
 			include module_3--feature
-			each val in [1, 2, 3, 4, 5]
+			each val in [1, 2, 3, 4]
 				include module_3--item
 		.hidden-lg.hidden-md
 			#module_3--carousel.carousel.slide(data-ride="carousel")
@@ -17,9 +17,9 @@
 				.carousel-inner(role="listbox")
 					.item.active
 						include module_3--feature
-					//- each val in [1, 2, 3, 4]
-					//- 	.item
-					//- 		include module_3--item
+					each val in [1, 2, 3, 4]
+						.item
+							include module_3--item
 		.more
 			a.hover-blue(href="javascript:") More Stories
 // Module 3 end
