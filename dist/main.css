@@ -665,6 +665,12 @@ footer {
           color: #3C3D41;
           line-height: 13px; }
 
+.adsense .adsense-container {
+  background: #d8d8d8;
+  border: #979797 1px solid;
+  margin: 30px auto;
+  max-width: 90%; }
+
 .xs .module_1 > .module_content, .sm .module_1 > .module_content {
   border-radius: 0; }
 .xs .module_1 > .module_content .main, .sm .module_1 > .module_content .main {
