@@ -344,7 +344,7 @@ header {
             header .main .video-group .cta .group-3 .button:focus {
               border: 1px solid #666d70; }
             header .main .video-group .cta .group-3 .button:hover {
-              background: #666d70;
+              background: rgba(0, 0, 0, 0.3);
               color: #eaeaea; }
       header .main .video-group .video {
         top: 0;

@@ -38,7 +38,8 @@
           } else {
             $('#bg-video video').get(0).pause();
             $('html').removeClass('background-video');
-            return showingVideo = false;
+            showingVideo = false;
+            return $('#view-more').text('VIEW MORE');
           }
         }
       }

@@ -26,6 +26,7 @@ calculateSize = ->
 					$('#bg-video video').get(0).pause()
 					$('html').removeClass 'background-video'
 					showingVideo = false
+					$('#view-more').text('VIEW MORE')
 
 showVideo = ->
 	$('html').addClass 'background-video'
