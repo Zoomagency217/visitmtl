@@ -306,73 +306,93 @@ header {
       bottom: 0;
       z-index: -1;
       background: #eaeaea; }
-      header .main .video-group .cta .group-1 {
-        font-family: Montserrat-Bold;
-        font-size: 52px;
-        color: #ffffff;
-        line-height: 60px;
-        text-align: center;
-        margin: auto;
-        padding-top: 159px;
-        max-width: 980px; }
-      header .main .video-group .cta .group-2 {
-        font-family: PTSerif-Regular;
-        font-size: 26px;
-        color: #CDDFE0;
-        line-height: 33px;
-        text-align: center; }
-      header .main .video-group .cta .group-3 {
-        margin-top: 56px;
-        text-align: center; }
-        header .main .video-group .cta .group-3 .button {
-          border: 1px solid #ffffff;
-          border-radius: 40px;
-          font-family: Montserrat-Bold;
-          font-size: 10px;
-          color: #ffffff;
-          letter-spacing: 2px;
-          line-height: 12px;
-          padding: 15px 45px;
-          background: transparent;
-          box-shadow: none;
-          -moz-appearance: none;
-          -webkit-appearance: none; }
-          header .main .video-group .cta .group-3 .button:focus {
-            border: 1px solid #666d70; }
-          header .main .video-group .cta .group-3 .button:hover {
-            background: #666d70;
-            color: #eaeaea; }
-      header .main .video-group .video {
+      header .main .video-group .cta {
         position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%; }
+        header .main .video-group .cta .group-1 {
+          font-family: Montserrat-Bold;
+          font-size: 52px;
+          color: #ffffff;
+          line-height: 60px;
+          text-align: center;
+          margin: auto;
+          max-width: 980px; }
+        header .main .video-group .cta .group-2 {
+          font-family: PTSerif-Regular;
+          font-size: 26px;
+          color: #CDDFE0;
+          line-height: 33px;
+          text-align: center; }
+        header .main .video-group .cta .group-3 {
+          margin-top: 56px;
+          text-align: center; }
+          header .main .video-group .cta .group-3 .button {
+            border: 1px solid #ffffff;
+            border-radius: 40px;
+            font-family: Montserrat-Bold;
+            font-size: 10px;
+            color: #ffffff;
+            letter-spacing: 2px;
+            line-height: 12px;
+            padding: 15px 45px;
+            background: transparent;
+            box-shadow: none;
+            -moz-appearance: none;
+            -webkit-appearance: none; }
+            header .main .video-group .cta .group-3 .button:focus {
+              border: 1px solid #666d70; }
+            header .main .video-group .cta .group-3 .button:hover {
+              background: #666d70;
+              color: #eaeaea; }
+      header .main .video-group .video {
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         z-index: -1;
-        text-align: center; }
+        position: fixed;
+        overflow: hidden; }
         header .main .video-group .video video {
-          min-width: 100%;
-          min-height: 100%;
-          width: auto;
-          height: auto; }
-  .top-0.md header .main .top, .top-0.lg header .main .top {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%; }
+  .background-video .md header .main .top, .background-video .lg header .main .top {
     max-height: 0;
     border: none; }
-  .top-0.md header .main .bottom .left ul.menu li a, .top-0.lg header .main .bottom .left ul.menu li a {
+  .background-video .md header .main .bottom .left ul.menu li a, .background-video .lg header .main .bottom .left ul.menu li a {
     color: #ffffff; }
-  .sm .top-0.md header .main .bottom .left, .xs .top-0.md header .main .bottom .left, .sm .top-0.lg header .main .bottom .left, .xs .top-0.lg header .main .bottom .left {
+  .sm .background-video .md header .main .bottom .left, .xs .background-video .md header .main .bottom .left, .sm .background-video .lg header .main .bottom .left, .xs .background-video .lg header .main .bottom .left {
     display: none; }
-  .top-0.md header .main .bottom .right, .top-0.lg header .main .bottom .right {
+  .background-video .md header .main .bottom .right, .background-video .lg header .main .bottom .right {
     border-left: 1px solid #ffffff; }
-    .top-0.md header .main .bottom .right .icon, .top-0.lg header .main .bottom .right .icon {
+    .background-video .md header .main .bottom .right .icon, .background-video .lg header .main .bottom .right .icon {
       width: 29px; }
-      .top-0.md header .main .bottom .right .icon.search, .top-0.lg header .main .bottom .right .icon.search {
+      .background-video .md header .main .bottom .right .icon.search, .background-video .lg header .main .bottom .right .icon.search {
         background-image: url("imgs/icon_search_white.svg"); }
-      .top-0.md header .main .bottom .right .icon.hamburger, .top-0.lg header .main .bottom .right .icon.hamburger {
+      .background-video .md header .main .bottom .right .icon.hamburger, .background-video .lg header .main .bottom .right .icon.hamburger {
         background-image: url("imgs/icon_hamburger_white.svg"); }
-  .top-0.md header .main .video-group, .top-0.lg header .main .video-group {
+  .background-video .md header .main .video-group, .background-video .lg header .main .video-group {
     max-height: 2000px; }
 
+@media (min-aspect-ratio: 16 / 9) {
+  header .main .video-group .video video {
+    height: 300%;
+    top: -100%; } }
+@media (max-aspect-ratio: 16 / 9) {
+  header .main .video-group .video video {
+    width: 300%;
+    left: -100%; } }
+@supports (object-fit: cover) {
+  header .main .video-group .video video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; } }
 footer {
   background: #ffffff;
   margin-top: 9px; }

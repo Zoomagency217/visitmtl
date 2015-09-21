@@ -1,5 +1,5 @@
 (function() {
-  var resizeVideo, toggle;
+  var calculateSize, firstTime, lastSize, lastTime, lastTop0, showVideo, showingVideo, toggle;
 
   toggle = function(item) {
     switch (item) {
@@ -10,35 +10,66 @@
     }
   };
 
-  resizeVideo = function(ele) {
-    var itv;
-    return itv = setInterval(function() {
-      var scale;
-      if (!scale && $(ele).height()) {
-        scale = $(ele).width() / $(ele).height();
+  lastSize = window.$size;
+
+  lastTop0 = true;
+
+  lastTime = new Date().getTime();
+
+  showingVideo = true;
+
+  firstTime = true;
+
+  calculateSize = function() {
+    if (window.$xs || window.$sm) {
+      if (window.$size !== lastSize) {
+        $('html').removeClass('background-video');
+        $('#bg-video video').get(0).pause();
+        return lastSize = window.$size;
       }
-      if (scale) {
-        if ($(ele).height() < $(window).innerHeight()) {
-          $(ele).height($(window).innerHeight());
-          $(ele).width($(ele).height() * scale);
-          $(ele).css('margin-left', ($(window).innerWidth() - $(ele).width()) / 2 + 'px');
+    } else {
+      if ($('body').hasClass('top-0') !== lastTop0) {
+        lastTop0 = $('body').hasClass('top-0');
+        if (lastTop0) {
+          return lastTime = new Date().getTime();
         } else {
-          $(ele).width('100%');
-          $(ele).height($(ele).width() / scale);
+          if (firstTime) {
+            return firstTime = false;
+          } else {
+            $('#bg-video video').get(0).pause();
+            $('html').removeClass('background-video');
+            return showingVideo = false;
+          }
         }
-        return clearInterval(itv);
       }
-    }, 100);
+    }
+  };
+
+  showVideo = function() {
+    $('html').addClass('background-video');
+    $('#bg-video video').get(0).play();
+    return showingVideo = true;
   };
 
   $(function() {
+    var sizeItv;
     $('.carousel').carousel(function() {
       return {
         interval: 2000
       };
     });
-    return $('.action-hamburger').click(function() {
+    $('.action-hamburger').click(function() {
       return toggle('hamburger');
+    });
+    sizeItv = setInterval(function() {
+      return calculateSize(window.$size);
+    }, 100);
+    return $(window).on('mousewheel', function() {
+      if (lastTop0 && !showingVideo) {
+        if (new Date().getTime() - lastTime > 500) {
+          return showVideo();
+        }
+      }
     });
   });
 
