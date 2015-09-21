@@ -540,96 +540,98 @@ footer {
               border: none; }
               footer > .area_1.area > .container > .group_4 .form .button button.email:focus {
                 outline: none; }
-  .sm footer > .area_2.area, .xs footer > .area_2.area {
-    max-width: 320px;
-    margin: auto; }
-  footer > .area_2.area > .group_1 {
-    float: left;
-    width: 25%;
-    padding: 19px 104px 10px 68px; }
-    .sm footer > .area_2.area > .group_1, .xs footer > .area_2.area > .group_1 {
-      width: 15%;
-      max-width: 45px;
-      padding: 15px 5px 15px 10px; }
-    .sm footer > .area_2.area > .group_1 img, .xs footer > .area_2.area > .group_1 img {
-      width: 30px; }
-  footer > .area_2.area > .container {
-    display: table;
-    float: left;
-    width: 75%;
-    margin: 34px 0 0;
-    padding: 0; }
-    .sm footer > .area_2.area > .container, .xs footer > .area_2.area > .container {
-      width: 85%;
-      margin: 15px 0;
-      width: 35; }
-    footer > .area_2.area > .container > .group_2 {
-      display: table-cell;
-      vertical-align: top;
-      width: 36%;
-      font-family: PTSerif-Regular;
-      font-size: 10.83px;
-      color: #888888;
-      line-height: 14px;
-      border-left: 1px solid rgba(131, 141, 143, 0.3);
-      padding: 6px 0 10px 31px; }
-      .sm footer > .area_2.area > .container > .group_2, .xs footer > .area_2.area > .container > .group_2 {
-        padding: 0 5px 0 20px;
-        width: 65%;
-        position: relative; }
-      .sm footer > .area_2.area > .container > .group_2:before, .xs footer > .area_2.area > .container > .group_2:before {
-        content: '\f041';
-        font-family: FontAwesome;
-        font-size: 20px;
-        color: #3c3d41;
-        position: absolute;
-        left: 5px;
-        top: 5px; }
-    footer > .area_2.area > .container > .group_3 {
-      display: table-cell;
-      vertical-align: top;
-      width: 21%;
-      font-family: PTSerif-Regular;
-      font-size: 10.83px;
-      color: #888888;
-      line-height: 14px;
-      border-left: 1px solid rgba(131, 141, 143, 0.3);
-      padding: 6px 0 10px 31px; }
-      .sm footer > .area_2.area > .container > .group_3, .xs footer > .area_2.area > .container > .group_3 {
-        border-left: none;
-        padding: 0 5px 0 0;
-        width: 35%; }
-    footer > .area_2.area > .container > .group_4 {
-      display: table-cell;
-      vertical-align: top;
-      width: 43%;
-      border-left: 1px solid rgba(131, 141, 143, 0.3);
-      padding: 5px 10% 0 4%; }
-      footer > .area_2.area > .container > .group_4 .form {
-        height: 25px;
-        position: relative; }
-        footer > .area_2.area > .container > .group_4 .form .input {
-          height: 25px;
-          width: 100%; }
-          footer > .area_2.area > .container > .group_4 .form .input input {
-            background: #EDEDED;
-            border-radius: 40px;
-            border: none;
-            height: 25px;
-            width: 100%;
-            -moz-appearance: none;
-            -webkit-appearance: none; }
-        footer > .area_2.area > .container > .group_4 .form .button {
+  footer > .area_2.area {
+    border-bottom: #eaeaea 1px solid; }
+    .sm footer > .area_2.area, .xs footer > .area_2.area {
+      max-width: 320px;
+      margin: auto; }
+    footer > .area_2.area > .group_1 {
+      float: left;
+      width: 25%;
+      padding: 19px 104px 10px 68px; }
+      .sm footer > .area_2.area > .group_1, .xs footer > .area_2.area > .group_1 {
+        width: 15%;
+        max-width: 45px;
+        padding: 15px 5px 15px 10px; }
+      .sm footer > .area_2.area > .group_1 img, .xs footer > .area_2.area > .group_1 img {
+        width: 30px; }
+    footer > .area_2.area > .container {
+      display: table;
+      float: left;
+      width: 75%;
+      margin: 34px 0 0;
+      padding: 0; }
+      .sm footer > .area_2.area > .container, .xs footer > .area_2.area > .container {
+        width: 85%;
+        margin: 15px 0;
+        width: 35; }
+      footer > .area_2.area > .container > .group_2 {
+        display: table-cell;
+        vertical-align: top;
+        width: 36%;
+        font-family: PTSerif-Regular;
+        font-size: 10.83px;
+        color: #888888;
+        line-height: 14px;
+        border-left: 1px solid rgba(131, 141, 143, 0.3);
+        padding: 6px 0 10px 31px; }
+        .sm footer > .area_2.area > .container > .group_2, .xs footer > .area_2.area > .container > .group_2 {
+          padding: 0 5px 0 20px;
+          width: 65%;
+          position: relative; }
+        .sm footer > .area_2.area > .container > .group_2:before, .xs footer > .area_2.area > .container > .group_2:before {
+          content: '\f041';
+          font-family: FontAwesome;
+          font-size: 20px;
+          color: #3c3d41;
           position: absolute;
-          right: 11px;
-          top: -5px; }
-          footer > .area_2.area > .container > .group_4 .form .button button.search {
-            -moz-appearance: none;
-            -webkit-appearance: none;
-            border: none;
-            background: url(imgs/footer_search.svg) 0 0 no-repeat;
-            width: 12px;
-            height: 12px; }
+          left: 5px;
+          top: 5px; }
+      footer > .area_2.area > .container > .group_3 {
+        display: table-cell;
+        vertical-align: top;
+        width: 21%;
+        font-family: PTSerif-Regular;
+        font-size: 10.83px;
+        color: #888888;
+        line-height: 14px;
+        border-left: 1px solid rgba(131, 141, 143, 0.3);
+        padding: 6px 0 10px 31px; }
+        .sm footer > .area_2.area > .container > .group_3, .xs footer > .area_2.area > .container > .group_3 {
+          border-left: none;
+          padding: 0 5px 0 0;
+          width: 35%; }
+      footer > .area_2.area > .container > .group_4 {
+        display: table-cell;
+        vertical-align: top;
+        width: 43%;
+        border-left: 1px solid rgba(131, 141, 143, 0.3);
+        padding: 5px 10% 0 4%; }
+        footer > .area_2.area > .container > .group_4 .form {
+          height: 25px;
+          position: relative; }
+          footer > .area_2.area > .container > .group_4 .form .input {
+            height: 25px;
+            width: 100%; }
+            footer > .area_2.area > .container > .group_4 .form .input input {
+              background: #EDEDED;
+              border-radius: 40px;
+              border: none;
+              height: 25px;
+              width: 100%;
+              -moz-appearance: none;
+              -webkit-appearance: none; }
+          footer > .area_2.area > .container > .group_4 .form .button {
+            position: absolute;
+            right: 11px;
+            top: -5px; }
+            footer > .area_2.area > .container > .group_4 .form .button button.search {
+              -moz-appearance: none;
+              -webkit-appearance: none;
+              border: none;
+              background: url(imgs/footer_search.svg) 0 0 no-repeat;
+              width: 12px;
+              height: 12px; }
   footer > .area_3 {
     height: 348px; }
     .sm footer > .area_3, .xs footer > .area_3 {
