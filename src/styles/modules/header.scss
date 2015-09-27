@@ -9,10 +9,6 @@ header {
 	right: 0;
 	z-index: 999999999;
 	transition: $menu-pushed-transition;
-	.pushed & {
-		left: -$menu-pushed;
-		right: $menu-pushed;
-	}
 	.sm &,
 	.xs & {
 		background-size: 50px;
@@ -155,60 +151,6 @@ header {
 							float: right;
 							margin: 6px 6px 0 0;
 							background-size: 22px;
-						}
-					}
-				}
-				.hamburger-menu {
-					background: #434A54;
-					position: fixed;
-					top: 0;
-					right: 0;
-					width: $menu-pushed;
-					max-width: 0;
-					overflow: hidden;
-					transition: $menu-pushed-transition;
-					height: 100%;
-					.pushed & {
-						max-width: $menu-pushed;
-					}
-					> .icon {
-						padding: 20px 0 0 20px;
-					}
-					.title {
-						padding: 25px 0 0 20px;
-						opacity: 0.61;
-						font-family: Montserrat-Regular;
-						font-size: 24px;
-						color: $white;
-						line-height: 28px;
-						white-space: nowrap;
-					}
-					.menu {
-						list-style-type: none;
-						padding: 0;
-						margin: 35px 0 0;
-						> li {
-							line-height: 28px;
-							border-top: 1px solid $grey-text;
-							a {
-								font-family: Montserrat-Regular;
-								color: $white;
-								padding: 10px 35px;
-								display: inline-block;
-								font-size: 24px;
-								white-space: nowrap;
-								width: 100%;
-								text-decoration: none;
-								> .icon {
-									width: 27px;
-									display: inline-block;
-									text-align: center;
-									margin-right: 23px;
-								}
-							}
-							&:hover {
-								background: #E5555B;
-							}
 						}
 					}
 				}

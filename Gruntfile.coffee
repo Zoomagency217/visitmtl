@@ -32,6 +32,7 @@ module.exports = (grunt) ->
                     pretty: true
                 files:
                     'dist/index.html': ['src/templates/index.jade']
+                    'dist/eat_play.html': ['src/templates/eat_play.jade']
             templates:
                 options:
                     data:

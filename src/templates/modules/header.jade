@@ -25,51 +25,22 @@ header
 			.right
 				a.icon.search(href='javascript:').action-search
 				a.icon.hamburger(href='javascript:').action-hamburger
-				.hamburger-menu#hamburger
-					.icon
-						a.hover-blue(href='javascript:').action-hamburger
-							img(src="imgs/icon_hamburger_white.svg")
-					.title VisitMTL Menu
-					ul.menu
-						li
-							a.hover-blue(href="javascript:")
-								.icon
-									img(src="imgs/icon_map_marker.svg")
-								| Get here
-						li
-							a.hover-blue(href="javascript:")
-								.icon
-									img(src="imgs/icon_sandwich.svg")
-								| Eat
-						li
-							a.hover-blue(href="javascript:")
-								.icon
-									img(src="imgs/icon_bed.svg")
-								| Sleep
-						li
-							a.hover-blue(href="javascript:")
-								.icon
-									img(src="imgs/icon_glass.svg")
-								| Play
-						li
-							a.hover-blue(href="javascript:")
-								.icon
-									img(src="imgs/icon_buy.svg")
-								| Buy stuff
-		.video-group
-			.cta
-				.group-1
-					| Get here. Eat. Sleep.
-					br
-					| Play &amp; buy stuff
-				.group-2
-					| Come binge on your favourite pastime,
-					br
-					| and meet some cool people while you’re at it.
-				.group-3
-					button(type="button").button#view-more TAKE A TOUR
-			.video#bg-video
-				video(controls="true", autoplay="true")
-					source(src="http://www.w3schools.com/html/mov_bbb.mp4", type="video/mp4")
-					source(src="http://www.w3schools.com/html/mov_bbb.ogg", type="video/ogg")
+		if page_home
+			.video-group
+				.cta
+					.group-1
+						| Get here. Eat. Sleep.
+						br
+						| Play &amp; buy stuff
+					.group-2
+						| Come binge on your favourite pastime,
+						br
+						| and meet some cool people while you’re at it.
+					.group-3
+						button(type="button").button#view-more TAKE A TOUR
+				.video#bg-video
+					video(controls="true", autoplay="true")
+						source(src="http://www.w3schools.com/html/mov_bbb.mp4", type="video/mp4")
+						source(src="http://www.w3schools.com/html/mov_bbb.ogg", type="video/ogg")
+include menu_hamburger
 // Header end

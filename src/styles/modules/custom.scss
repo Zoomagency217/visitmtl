@@ -1,0 +1,161 @@
+body {
+	font-family: PTSerif-Regular;
+	font-size: 18.66px;
+	color: $text-color;
+	line-height: 27px;
+	background: $background-color;
+	display: none;
+	transition: $menu-pushed-transition;
+	* {
+		box-sizing: border-box !important;
+		&:focus {
+			outline: none;
+		}
+	}
+	> .container {
+		transition: $menu-pushed-transition;
+		max-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	&.sm.pushed,
+	&.xs.pushed {
+		> .container {
+			margin-right: 320px;
+			margin-left: -320px;
+		}
+	}
+	&.sm,
+	&.xs {
+		background: white;
+		> .container {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.module {
+			padding: 0;
+			&.child_module {
+				padding: 0;
+				.more {
+					text-transform: none;
+					border-top: #ececec 1px solid;
+					border-bottom: #ececec 1px solid;
+					padding: 14px 0;
+				}
+			}
+		}
+	}
+	&.sm,
+	&.xs,
+	&.md,
+	&.lg {
+		display: block;
+	}
+	.module {
+		width: 100%;
+		padding: $gap-vertical 0;
+		&.child_module {
+			padding: $gap-vertical $gap-horizontal;
+			.more {
+				line-height: 12px;
+				text-align: center;
+				padding: 9px;
+				text-transform: uppercase;
+				a {
+					font-family: Montserrat-Bold;
+					font-size: 10px;
+					color: #838C8D;
+					letter-spacing: 2px;
+				}
+			}
+		}
+		> .module_content {
+			width: 100%;
+			border-radius: 4px;
+			background-color: #ffffff;
+			overflow: hidden;
+			position: relative;
+		}
+	}
+}
+
+.page {
+	margin-top: $header-height;
+	.sm &,
+	.xs & {
+		margin-top: $header-height-mobile;
+	}
+}
+
+a {
+	&.hover-blue:hover,
+	&.hover-blue:focus {
+		color: #387AC2 !important;
+		text-decoration: none;
+	}
+}
+
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ellipsis--2 {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.mobile {
+	.mobile_ellipsis {
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.mobile_ellipsis--2 {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+}
+
+.bc--1 {
+	background-color: #6b3de4;
+}
+
+.bc--2 {
+	background-color: #007AC2;
+}
+
+.bc--3 {
+	background-color: #3ca773;
+}
+
+.bc--4 {
+	background-color: #d9a34a;
+}
+
+.bc--5 {
+	background-color: #ea8bff;
+}
+
+.bch--1:hover {
+	background-color: #6b3de4;
+}
+
+.bch--2:hover {
+	background-color: #007AC2;
+}
+
+.bch--3:hover {
+	background-color: #3ca773;
+}
+
+.bch--4:hover {
+	background-color: #d9a34a;
+}
+
+.bch--5:hover {
+	background-color: #ea8bff;
+}
