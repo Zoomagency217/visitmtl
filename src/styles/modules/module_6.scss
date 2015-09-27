@@ -16,9 +16,11 @@
 				background-position: right 30px top 0;
 				background-size: 14px;
 				border: none;
-				font-size: 18px;
 				padding-bottom: 10px;
 				padding-top: 23px;
+			}
+			.xs & {
+				font-size: 18px;
 				text-transform: none;
 			}
 		}
@@ -36,9 +38,11 @@
 				color: #838C8E;
 				.sm &,
 				.xs & {
+					text-align: center;
+				}
+				.xs & {
 					font-size: 12px;
 					line-height: 15px;
-					text-align: center;
 				}
 				a {
 					color: #838C8E;
@@ -63,9 +67,11 @@
 				color: #666E70;
 				.sm &,
 				.xs & {
-					font-family: Montserrat-Bold;
 					width: 100%;
 					padding: 0 30px;
+				}
+				.xs & {
+					font-family: Montserrat-Bold;
 					font-size: 18px;
 					line-height: 24px;
 				}
@@ -111,9 +117,11 @@
 						color: #3B3D40;
 						.sm &,
 						.xs & {
+							padding-top: 6px;
+						}
+						.xs & {
 							font-size: 15px;
 							line-height: 19px;
-							padding-top: 6px;
 						}
 						a {
 							color: #3B3D40;

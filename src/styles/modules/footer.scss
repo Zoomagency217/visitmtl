@@ -216,7 +216,6 @@ footer {
 			.xs & {
 				width: 85%;
 				margin: 15px 0;
-				width: 35
 			}
 			> .group_2 {
 				display: table-cell;
@@ -238,12 +237,14 @@ footer {
 					.sm &,
 					.xs & {
 						content: '\f041';
-						font-family: FontAwesome;
-						font-size: 20px;
 						color: #3c3d41;
 						position: absolute;
 						left: 5px;
 						top: 5px;
+					}
+					.xs & {
+						font-family: FontAwesome;
+						font-size: 20px;
 					}
 				}
 			}

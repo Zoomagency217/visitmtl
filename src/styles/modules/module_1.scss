@@ -48,7 +48,6 @@
 						color: $white;
 						line-height: 55px;
 						letter-spacing: -1.3px;
-						.sm &,
 						.xs & {
 							font-size: 23.7px;
 							line-height: 21px;
@@ -60,7 +59,6 @@
 						color: #CEDFE1;
 						line-height: 26px;
 						margin: 17px 0 32px;
-						.sm &,
 						.xs & {
 							height: 30px;
 							font-size: 10px;
@@ -141,8 +139,8 @@
 			top: 0;
 			width: 240px;
 			z-index: 10;
-			.xs &,
-			.sm & {
+			.sm &,
+			.xs &{
 				bottom: 5px;
 				background: none;
 				left: 0;
@@ -178,8 +176,8 @@
 				a {
 					color: #656C83;
 				}
-				.xs &,
-				.sm & {
+				.sm &,
+				.xs & {
 					display: none;
 				}
 			}
@@ -189,8 +187,8 @@
 					height: 108px;
 					border-top: 1px solid #EEEEEE;
 					cursor: pointer;
-					.xs &,
-					.sm & {
+					.sm &,
+					.xs & {
 						overflow: hidden;
 						border: none;
 						font-size: 0;
@@ -304,8 +302,8 @@
 				a {
 					color: $grey-text;
 				}
-				.xs &,
-				.sm & {
+				.sm &,
+				.xs & {
 					display: none;
 				}
 			}

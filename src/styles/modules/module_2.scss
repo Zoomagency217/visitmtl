@@ -53,6 +53,8 @@
 				.xs & {
 					width: 100%;
 					padding: 0 30px;
+				}
+				.xs & {
 					font-size: 23.7px;
 					line-height: 24px;
 				}
@@ -71,10 +73,12 @@
 				.sm &,
 				.xs & {
 					width: 100%;
-					font-size: 10px;
-					line-height: 15px;
 					margin: 6px 0;
 					padding: 0 30px;
+				}
+				.xs & {
+					font-size: 10px;
+					line-height: 15px;
 				}
 			}
 		}

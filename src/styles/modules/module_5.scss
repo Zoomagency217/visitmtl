@@ -12,8 +12,10 @@
 			.sm &,
 			.xs & {
 				text-transform: none;
-				font-size: 17px;
 				padding-left: 30px;
+			}
+			.xs & {
+				font-size: 17px;
 			}
 		}
 		.module_5--feature {
@@ -32,6 +34,9 @@
 				.sm &,
 				.xs & {
 					border-radius: 0;
+				}
+				img {
+					width: 100%;
 				}
 			}
 			.content {
@@ -56,9 +61,11 @@
 					padding: 0 0px 8px 22px;
 					.sm &,
 					.xs & {
+						padding: 18px 15px 0;
+					}
+					.xs & {
 						font-size: 12px;
 						line-height: 15px;
-						padding: 18px 15px 0;
 					}
 					a {
 						color: #3B3D40;
@@ -72,9 +79,11 @@
 					padding: 0 0px 8px 22px;
 					.sm &,
 					.xs & {
+						padding: 7px 15px;
+					}
+					.xs & {
 						font-size: 10px;
 						line-height: 12px;
-						padding: 7px 15px;
 					}
 				}
 			}
@@ -98,17 +107,18 @@
 				width: 118px;
 				.sm &,
 				.xs & {
+					background-position: 13px 0;
+				}
+				.xs & {
+					width: 95px;
 					font-size: 10px;
 					line-height: 12px;
-					background-position: 13px 0;
-					width: 95px;
 				}
 			}
 			.title {
 				font-family: PTSerif-Regular;
 				font-size: 13px;
 				line-height: 17px;
-				.sm &,
 				.xs & {
 					font-size: 10px;
 					line-height: 12px;
