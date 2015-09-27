@@ -4,11 +4,11 @@
 	right: 0;
 	left: 0;
 	position: fixed;
-	z-index: 999;
+	z-index: 15;
 	.main {
 		background: #f4f4f4;
 		max-height: 0;
-		z-index: 1;
+		z-index: 5;
 		overflow-y: hidden;
 		transition: $menu-pushed-transition;
 		position: fixed;

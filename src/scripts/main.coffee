@@ -2,6 +2,11 @@ toggle = (item) ->
 	switch item
 		when 'hamburger'
 			if $('#hamburger').length then $('body').toggleClass 'pushed'
+		when 'search'
+			if $('#search').length
+				$('#search').toggleClass 'open'
+				$('#search-input').focus()
+				$('body').toggleClass 'fixed'
 
 lastSize = window.$size
 lastTop0 = true
@@ -39,6 +44,9 @@ $ ->
 
 	$('.action-hamburger').click ->
 		toggle 'hamburger'
+
+	$('.action-search, .search-close').click ->
+		toggle 'search'
 
 	sizeItv = setInterval ->
 		calculateSize window.$size

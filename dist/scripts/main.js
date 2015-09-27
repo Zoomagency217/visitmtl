@@ -7,6 +7,13 @@
         if ($('#hamburger').length) {
           return $('body').toggleClass('pushed');
         }
+        break;
+      case 'search':
+        if ($('#search').length) {
+          $('#search').toggleClass('open');
+          $('#search-input').focus();
+          return $('body').toggleClass('fixed');
+        }
     }
   };
 
@@ -61,6 +68,9 @@
     });
     $('.action-hamburger').click(function() {
       return toggle('hamburger');
+    });
+    $('.action-search, .search-close').click(function() {
+      return toggle('search');
     });
     sizeItv = setInterval(function() {
       return calculateSize(window.$size);
