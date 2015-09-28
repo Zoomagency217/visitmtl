@@ -472,6 +472,9 @@ a.hover-blue:hover, a.hover-blue:focus {
 .fixed {
   position: fixed; }
 
+html.fixed {
+  width: 100%; }
+
 header {
   background: #ffffff;
   margin: auto;
