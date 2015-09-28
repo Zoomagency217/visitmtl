@@ -82,6 +82,12 @@
         interval: 2000
       };
     });
+    $('.carousel').swiperight(function() {
+      return $(this).carousel('prev');
+    });
+    $('.carousel').swipeleft(function() {
+      return $(this).carousel('next');
+    });
     $('.action-hamburger, #menu_cover').click(function() {
       return toggle('hamburger');
     });

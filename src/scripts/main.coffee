@@ -49,15 +49,26 @@ hideVideo = ->
 	lastSize = window.$size
 
 $ ->
+	# Carousel
 	$('.carousel').carousel ->
 		interval: 2000
 
+	# Carousel mobile touch
+	$('.carousel').swiperight ->
+		$(this).carousel 'prev'
+
+	$('.carousel').swipeleft ->
+		$(this).carousel 'next'
+
+	# Pushed menu
 	$('.action-hamburger, #menu_cover').click ->
 		toggle 'hamburger'
 
+	# Search area
 	$('.action-search, .search-close').click ->
 		toggle 'search'
 
+	# Show/hide video
 	sizeItv = setInterval ->
 		calculateSize window.$size
 	, 100
