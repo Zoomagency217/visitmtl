@@ -1233,8 +1233,8 @@ footer {
     line-height: 55px;
     letter-spacing: -1.3px; }
     .xs .module_1 > .module_content .main > .slide > .cta > .group_2 {
-      font-size: 23.7px;
-      line-height: 21px; }
+      font-size: 22px;
+      line-height: 24px; }
   .module_1 > .module_content .main > .slide > .cta > .group_3 {
     font-family: PTSerif-Regular;
     font-size: 20.51px;
@@ -1243,7 +1243,7 @@ footer {
     margin: 17px 0 32px; }
     .xs .module_1 > .module_content .main > .slide > .cta > .group_3 {
       height: 30px;
-      font-size: 10px;
+      font-size: 13px;
       line-height: 15px;
       margin: 8px 0; }
   .module_1 > .module_content .main > .slide > .cta > .group_4 > .button_left {
@@ -1476,7 +1476,7 @@ footer {
         width: 100%;
         padding: 0 30px; }
       .xs .module_2.module > .module_content > .cta > .group_2 {
-        font-size: 23.7px;
+        font-size: 22px;
         line-height: 24px; }
       .module_2.module > .module_content > .cta > .group_2 a {
         color: #ffffff; }
@@ -1493,7 +1493,7 @@ footer {
         margin: 6px 0;
         padding: 0 30px; }
       .xs .module_2.module > .module_content > .cta > .group_3 {
-        font-size: 10px;
+        font-size: 13px;
         line-height: 15px; }
   .module_2.module > .module_content > .background {
     position: absolute;
@@ -1572,9 +1572,9 @@ footer {
     border: none; }
   .module_3 > .module_content .module_3--item .category {
     font-family: Montserrat-Bold;
-    font-size: 10px;
+    font-size: 14px;
+    line-height: 15px;
     letter-spacing: 1px;
-    line-height: 12px;
     color: #838C8D;
     text-transform: uppercase; }
     .sm .module_3 > .module_content .module_3--item .category, .xs .module_3 > .module_content .module_3--item .category {
@@ -1597,8 +1597,8 @@ footer {
         color: #3A3D3F; }
       .xs .module_3 > .module_content .module_3--item .title a {
         font-family: Montserrat-Bold;
-        font-size: 12px;
-        line-height: 12px; }
+        font-size: 14px;
+        line-height: 15px; }
 .module_3 > .module_content #module_3--carousel {
   padding-bottom: 40px;
   position: relative; }
@@ -1651,9 +1651,9 @@ footer {
       .module_4 > .module_content > .content .title a {
         color: #3C3D41; }
       .xs .module_4 > .module_content > .content .title {
-        font-size: 21px;
-        line-height: 23px;
-        margin-bottom: 2px; }
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 5px; }
     .module_4 > .module_content > .content .description {
       font-family: PTSerif-Regular;
       font-size: 14px;
@@ -1661,7 +1661,7 @@ footer {
       line-height: 18px;
       margin-bottom: 30px; }
       .xs .module_4 > .module_content > .content .description {
-        font-size: 10px;
+        font-size: 13px;
         line-height: 15px;
         margin-bottom: 14px; }
     .module_4 > .module_content > .content .button {
@@ -1742,7 +1742,7 @@ footer {
       .sm .module_5 > .module_content .module_5--feature .content .title, .xs .module_5 > .module_content .module_5--feature .content .title {
         padding: 18px 15px 0; }
       .xs .module_5 > .module_content .module_5--feature .content .title {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 15px; }
       .module_5 > .module_content .module_5--feature .content .title a {
         color: #3B3D40; }
@@ -1755,8 +1755,8 @@ footer {
       .sm .module_5 > .module_content .module_5--feature .content .description, .xs .module_5 > .module_content .module_5--feature .content .description {
         padding: 7px 15px; }
       .xs .module_5 > .module_content .module_5--feature .content .description {
-        font-size: 10px;
-        line-height: 12px; }
+        font-size: 12px;
+        line-height: 14px; }
 .module_5 > .module_content .module_5--item {
   padding: 14px 0;
   border-bottom: #eeeeee 1px solid; }
@@ -1775,16 +1775,16 @@ footer {
     .sm .module_5 > .module_content .module_5--item .time, .xs .module_5 > .module_content .module_5--item .time {
       background-position: 13px 0; }
     .xs .module_5 > .module_content .module_5--item .time {
-      width: 95px;
-      font-size: 10px;
-      line-height: 12px; }
+      width: 100px;
+      font-size: 12px;
+      line-height: 14px; }
   .module_5 > .module_content .module_5--item .title {
     font-family: PTSerif-Regular;
     font-size: 13px;
     line-height: 17px; }
     .xs .module_5 > .module_content .module_5--item .title {
-      font-size: 10px;
-      line-height: 12px; }
+      font-size: 12px;
+      line-height: 14px; }
     .module_5 > .module_content .module_5--item .title a {
       color: #666D70; }
 

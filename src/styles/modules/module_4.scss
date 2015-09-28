@@ -47,9 +47,9 @@
 					color: #3C3D41;
 				}
 				.xs & {
-					font-size: 21px;
-					line-height: 23px;
-					margin-bottom: 2px;
+					font-size: $mb-fontsize-title;
+					line-height: $mb-lineheight-title;
+					margin-bottom: 5px;
 				}
 			}
 			.description {
@@ -59,8 +59,8 @@
 				line-height: 18px;
 				margin-bottom: 30px;
 				.xs & {
-					font-size: 10px;
-					line-height: 15px;
+					font-size: $mb-fontsize-content;
+					line-height: $mb-lineheight-content;
 					margin-bottom: 14px;
 				}
 			}

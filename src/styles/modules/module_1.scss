@@ -49,8 +49,8 @@
 						line-height: 55px;
 						letter-spacing: -1.3px;
 						.xs & {
-							font-size: 23.7px;
-							line-height: 21px;
+							font-size: $mb-fontsize-title;
+							line-height: $mb-lineheight-title;
 						}
 					}
 					> .group_3 {
@@ -61,8 +61,8 @@
 						margin: 17px 0 32px;
 						.xs & {
 							height: 30px;
-							font-size: 10px;
-							line-height: 15px;
+							font-size: $mb-fontsize-content;
+							line-height: $mb-lineheight-content;
 							margin: 8px 0;
 						}
 					}

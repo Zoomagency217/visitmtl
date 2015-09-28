@@ -55,8 +55,8 @@
 					padding: 0 30px;
 				}
 				.xs & {
-					font-size: 23.7px;
-					line-height: 24px;
+					font-size: $mb-fontsize-title;
+					line-height: $mb-lineheight-title;
 				}
 				a {
 					color: $white;
@@ -77,8 +77,8 @@
 					padding: 0 30px;
 				}
 				.xs & {
-					font-size: 10px;
-					line-height: 15px;
+					font-size: $mb-fontsize-content;
+					line-height: $mb-lineheight-content;
 				}
 			}
 		}

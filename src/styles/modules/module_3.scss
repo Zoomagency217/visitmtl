@@ -80,9 +80,9 @@
 			}
 			.category {
 				font-family: Montserrat-Bold;
-				font-size: 10px;
+				font-size: $mb-stories-fontsize-title;
+				line-height: $mb-stories-lineheight-title;
 				letter-spacing: 1px;
-				line-height: 12px;
 				color: #838C8D;
 				text-transform: uppercase;
 				.sm &,
@@ -114,8 +114,8 @@
 					}
 					.xs & {
 						font-family: Montserrat-Bold;
-						font-size: 12px;
-						line-height: 12px;
+						font-size: $mb-stories-fontsize-title;
+						line-height: $mb-stories-lineheight-title;
 					}
 				}
 			}
