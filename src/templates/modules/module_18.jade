@@ -1,0 +1,74 @@
+.module.module_18
+	.background
+	.cover
+	form(action="#")
+		.group_1
+			a.button(href="javascript:")
+				.icon
+				| Flights
+			a.button(href="javascript:")
+				.icon
+				| Hotels
+			a.button(href="javascript:")
+				.icon
+				| Flights + Hotels
+			a.button(href="javascript:")
+				.icon
+				| Vacation
+			a.button(href="javascript:")
+				.icon
+				| Cars
+			a.button(href="javascript:")
+				.icon
+				| Cruises
+			a.button(href="javascript:")
+				.icon
+				| Things to do
+		.group_2
+			.group_2--1
+				.title Going to
+				.input
+					.icon
+					input(place-holder="Destination, airport, train station, landmark or address")
+			.group_2--2
+				.group_2--2--1.input_group
+					.title Check in
+					.input
+						.icon
+						input(place-holder="dd/mm/yyyy")
+				.group_2--2--2.input_group
+					.title Check out
+					.input
+						.icon
+						input(place-holder="dd/mm/yyyy")
+				.group_2--2--3.input_group
+					.title Rooms
+					.input
+						input(place-holder="2")
+				.group_2--2--4.input_group
+					.title Adults
+					.input
+						input(place-holder="2")
+				.group_2--2--1.input_group
+					.title Children(0-17)
+					.input
+						input(place-holder="0")
+			.group_2--3
+				.group_2--3--1
+					label.checkbox
+						input(type="checkbox")
+						span
+							.icon
+							| Add a flight
+				.group_2--3--2
+					label.checkbox
+						input(type="checkbox")
+						span
+							.icon
+							| Add a car
+			.clearfix
+			.group_2--4
+				button.button(type="submit")
+					.icon
+					| Search
+

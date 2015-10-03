@@ -1,0 +1,114 @@
+.module.module_8 {
+	background-color: #E45156;
+	padding: 0;
+	display: table;
+	.group_1 {
+		display: table-cell;
+		padding: 25px 30px 15px;
+		border-right: #fff 1px solid;
+		width: 1px;
+		white-space: nowrap;
+		.sm &,
+		.xs & {
+			display: block;
+			width: 100%;
+		}
+		.img {
+			display: inline-block;
+			img {
+				margin-top: -10px;
+				height: 34px;
+			}
+		}
+		.txt {
+			display: inline-block;
+			font-family: Montserrat-Regular;
+			font-size: 30.32px;
+			color: #FFFFFF;
+			line-height: 36px;
+		}
+	}
+	.group_2 {
+		display: table-cell;
+		vertical-align: middle;
+		.sm &,
+		.xs & {
+			display: block;
+			width: 100%;
+		}
+		.title {
+			/* Monthly Newsletter: */
+			font-family: Montserrat-Bold;
+			font-size: 22px;
+			color: #FFFFFF;
+			line-height: 27px;
+			width: 375px;
+			margin: auto;
+		}
+		.description {
+			/* Subscribe to our ema: */
+			opacity: 0.6;
+			font-family: PTSerif-Regular;
+			font-size: 14px;
+			color: #FFFFFF;
+			line-height: 18px;
+			width: 375px;
+			margin: auto;
+		}
+	}
+	.group_3 {
+		display: table-cell;
+		width: 340px;
+		padding: 15px 30px;
+		.sm &,
+		.xs & {
+			display: block;
+			width: 100%;
+		}
+		.form {
+			position: relative;
+			.input {
+				width: 100%;
+				input[type="text"] {
+					-webkit-appearance: none;
+					-moz-appearance: none;
+					color: #FFFFFF;
+					background: rgba(0, 0, 0, 0.15);
+					border: none;
+					border-radius: 3px;
+					font-family: Montserrat-Regular;
+					font-size: 13.6px;
+					height: 52px;
+					letter-spacing: 0.38px;
+					line-height: 17px;
+					outline: none;
+					padding-left: 20px;
+					padding-right: 74px;
+					width: 100%;
+					&::-webkit-input-placeholder,
+					&:-moz-placeholder,
+					&::-moz-placeholder,
+					&:-ms-input-placeholder {
+						color: red;
+					}
+				}
+			}
+			.button {
+				position: absolute;
+				right: 0;
+				top: 0;
+				button.right_arrow {
+					background: url(imgs/icon_right_arrow.svg) center no-repeat #37BC9B;
+					height: 52px;
+					width: 54px;
+					border-top-right-radius: 3px;
+					border-bottom-right-radius: 3px;
+					border: none;
+					outline: none;
+					-webkit-appearance: none;
+					-moz-appearance: none;
+				}
+			}
+		}
+	}
+}

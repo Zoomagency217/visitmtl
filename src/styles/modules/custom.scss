@@ -168,3 +168,49 @@ a {
 html.fixed {
 	width: 100%;
 }
+
+.original_category {
+	> .button {
+		border-radius: 3px;
+		font-family: Montserrat-Bold;
+		font-size: 10px;
+		display: inline-block;
+		color: $white;
+		letter-spacing: 1px;
+		line-height: 12px;
+		text-align: center;
+		padding: 3px 5px;
+		white-space: nowrap;
+		text-transform: uppercase;
+		> img {
+			margin-right: 10px;
+		}
+		.sm &,
+		.xs & {
+			border-radius: 20px;
+			padding: 2px 12px;
+		}
+		&:focus {
+			outline: none;
+		}
+		&:hover {
+			text-decoration: none;
+			opacity: 0.8;
+		}
+	}
+}
+
+.button {
+	.original_category.purple & {
+		background: #6B3DE4;
+	}
+	.original_category.green & {
+		background: #58A874;
+	}
+	.original_category.blue & {
+		background: #387AC2;
+	}
+	.original_category.red & {
+		background: #FC6E51;
+	}
+}

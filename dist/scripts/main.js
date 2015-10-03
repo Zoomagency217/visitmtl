@@ -42,30 +42,37 @@
   calculateSize = function() {
     if (window.$xs || window.$sm) {
       if (window.$size !== lastSize) {
-        return hideVideo();
+        hideVideo();
       }
     } else {
       if ($('body').hasClass('top-0') !== lastTop0) {
         lastTop0 = $('body').hasClass('top-0');
         if (lastTop0) {
-          return lastTime = new Date().getTime();
+          lastTime = new Date().getTime();
         } else {
           if (firstTime) {
-            return firstTime = false;
+            firstTime = false;
           } else {
-            $('#bg-video video').get(0).pause();
+            if ($('#bg-video video').get(0)) {
+              $('#bg-video video').get(0).pause();
+            }
             $('html').removeClass('background-video');
             showingVideo = false;
-            return $('#view-more').text('VIEW MORE');
+            $('#view-more').text('VIEW MORE');
           }
         }
       }
+    }
+    if (!$('#bg-video video').get(0)) {
+      return $('html').removeClass('background-video');
     }
   };
 
   showVideo = function() {
     $('html').addClass('background-video');
-    $('#bg-video video').get(0).play();
+    if ($('#bg-video video').get(0)) {
+      $('#bg-video video').get(0).play();
+    }
     return showingVideo = true;
   };
 

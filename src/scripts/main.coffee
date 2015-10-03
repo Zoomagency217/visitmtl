@@ -33,14 +33,16 @@ calculateSize = ->
 			else
 				if firstTime then firstTime = false
 				else
-					$('#bg-video video').get(0).pause()
+					if $('#bg-video video').get(0) then $('#bg-video video').get(0).pause()
 					$('html').removeClass 'background-video'
 					showingVideo = false
-					$('#view-more').text('VIEW MORE')
+					$('#view-more').text 'VIEW MORE'
+	if not $('#bg-video video').get(0)
+		$('html').removeClass 'background-video'
 
 showVideo = ->
 	$('html').addClass 'background-video'
-	$('#bg-video video').get(0).play()
+	if $('#bg-video video').get(0) then $('#bg-video video').get(0).play()
 	showingVideo = true
 
 hideVideo = ->
