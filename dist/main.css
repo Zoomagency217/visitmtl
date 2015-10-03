@@ -2190,6 +2190,430 @@ footer {
       border: none;
       outline: none; }
 
+.module.module_11 {
+  background: white;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0; }
+  .module.module_11 .group_1 {
+    padding: 40px;
+    float: left;
+    width: 40%; }
+    .module.module_11 .group_1 .distance {
+      font-family: Montserrat-Bold;
+      font-size: 12px;
+      color: #838C8D;
+      letter-spacing: 2.18px;
+      line-height: 14px;
+      text-transform: uppercase;
+      background: url(imgs/icon_address.svg) 0 18px no-repeat;
+      padding: 20px; }
+    .module.module_11 .group_1 > .title {
+      font-family: Montserrat-Bold;
+      font-size: 32px;
+      color: #1F1F1F;
+      line-height: 39px;
+      padding-bottom: 20px; }
+    .module.module_11 .group_1 .accordion-group .accordion {
+      border-top: #DDDDDD 1px solid;
+      padding: 15px 0;
+      position: relative; }
+      .module.module_11 .group_1 .accordion-group .accordion .title {
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+        color: #3C3D41;
+        letter-spacing: 2px;
+        line-height: 12px; }
+      .module.module_11 .group_1 .accordion-group .accordion .content {
+        overflow: hidden;
+        max-height: 0; }
+        .module.module_11 .group_1 .accordion-group .accordion .content .description {
+          font-family: PTSerif-Regular;
+          font-size: 16px;
+          color: #777777;
+          line-height: 21px; }
+        .module.module_11 .group_1 .accordion-group .accordion .content ul.list {
+          list-style-type: none;
+          margin: 20px 0;
+          padding: 0; }
+          .module.module_11 .group_1 .accordion-group .accordion .content ul.list li {
+            font-family: PTSerif-Regular;
+            font-size: 12px;
+            color: #959EA0;
+            line-height: 25px;
+            height: 25px;
+            position: relative;
+            padding-left: 15px; }
+            .module.module_11 .group_1 .accordion-group .accordion .content ul.list li:before {
+              content: '';
+              height: 6px;
+              width: 6px;
+              background: #CCCCCC;
+              position: absolute;
+              top: 10px;
+              left: 0;
+              border-radius: 6px; }
+      .module.module_11 .group_1 .accordion-group .accordion:before {
+        content: '+';
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        color: #AAAAAA; }
+      .module.module_11 .group_1 .accordion-group .accordion.active:before {
+        content: '-'; }
+      .module.module_11 .group_1 .accordion-group .accordion.active .content {
+        max-height: 9999px;
+        transition: max-height 1s; }
+    .module.module_11 .group_1 > .map {
+      width: 230px;
+      border-radius: 5px;
+      overflow: hidden;
+      padding: 0; }
+      .module.module_11 .group_1 > .map .title {
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        line-height: 12px;
+        padding: 14px 20px;
+        background: #6ED0AE;
+        position: relative;
+        text-transform: uppercase; }
+        .module.module_11 .group_1 > .map .title:before {
+          font-size: 14px;
+          content: '-';
+          position: absolute;
+          top: 10px;
+          right: 20px; }
+  .module.module_11 .group_2 {
+    float: left;
+    width: 60%; }
+    .module.module_11 .group_2 .group_2--1 {
+      width: 100%;
+      height: 705px;
+      overflow: hidden;
+      background: #6ED0AE; }
+      .module.module_11 .group_2 .group_2--1 .image {
+        float: left;
+        width: 80%;
+        vertical-align: top;
+        overflow: hidden; }
+        .module.module_11 .group_2 .group_2--1 .image img {
+          min-width: 100%;
+          min-height: 705px; }
+      .module.module_11 .group_2 .group_2--1 ul.image_list {
+        float: left;
+        width: 20%;
+        vertical-align: top;
+        padding: 0 25px;
+        list-style-type: none; }
+        .module.module_11 .group_2 .group_2--1 ul.image_list li {
+          margin-top: 20px; }
+          .module.module_11 .group_2 .group_2--1 ul.image_list li img {
+            width: 100%; }
+    .module.module_11 .group_2 .group_2--2 {
+      position: relative;
+      margin-top: 30px;
+      height: 105px; }
+      .module.module_11 .group_2 .group_2--2 .group_2--2--1 {
+        height: 45px;
+        background: #EEEEEE;
+        border-radius: 45px;
+        position: absolute;
+        left: 0;
+        width: 150px;
+        font-family: Montserrat-Regular;
+        font-size: 13px;
+        color: #3C3D41;
+        letter-spacing: 0.43px;
+        line-height: 45px;
+        padding-left: 30px; }
+      .module.module_11 .group_2 .group_2--2 .group_2--2--2 {
+        position: absolute;
+        z-index: 5;
+        left: 80px;
+        width: 200px;
+        height: 45px;
+        background: url(imgs/icon_phone.svg) 20px 12px no-repeat #63BC9C;
+        border-radius: 45px;
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        line-height: 45px;
+        padding-right: 30px;
+        padding-left: 60px;
+        text-transform: uppercase; }
+      .module.module_11 .group_2 .group_2--2 .group_2--2--3 {
+        position: absolute;
+        left: 260px;
+        top: 0; }
+        .module.module_11 .group_2 .group_2--2 .group_2--2--3 .button {
+          border-top: #EDEDED 1px solid;
+          border-left: #EDEDED 1px solid;
+          height: 45px;
+          float: left;
+          width: 85px;
+          background-position: center;
+          background-repeat: no-repeat; }
+          .module.module_11 .group_2 .group_2--2 .group_2--2--3 .button.facebook {
+            background-image: url(imgs/icon_module11_facebook.svg); }
+          .module.module_11 .group_2 .group_2--2 .group_2--2--3 .button.twitter {
+            background-image: url(imgs/icon_module11_twitter.svg); }
+          .module.module_11 .group_2 .group_2--2 .group_2--2--3 .button.instagram {
+            background-image: url(imgs/icon_module11_instagram.svg); }
+
+.module.module_12 {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0; }
+  .module.module_12 .feature_item {
+    float: left;
+    width: 25%;
+    background: #63BC9C;
+    padding: 30px;
+    height: 300px;
+    position: relative; }
+    .module.module_12 .feature_item:after {
+      content: '';
+      border-left: #63BC9C 10px solid;
+      border-top: transparent 10px solid;
+      border-bottom: transparent 10px solid;
+      position: absolute;
+      top: 45%;
+      right: -10px;
+      width: 10px;
+      height: 20px; }
+    .module.module_12 .feature_item .category {
+      font-family: Montserrat-Bold;
+      font-size: 10px;
+      color: #FEFEFE;
+      letter-spacing: 1.2px;
+      line-height: 12px; }
+    .module.module_12 .feature_item .title {
+      font-family: Montserrat-Bold;
+      font-size: 32px;
+      color: #FEFEFE;
+      line-height: 35px;
+      margin-top: 40px; }
+    .module.module_12 .feature_item .description {
+      font-family: PTSerif-Regular;
+      font-size: 14px;
+      color: #FEFEFE;
+      line-height: 19px;
+      margin-top: 15px; }
+    .module.module_12 .feature_item .button {
+      margin-top: 30px; }
+      .module.module_12 .feature_item .button button {
+        width: 125px;
+        height: 34px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border: #FEFEFE 1px solid;
+        border-radius: 34px;
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+        color: #FEFEFE;
+        letter-spacing: 2px;
+        line-height: 32px;
+        background: transparent;
+        outline: none; }
+  .module.module_12 ul.list {
+    float: left;
+    width: 75%;
+    height: 300px;
+    padding: 0;
+    list-style-type: none; }
+    .module.module_12 ul.list .item {
+      float: left;
+      width: 33.333333%;
+      height: 300px;
+      background: white;
+      text-align: center;
+      border-left: #DDDDDD 1px solid;
+      padding: 50px 40px 0; }
+      .module.module_12 ul.list .item:first-child {
+        border-left: none; }
+      .module.module_12 ul.list .item .image {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        margin: auto;
+        border-radius: 3px; }
+        .module.module_12 ul.list .item .image img {
+          width: 100%; }
+      .module.module_12 ul.list .item .content {
+        margin-top: 25px; }
+        .module.module_12 ul.list .item .content .title {
+          font-family: Montserrat-Bold;
+          font-size: 15px;
+          color: #393D3F;
+          line-height: 18px; }
+          .module.module_12 ul.list .item .content .title:hover {
+            color: #63BC9C;
+            text-decoration: none; }
+        .module.module_12 ul.list .item .content .date {
+          font-family: PTSerif-Italic;
+          font-size: 12px;
+          color: #838C8C;
+          line-height: 15px;
+          margin-top: 5px; }
+        .module.module_12 ul.list .item .content .price {
+          font-family: Montserrat-Regular;
+          font-size: 13px;
+          line-height: 16px;
+          margin-top: 5px; }
+          .module.module_12 ul.list .item .content .price .original {
+            display: inline-block;
+            color: #838C8E;
+            text-decoration: line-through; }
+          .module.module_12 ul.list .item .content .price .discount {
+            display: inline-block;
+            color: #1E1F1E; }
+
+.module.module_13 {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0;
+  position: relative;
+  background: white; }
+  .module.module_13 .category {
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+  .module.module_13 .image {
+    height: 170px;
+    overflow: hidden;
+    text-align: center; }
+    .module.module_13 .image img {
+      width: 100%; }
+  .module.module_13 .content {
+    padding: 25px 20px 0; }
+    .module.module_13 .content .title {
+      font-family: Montserrat-Bold;
+      font-size: 15px;
+      color: #3B3D40;
+      line-height: 18px; }
+    .module.module_13 .content .description {
+      font-family: PTSerif-Regular;
+      font-size: 14px;
+      color: #838D8F;
+      line-height: 18px;
+      padding-top: 10px; }
+
+.module.module_14 {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0;
+  position: relative;
+  background: white; }
+  .module.module_14 .category {
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+  .module.module_14 .image {
+    height: 140px;
+    overflow: hidden;
+    text-align: center; }
+    .module.module_14 .image img {
+      width: 100%; }
+  .module.module_14 .content {
+    padding: 25px 20px 0; }
+    .module.module_14 .content .title {
+      font-family: Montserrat-Bold;
+      font-size: 15px;
+      color: #3B3D40;
+      line-height: 18px; }
+    .module.module_14 .content .description {
+      font-family: PTSerif-Regular;
+      font-size: 14px;
+      color: #838D8F;
+      line-height: 18px;
+      padding-top: 10px;
+      height: 60px; }
+    .module.module_14 .content .detail {
+      font-family: Montserrat-Regular;
+      font-size: 12px;
+      color: #929B9D;
+      line-height: 14px;
+      border-top: #EEEEEE 1px solid;
+      padding: 12px 20px;
+      margin-left: -20px;
+      margin-right: -20px; }
+      .module.module_14 .content .detail .message {
+        background: url(imgs/icon_message.svg) 0 0 no-repeat;
+        padding-left: 30px;
+        display: inline-block; }
+      .module.module_14 .content .detail .love {
+        background: url(imgs/icon_heart.svg) 0 0 no-repeat;
+        padding-left: 30px;
+        display: inline-block; }
+
+.module.module_15 {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0;
+  position: relative;
+  background: #FF5A60; }
+  .module.module_15 .category {
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+  .module.module_15 .title {
+    font-family: Montserrat-Bold;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 27px; }
+  .module.module_15 .date {
+    opacity: 0.5;
+    font-family: PTSerif-Italic;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 18px; }
+  .module.module_15 .contact {
+    display: table;
+    width: 100%; }
+    .module.module_15 .contact .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      overflow: hidden;
+      display: table-cell; }
+      .module.module_15 .contact .avatar img {
+        width: 100%; }
+    .module.module_15 .contact .detail {
+      display: table-cell; }
+      .module.module_15 .contact .detail .by {
+        opacity: 0.5;
+        font-family: PTSerif-Italic;
+        font-size: 12px;
+        color: #FFFFFF;
+        line-height: 15px; }
+      .module.module_15 .contact .detail .name {
+        font-family: Montserrat-Bold;
+        font-size: 10px;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        line-height: 12px; }
+
+.module.module_16 {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0;
+  position: relative; }
+
+.module.module_17 {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0;
+  position: relative; }
+
 .page--home > .area_1 {
   width: 100%; }
 .page--home > .area_2 {
@@ -2212,5 +2636,45 @@ footer {
   .sm .page--home > .area_5, .xs .page--home > .area_5 {
     width: 100%;
     float: none; }
+
+.page--eat_play > .area_1 {
+  width: 100%; }
+.page--eat_play > .area_2 {
+  width: 100%; }
+.page--eat_play > .area_3 {
+  padding: 20px 10px 10px; }
+.page--eat_play > .area_4 {
+  padding: 10px; }
+.page--eat_play > .area_5 {
+  padding: 0 0 10px; }
+  .page--eat_play > .area_5 .area_5--1 {
+    width: 75%;
+    float: left; }
+    .page--eat_play > .area_5 .area_5--1 .area_5--1--1 {
+      float: left;
+      width: 33.333333%;
+      padding: 10px; }
+    .page--eat_play > .area_5 .area_5--1 .area_5--1--2 {
+      float: left;
+      width: 33.333333%;
+      padding: 10px; }
+    .page--eat_play > .area_5 .area_5--1 .area_5--1--3 {
+      float: left;
+      width: 33.333333%;
+      padding: 10px; }
+    .page--eat_play > .area_5 .area_5--1 .area_5--1--4 {
+      float: left;
+      width: 33.333333%;
+      padding: 10px; }
+    .page--eat_play > .area_5 .area_5--1 .area_5--1--5 {
+      float: left;
+      width: 66.666667%;
+      padding: 10px; }
+  .page--eat_play > .area_5 .area_5--2 {
+    width: 25%;
+    float: left;
+    padding: 10px; }
+    .page--eat_play > .area_5 .area_5--2 .module.child_module {
+      padding: 0; }
 
 /*# sourceMappingURL=main.css.map */

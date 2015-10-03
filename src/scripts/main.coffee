@@ -83,6 +83,8 @@ $ ->
 				_self.find('.selected').html $(this).html()
 				$(this).addClass 'active'
 
+	$('.accordion-group .accordion:nth-child(1)').addClass 'active'
+
 	# Show/hide video
 	sizeItv = setInterval ->
 		calculateSize window.$size

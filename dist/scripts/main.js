@@ -115,6 +115,7 @@
         });
       });
     });
+    $('.accordion-group .accordion:nth-child(1)').addClass('active');
     sizeItv = setInterval(function() {
       return calculateSize(window.$size);
     }, 100);

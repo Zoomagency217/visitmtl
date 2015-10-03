@@ -1,0 +1,211 @@
+.module.module_11 {
+	background: white;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 0;
+	.group_1 {
+		padding: 40px;
+		float: left;
+		width: 40%;
+		.distance {
+			font-family: Montserrat-Bold;
+			font-size: 12px;
+			color: #838C8D;
+			letter-spacing: 2.18px;
+			line-height: 14px;
+			text-transform: uppercase;
+			background: url(imgs/icon_address.svg) 0 18px no-repeat;
+			padding: 20px;
+		}
+		> .title {
+			font-family: Montserrat-Bold;
+			font-size: 32px;
+			color: #1F1F1F;
+			line-height: 39px;
+			padding-bottom: 20px;
+		}
+		.accordion-group {
+			.accordion {
+				border-top: #DDDDDD 1px solid;
+				padding: 15px 0;
+				position: relative;
+				.title {
+					font-family: Montserrat-Bold;
+					font-size: 10px;
+					color: #3C3D41;
+					letter-spacing: 2px;
+					line-height: 12px;
+				}
+				.content {
+					overflow: hidden;
+					max-height: 0;
+					.description {
+						font-family: PTSerif-Regular;
+						font-size: 16px;
+						color: #777777;
+						line-height: 21px;
+					}
+					ul.list {
+						list-style-type: none;
+						margin: 20px 0;
+						padding: 0;
+						li {
+							font-family: PTSerif-Regular;
+							font-size: 12px;
+							color: #959EA0;
+							line-height: 25px;
+							height: 25px;
+							position: relative;
+							padding-left: 15px;
+							&:before {
+								content: '';
+								height: 6px;
+								width: 6px;
+								background: #CCCCCC;
+								position: absolute;
+								top: 10px;
+								left: 0;
+								border-radius: 6px;
+							}
+						}
+					}
+				}
+				&:before {
+					content: '+';
+					position: absolute;
+					right: 10px;
+					top: 5px;
+					color: #AAAAAA;
+				}
+				&.active {
+					&:before {
+						content: '-';
+					}
+					.content {
+						max-height: 9999px;
+						transition: max-height 1s;
+					}
+				}
+			}
+		}
+		> .map {
+			width: 230px;
+			border-radius: 5px;
+			overflow: hidden;
+			padding: 0;
+			.title {
+				font-family: Montserrat-Bold;
+				font-size: 10px;
+				color: #FFFFFF;
+				letter-spacing: 2px;
+				line-height: 12px;
+				padding: 14px 20px;
+				background: #6ED0AE;
+				position: relative;
+				text-transform: uppercase;
+				&:before {
+					font-size: 14px;
+					content: '-';
+					position: absolute;
+					top: 10px;
+					right: 20px;
+				}
+			}
+			.map {
+				iframe {}
+			}
+		}
+	}
+	.group_2 {
+		float: left;
+		width: 60%;
+		.group_2--1 {
+			width: 100%;
+			height: 705px;
+			overflow: hidden;
+			background: #6ED0AE;
+			.image {
+				float: left;
+				width: 80%;
+				vertical-align: top;
+				overflow: hidden;
+				img {
+					min-width: 100%;
+					min-height: 705px;
+				}
+			}
+			ul.image_list {
+				float: left;
+				width: 20%;
+				vertical-align: top;
+				padding: 0 25px;
+				list-style-type: none;
+				li {
+					margin-top: 20px;
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+		.group_2--2 {
+			position: relative;
+			margin-top: 30px;
+			height: 105px;
+			.group_2--2--1 {
+				height: 45px;
+				background: #EEEEEE;
+				border-radius: 45px;
+				position: absolute;
+				left: 0;
+				width: 150px;
+				font-family: Montserrat-Regular;
+				font-size: 13px;
+				color: #3C3D41;
+				letter-spacing: 0.43px;
+				line-height: 45px;
+				padding-left: 30px;
+			}
+			.group_2--2--2 {
+				position: absolute;
+				z-index: 5;
+				left: 80px;
+				width: 200px;
+				height: 45px;
+				background: url(imgs/icon_phone.svg) 20px 12px no-repeat #63BC9C;
+				border-radius: 45px;
+				font-family: Montserrat-Bold;
+				font-size: 10px;
+				color: #FFFFFF;
+				letter-spacing: 2px;
+				line-height: 45px;
+				padding-right: 30px;
+				padding-left: 60px;
+				text-transform: uppercase;
+			}
+			.group_2--2--3 {
+				position: absolute;
+				left: 260px;
+				top: 0;
+				.button {
+					border-top: #EDEDED 1px solid;
+					border-left: #EDEDED 1px solid;
+					height: 45px;
+					float: left;
+					width: 85px;
+					background-position: center;
+					background-repeat: no-repeat;
+					&.facebook {
+						background-image: url(imgs/icon_module11_facebook.svg);
+					}
+					&.twitter {
+						background-image: url(imgs/icon_module11_twitter.svg);
+					}
+					&.instagram {
+						background-image: url(imgs/icon_module11_instagram.svg);
+					}
+				}
+			}
+		}
+	}
+}

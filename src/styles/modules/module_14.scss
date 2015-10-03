@@ -1,0 +1,58 @@
+.module.module_14 {
+	height: 300px;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 0;
+	position: relative;
+	background: white;
+	.category {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+	}
+	.image {
+		height: 140px;
+		overflow: hidden;
+		text-align: center;
+		img {
+			width: 100%;
+		}
+	}
+	.content {
+		padding: 25px 20px 0;
+		.title {
+			font-family: Montserrat-Bold;
+			font-size: 15px;
+			color: #3B3D40;
+			line-height: 18px;
+		}
+		.description {
+			font-family: PTSerif-Regular;
+			font-size: 14px;
+			color: #838D8F;
+			line-height: 18px;
+			padding-top: 10px;
+			height: 60px;
+		}
+		.detail {
+			font-family: Montserrat-Regular;
+			font-size: 12px;
+			color: #929B9D;
+			line-height: 14px;
+			border-top: #EEEEEE 1px solid;
+			padding: 12px 20px;
+			margin-left: -20px;
+			margin-right: -20px;
+			.message {
+				background: url(imgs/icon_message.svg) 0 0 no-repeat;
+				padding-left: 30px;
+				display: inline-block;
+			}
+			.love {
+				background: url(imgs/icon_heart.svg) 0 0 no-repeat;
+				padding-left: 30px;
+				display: inline-block;
+			}
+		}
+	}
+}
