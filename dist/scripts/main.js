@@ -101,6 +101,20 @@
     $('.action-search, .search-close').click(function() {
       return toggle('search');
     });
+    $('.select_group').each(function() {
+      var _self;
+      _self = $(this);
+      _self.click(function() {
+        return _self.find('.list').toggleClass('active');
+      });
+      return _self.find('.list li').each(function() {
+        return $(this).click(function() {
+          _self.find('.list li').removeClass('active');
+          _self.find('.selected').html($(this).html());
+          return $(this).addClass('active');
+        });
+      });
+    });
     sizeItv = setInterval(function() {
       return calculateSize(window.$size);
     }, 100);

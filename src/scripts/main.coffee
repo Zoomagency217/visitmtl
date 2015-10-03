@@ -70,6 +70,19 @@ $ ->
 	$('.action-search, .search-close').click ->
 		toggle 'search'
 
+	# Select group
+	$('.select_group').each ->
+		_self = $(this)
+
+		_self.click ->
+			_self.find('.list').toggleClass 'active'
+
+		_self.find('.list li').each ->
+			$(this).click ->
+				_self.find('.list li').removeClass 'active'
+				_self.find('.selected').html $(this).html()
+				$(this).addClass 'active'
+
 	# Show/hide video
 	sizeItv = setInterval ->
 		calculateSize window.$size

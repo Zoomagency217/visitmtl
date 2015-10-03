@@ -3,10 +3,9 @@
 	text-align: center;
 	padding-bottom: 20px;
 	.group {
-		opacity: 0.94;
 		font-family: Montserrat-Regular;
 		font-size: 30.39px;
-		color: #FFFFFF;
+		color: rgba(255, 255, 255, 0.94);
 		line-height: 57.45px;
 		white-space: nowrap;
 		margin: auto;
@@ -16,6 +15,7 @@
 			display: inline-block;
 			border-bottom: #4D1F09 2px dashed;
 			position: relative;
+			cursor: pointer;
 			.selected {
 				color: #4D1F09;
 			}
@@ -24,8 +24,30 @@
 				list-style-type: none;
 				overflow: hidden;
 				max-height: 0;
+				background: #48CFAD;
+				z-index: 5;
+				top: -50px;
+				padding: 0;
+				transition: max-height .3s;
+				-moz-transition: max-height .3s;
+				-webkit-transition: max-height .3s;
+				&.active {
+					max-height: 500px;
+				}
 				li {
-					padding: 0;
+					padding: 0 15px;
+					font-family: Montserrat-Regular;
+					font-size: 30.39px;
+					color: rgba(255, 255, 255, 0.57);
+					line-height: 57.45px;
+					&:hover {
+						background-color: #37BC9B;
+					}
+					&.active {
+						color: #4D1F09;
+						background: url(imgs/icon_checked.svg) right 15px top 15px no-repeat;
+						padding-right: 55px;
+					}
 				}
 			}
 		}

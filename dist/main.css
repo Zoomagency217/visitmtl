@@ -2028,10 +2028,9 @@ footer {
   text-align: center;
   padding-bottom: 20px; }
   .module.module_9 .group {
-    opacity: 0.94;
     font-family: Montserrat-Regular;
     font-size: 30.39px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.94);
     line-height: 57.45px;
     white-space: nowrap;
     margin: auto;
@@ -2040,16 +2039,36 @@ footer {
     .module.module_9 .group .select_group {
       display: inline-block;
       border-bottom: #4D1F09 2px dashed;
-      position: relative; }
+      position: relative;
+      cursor: pointer; }
       .module.module_9 .group .select_group .selected {
         color: #4D1F09; }
       .module.module_9 .group .select_group ul.list {
         position: absolute;
         list-style-type: none;
         overflow: hidden;
-        max-height: 0; }
+        max-height: 0;
+        background: #48CFAD;
+        z-index: 5;
+        top: -50px;
+        padding: 0;
+        transition: max-height .3s;
+        -moz-transition: max-height .3s;
+        -webkit-transition: max-height .3s; }
+        .module.module_9 .group .select_group ul.list.active {
+          max-height: 500px; }
         .module.module_9 .group .select_group ul.list li {
-          padding: 0; }
+          padding: 0 15px;
+          font-family: Montserrat-Regular;
+          font-size: 30.39px;
+          color: rgba(255, 255, 255, 0.57);
+          line-height: 57.45px; }
+          .module.module_9 .group .select_group ul.list li:hover {
+            background-color: #37BC9B; }
+          .module.module_9 .group .select_group ul.list li.active {
+            color: #4D1F09;
+            background: url(imgs/icon_checked.svg) right 15px top 15px no-repeat;
+            padding-right: 55px; }
     .module.module_9 .group .button {
       background-color: #48CFAD;
       display: inline-block;
