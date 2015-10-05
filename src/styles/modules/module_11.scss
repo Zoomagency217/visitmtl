@@ -14,8 +14,8 @@
 			letter-spacing: 2.18px;
 			line-height: 14px;
 			text-transform: uppercase;
-			background: url(imgs/icon_address.svg) 0 18px no-repeat;
-			padding: 20px;
+			background: url(imgs/icon_address.svg) 0 0 no-repeat;
+			padding: 0 20px;
 		}
 		> .title {
 			font-family: Montserrat-Bold;
@@ -23,6 +23,7 @@
 			color: #1F1F1F;
 			line-height: 39px;
 			padding-bottom: 20px;
+			margin-top: 15px;
 		}
 		.accordion-group {
 			.accordion {
@@ -40,6 +41,7 @@
 					overflow: hidden;
 					max-height: 0;
 					.description {
+						margin-top: 12px;
 						font-family: PTSerif-Regular;
 						font-size: 16px;
 						color: #777777;
@@ -47,7 +49,7 @@
 					}
 					ul.list {
 						list-style-type: none;
-						margin: 20px 0;
+						margin: 20px 0 0;
 						padding: 0;
 						li {
 							font-family: PTSerif-Regular;
@@ -74,7 +76,7 @@
 					content: '+';
 					position: absolute;
 					right: 10px;
-					top: 5px;
+					top: 7px;
 					color: #AAAAAA;
 				}
 				&.active {

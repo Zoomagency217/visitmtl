@@ -1938,15 +1938,17 @@ footer {
   display: table; }
   .module.module_8 .group_1 {
     display: table-cell;
-    padding: 25px 30px 15px;
+    padding: 32px 0 22px 40px;
     border-right: #fff 1px solid;
-    width: 1px;
+    width: 18%;
+    min-width: 190px;
     white-space: nowrap; }
     .sm .module.module_8 .group_1, .xs .module.module_8 .group_1 {
       display: block;
       width: 100%; }
     .module.module_8 .group_1 .img {
-      display: inline-block; }
+      display: inline-block;
+      margin-right: 15px; }
       .module.module_8 .group_1 .img img {
         margin-top: -10px;
         height: 34px; }
@@ -2206,14 +2208,15 @@ footer {
       letter-spacing: 2.18px;
       line-height: 14px;
       text-transform: uppercase;
-      background: url(imgs/icon_address.svg) 0 18px no-repeat;
-      padding: 20px; }
+      background: url(imgs/icon_address.svg) 0 0 no-repeat;
+      padding: 0 20px; }
     .module.module_11 .group_1 > .title {
       font-family: Montserrat-Bold;
       font-size: 32px;
       color: #1F1F1F;
       line-height: 39px;
-      padding-bottom: 20px; }
+      padding-bottom: 20px;
+      margin-top: 15px; }
     .module.module_11 .group_1 .accordion-group .accordion {
       border-top: #DDDDDD 1px solid;
       padding: 15px 0;
@@ -2228,13 +2231,14 @@ footer {
         overflow: hidden;
         max-height: 0; }
         .module.module_11 .group_1 .accordion-group .accordion .content .description {
+          margin-top: 12px;
           font-family: PTSerif-Regular;
           font-size: 16px;
           color: #777777;
           line-height: 21px; }
         .module.module_11 .group_1 .accordion-group .accordion .content ul.list {
           list-style-type: none;
-          margin: 20px 0;
+          margin: 20px 0 0;
           padding: 0; }
           .module.module_11 .group_1 .accordion-group .accordion .content ul.list li {
             font-family: PTSerif-Regular;
@@ -2257,7 +2261,7 @@ footer {
         content: '+';
         position: absolute;
         right: 10px;
-        top: 5px;
+        top: 7px;
         color: #AAAAAA; }
       .module.module_11 .group_1 .accordion-group .accordion.active:before {
         content: '-'; }
@@ -2642,7 +2646,7 @@ footer {
 .page--eat_play > .area_2 {
   width: 100%; }
 .page--eat_play > .area_3 {
-  padding: 20px 10px 10px; }
+  padding: 20px 20px 10px; }
 .page--eat_play > .area_4 {
   padding: 10px; }
 .page--eat_play > .area_5 {
