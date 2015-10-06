@@ -89,12 +89,13 @@
 				}
 			}
 			.content {
-				margin-top: 25px;
+				margin-top: 27px;
+				line-height: 18px;
 				.title {
-					font-family: Montserrat-Bold;
 					font-size: 15px;
+					font-family: Montserrat-Bold;
 					color: #393D3F;
-					line-height: 18px;
+					@include showline(2, 36px);
 					&:hover {
 						color: #63BC9C;
 						text-decoration: none;
@@ -105,13 +106,13 @@
 					font-size: 12px;
 					color: #838C8C;
 					line-height: 15px;
-					margin-top: 5px;
+					margin-top: 7px;
 				}
 				.price {
 					font-family: Montserrat-Regular;
 					font-size: 13px;
 					line-height: 16px;
-					margin-top: 5px;
+					margin-top: 6px;
 					.original {
 						display: inline-block;
 						color: #838C8E;

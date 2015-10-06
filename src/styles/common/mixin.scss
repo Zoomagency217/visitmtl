@@ -3,3 +3,14 @@
 	-moz-user-select: none;
 	-webkit-user-select: none;
 }
+
+@mixin showline($line, $height) {
+	-webkit-line-clamp: $line;
+	-moz-line-clamp: $line;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	display: -webkit-box;
+	height: $height;
+}

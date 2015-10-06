@@ -25,6 +25,7 @@
 			font-size: 15px;
 			color: #3B3D40;
 			line-height: 18px;
+			@include showline(2, 36px);
 		}
 		.description {
 			font-family: PTSerif-Regular;
@@ -32,6 +33,7 @@
 			color: #838D8F;
 			line-height: 18px;
 			padding-top: 10px;
+			@include showline(2, 46px);
 		}
 	}
 }
