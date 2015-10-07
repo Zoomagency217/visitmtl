@@ -372,6 +372,28 @@ body {
   body.sm.pushed > .container, body.xs.pushed > .container {
     margin-right: 320px;
     margin-left: -320px; }
+  body .module {
+    width: 100%;
+    padding: 9px 0; }
+    body .module.child_module {
+      padding: 9px 15px; }
+      body .module.child_module .more {
+        line-height: 12px;
+        text-align: center;
+        padding: 9px;
+        text-transform: uppercase;
+        border-top: #EEEEEE 1px solid; }
+        body .module.child_module .more a {
+          font-family: Montserrat-Bold;
+          font-size: 10px;
+          color: #838C8D;
+          letter-spacing: 2px; }
+    body .module > .module_content {
+      width: 100%;
+      border-radius: 4px;
+      background-color: #ffffff;
+      overflow: hidden;
+      position: relative; }
   body.sm, body.xs {
     background: white; }
     body.sm > .container, body.xs > .container {
@@ -387,35 +409,13 @@ body {
           border-top: #ececec 1px solid;
           border-bottom: #ececec 1px solid;
           padding: 14px 0; }
+  body.lg .module.child_module .more, body.md .module.child_module .more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; }
   body.sm, body.xs, body.md, body.lg {
     display: block; }
-  body .module {
-    width: 100%;
-    padding: 9px 0; }
-    body .module.child_module {
-      padding: 9px 15px; }
-      body .module.child_module .more {
-        line-height: 12px;
-        text-align: center;
-        padding: 9px;
-        text-transform: uppercase;
-        border-top: #EEEEEE 1px solid; }
-        .lg body .module.child_module .more, .md body .module.child_module .more {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%; }
-        body .module.child_module .more a {
-          font-family: Montserrat-Bold;
-          font-size: 10px;
-          color: #838C8D;
-          letter-spacing: 2px; }
-    body .module > .module_content {
-      width: 100%;
-      border-radius: 4px;
-      background-color: #ffffff;
-      overflow: hidden;
-      position: relative; }
 
 .page {
   margin-top: 128px; }
