@@ -21,7 +21,6 @@
 		.module_5--feature {
 			background: #F9F9F9;
 			padding: $padding-vertical $padding-horizontal;
-			border-bottom: #eeeeee 1px solid;
 			.sm &,
 			.xs & {
 				padding: 0;
@@ -31,6 +30,7 @@
 				width: 44%;
 				border-radius: 4px;
 				overflow: hidden;
+				max-height: 169px;
 				.sm &,
 				.xs & {
 					border-radius: 0;
@@ -93,7 +93,7 @@
 		}
 		.module_5--item {
 			padding: 14px 0;
-			border-bottom: #eeeeee 1px solid;
+			border-top: #eeeeee 1px solid;
 			.sm &,
 			.xs & {
 				border-top: #eeeeee 1px solid;

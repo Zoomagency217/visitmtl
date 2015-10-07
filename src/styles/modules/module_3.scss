@@ -26,7 +26,6 @@
 		}
 		.module_3--feature {
 			padding: 18px 20px;
-			border-bottom: #EEEEEE 1px solid;
 			.sm &,
 			.xs & {
 				padding: 18px 30px;
@@ -36,6 +35,10 @@
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
+				.lg &,
+				.md & {
+					max-height: 141px;
+				}
 				.sm &,
 				.xs & {
 					border-radius: 0;
@@ -72,12 +75,17 @@
 			}
 		}
 		.module_3--item {
-			border-bottom: #EEEEEE 1px solid;
+			border-top: #EEEEEE 1px solid;
 			padding: 17px 20px 16px;
 			.sm &,
 			.xs & {
 				padding: 18px 30px;
 				border: none;
+			}
+			.image {
+				img {
+					width: 100%;
+				}
 			}
 			.category {
 				font-family: Montserrat-Bold;

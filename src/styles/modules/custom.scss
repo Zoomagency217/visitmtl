@@ -62,6 +62,14 @@ body {
 				text-align: center;
 				padding: 9px;
 				text-transform: uppercase;
+				border-top: #EEEEEE 1px solid;
+				.lg &,
+				.md & {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+				}
 				a {
 					font-family: Montserrat-Bold;
 					font-size: 10px;

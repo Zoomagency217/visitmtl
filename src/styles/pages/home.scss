@@ -8,10 +8,17 @@
 	> .area_3 {
 		float: left;
 		width: 25%;
+		.module > .module_content {
+			.lg &,
+			.md & {
+				height: 759px;
+			}
+		}
 		.sm &,
 		.xs & {
 			width: 100%;
 			float: none;
+			height: auto;
 		}
 	}
 	> .area_4 {
@@ -22,10 +29,51 @@
 			width: 100%;
 			float: none;
 		}
+		> .area_4--1 {
+			.module > .module_content {
+				.lg &,
+				.md & {
+					height: 311px;
+				}
+				.sm &,
+				.xs & {
+					height: auto;
+				}
+			}
+		}
+		> .area_4--2 {
+			.module > .module_content {
+				.lg &,
+				.md & {
+					height: 430px;
+				}
+				.sm &,
+				.xs & {
+					height: auto;
+				}
+			}
+		}
 	}
 	> .area_5 {
 		float: left;
 		width: 25%;
+		.module {
+			.lg &,
+			.md & {
+				height: 759px;
+			}
+			.sm &,
+			.xs & {
+				height: auto;
+			}
+			> .module_content {
+				height: 759px;
+				.sm &,
+				.xs & {
+					height: auto;
+				}
+			}
+		}
 		.sm &,
 		.xs & {
 			width: 100%;
