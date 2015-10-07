@@ -2292,7 +2292,7 @@ footer {
       background-color: #F7F7F7; }
     .xs .module.module_10 .list .items {
       background-image: none;
-      padding: 10px;
+      padding: 10px 20px;
       position: relative;
       min-height: 150px; }
     .module.module_10 .list .items .avatar {
@@ -2307,13 +2307,14 @@ footer {
       width: 700px;
       margin-left: 10px; }
       .xs .module.module_10 .list .items .content {
-        margin-right: 10px;
-        width: auto;
+        margin-left: 0;
+        width: 100%;
         border-bottom: #ddd 1px solid;
         padding-bottom: 15px;
-        margin-bottom: 25px; }
+        margin-bottom: 25px;
+        min-height: 104px; }
       .sm .module.module_10 .list .items .content {
-        width: 500px; }
+        width: 580px; }
       .module.module_10 .list .items .content .distance {
         font-family: Montserrat-Bold;
         font-size: 10px;
