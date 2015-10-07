@@ -7,6 +7,13 @@
 		padding: 40px;
 		float: left;
 		width: 40%;
+		.sm &,
+		.xs & {
+			padding: 20px 20px 0;
+			float: none;
+			width: 100%;
+			margin-bottom: 0;
+		}
 		.distance {
 			font-family: Montserrat-Bold;
 			font-size: 12px;
@@ -95,6 +102,10 @@
 			border-radius: 5px;
 			overflow: hidden;
 			padding: 0;
+			.xs & {
+				width: 100%;
+				border-radius: 0;
+			}
 			.title {
 				font-family: Montserrat-Bold;
 				font-size: 10px;
@@ -114,6 +125,7 @@
 				}
 			}
 			.map {
+				margin-bottom: 20px;
 				iframe {}
 			}
 		}
@@ -121,19 +133,39 @@
 	.group_2 {
 		float: left;
 		width: 60%;
+		.sm &,
+		.xs & {
+			float: none;
+			width: 100%;
+		}
 		.group_2--1 {
 			width: 100%;
 			height: 705px;
 			overflow: hidden;
 			background: #6ED0AE;
+			.sm &,
+			.xs & {
+				height: auto;
+				padding-bottom: 10px;
+			}
 			.image {
 				float: left;
 				width: 80%;
 				vertical-align: top;
 				overflow: hidden;
+				.sm &,
+				.xs & {
+					float: none;
+					width: 100%;
+				}
 				img {
 					min-width: 100%;
 					min-height: 705px;
+					.sm &,
+					.xs & {
+						width: 100%;
+						min-height: 0;
+					}
 				}
 			}
 			ul.image_list {
@@ -142,8 +174,23 @@
 				vertical-align: top;
 				padding: 0 25px;
 				list-style-type: none;
+				.sm &,
+				.xs & {
+					float: none;
+					width: 100%;
+					height: 100px;
+					padding: 0 10px;
+				}
 				li {
 					margin-top: 20px;
+					.sm &,
+					.xs & {
+						float: left;
+						width: 100px;
+						height: 80px;
+						padding: 0 10px;
+						overflow: hidden;
+					}
 					img {
 						width: 100%;
 					}
@@ -154,6 +201,11 @@
 			position: relative;
 			margin-top: 30px;
 			height: 105px;
+			.sm &,
+			.xs & {
+				padding: 20px;
+				margin-top: 0;
+			}
 			.group_2--2--1 {
 				height: 45px;
 				background: #EEEEEE;
@@ -167,11 +219,18 @@
 				letter-spacing: 0.43px;
 				line-height: 45px;
 				padding-left: 30px;
+				.xs & {
+					height: 30px;
+					line-height: 30px;
+					left: 10px;
+					padding-left: 10px;
+					line-height: 30px;
+				}
 			}
 			.group_2--2--2 {
 				position: absolute;
 				z-index: 5;
-				left: 80px;
+				left: 7f0px;
 				width: 200px;
 				height: 45px;
 				background: url(imgs/icon_phone.svg) 20px 12px no-repeat #63BC9C;
@@ -184,19 +243,40 @@
 				padding-right: 30px;
 				padding-left: 60px;
 				text-transform: uppercase;
+				.xs & {
+					height: 30px;
+					line-height: 30px;
+					padding-left: 35px;
+					padding-right: 0;
+					background-size: 12px;
+					background-position: 15px 10px;
+					width: 150px;
+					letter-spacing: 0.5px;
+					left: 60px;
+				}
 			}
 			.group_2--2--3 {
 				position: absolute;
 				left: 260px;
 				top: 0;
+				.xs & {
+					left: 200px;
+					top: 20px;
+				}
 				.button {
 					border-top: #EDEDED 1px solid;
 					border-left: #EDEDED 1px solid;
+					border-bottom: #EDEDED 1px solid;
 					height: 45px;
 					float: left;
 					width: 85px;
 					background-position: center;
 					background-repeat: no-repeat;
+					.xs & {
+						height: 30px;
+						line-height: 30px;
+						width: 36px;
+					}
 					&.facebook {
 						background-image: url(imgs/icon_module11_facebook.svg);
 					}
