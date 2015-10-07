@@ -69,6 +69,7 @@
 					}
 					a {
 						color: #3B3D40;
+						@include showmaxline(2, 36px);
 					}
 				}
 				.description {
@@ -76,7 +77,9 @@
 					font-size: 14px;
 					color: #838C8E;
 					line-height: 18px;
-					padding: 0 0px 8px 22px;
+					padding: 0 0 0 22px;
+					margin-bottom: 8px;
+					@include showmaxline(2, 36px);
 					.sm &,
 					.xs & {
 						padding: 7px 15px;
@@ -125,6 +128,7 @@
 				}
 				a {
 					color: #666D70;
+					@include showline(1, 18px);
 				}
 			}
 		}

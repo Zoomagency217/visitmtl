@@ -36,6 +36,7 @@
 				color: #3C3D41;
 				a {
 					color: #3C3D41;
+					@include showmaxline(3, 81px);
 				}
 				.xs & {
 					font-size: $mb-fontsize-title;
@@ -49,6 +50,7 @@
 				color: #818A8C;
 				line-height: 18px;
 				margin-bottom: 30px;
+				@include showmaxline(2, 36px);
 				.xs & {
 					font-size: $mb-fontsize-content;
 					line-height: $mb-lineheight-content;

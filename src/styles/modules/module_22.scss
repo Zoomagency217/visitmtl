@@ -1,0 +1,61 @@
+.module.module_22 {
+	height: 300px;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 0;
+	position: relative;
+	background: #3C3D41;
+	.category {
+		position: absolute;
+		top: 10px;
+		left: 20px;
+	}
+	.image {
+		height: 170px;
+		overflow: hidden;
+		text-align: center;
+		img {
+			width: 100%;
+		}
+	}
+	.content {
+		text-align: center;
+		.title {
+			font-family: Montserrat-Bold;
+			font-size: 15px;
+			color: #FFFFFF;
+			line-height: 18px;
+			padding-top: 25px;
+			@include showline(2, 61px);
+		}
+		.button {
+			font-family: Montserrat-Bold;
+			font-size: 10px;
+			color: #666666;
+			letter-spacing: 1.79px;
+			border: #EDEDED 1px solid;
+			border-radius: 20px;
+			width: 130px;
+			margin-top: 16px;
+			position: relative;
+			background: transparent;
+			height: 32px;
+			background: url(imgs/icon_heart_grey.svg) 10px 10px no-repeat;
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+			.count {
+				background: #B8C6C7;
+				border-radius: 20px;
+				font-family: Montserrat-Bold;
+				font-size: 10px;
+				color: #FFFFFF;
+				line-height: 12px;
+				position: absolute;
+				top: 7px;
+				right: 7px;
+				padding: 2px 7px;
+			}
+		}
+	}
+}

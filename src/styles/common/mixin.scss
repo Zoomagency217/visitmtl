@@ -14,3 +14,14 @@
 	display: -webkit-box;
 	height: $height;
 }
+
+@mixin showmaxline($line, $height) {
+	-webkit-line-clamp: $line;
+	-moz-line-clamp: $line;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	display: -webkit-box;
+	max-height: $height;
+}

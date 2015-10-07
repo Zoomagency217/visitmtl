@@ -1,0 +1,31 @@
+.module.module_19 {
+	height: 300px;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 0;
+	position: relative;
+	background: white;
+	.image {
+		height: 200px;
+		overflow: hidden;
+		text-align: center;
+		img {
+			width: 100%;
+		}
+	}
+	.content {
+		padding: 8px 20px;
+		.category {
+			display: inline-block;
+			margin-right: 10px;
+		}
+		.title {
+			margin-top: 10px;
+			font-family: Montserrat-Bold;
+			font-size: 15px;
+			color: #3B3D40;
+			line-height: 18px;
+			@include showline(2, 36px);
+		}
+	}
+}

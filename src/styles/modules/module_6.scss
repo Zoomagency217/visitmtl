@@ -25,7 +25,7 @@
 			}
 		}
 		.module_6--feature {
-			padding: 20px 15px 19px;
+			padding: 20px 15px;
 			border-bottom: #eeeeee 1px solid;
 			.sm &,
 			.xs & {
@@ -46,6 +46,7 @@
 				}
 				a {
 					color: #838C8E;
+					@include showline(2, 37px);
 				}
 			}
 		}
@@ -60,7 +61,7 @@
 			.title {
 				font-family: PTSerif-Regular;
 				font-size: 16px;
-				line-height: 18px;
+				line-height: 24px;
 				text-align: center;
 				width: 160px;
 				margin: auto;
@@ -77,6 +78,7 @@
 				}
 				a {
 					color: #666E70;
+					@include showline(3, 70px);
 				}
 			}
 			.hr-line {
