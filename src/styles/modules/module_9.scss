@@ -11,6 +11,16 @@
 		margin: auto;
 		display: inline-block;
 		text-align: left;
+		.xs & {
+			font-size: 20px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			line-height: 37px;
+		}
+		.sm & {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
 		.select_group {
 			display: inline-block;
 			border-bottom: #4D1F09 2px dashed;
@@ -51,36 +61,59 @@
 				}
 			}
 		}
-		.button {
-			background-color: #48CFAD;
-			display: inline-block;
-			height: 48px;
-			position: relative;
-			margin-top: 20px;
-			border-radius: 3px;
-			.icon {
-				background: url(imgs/icon_right_arrow.svg) center no-repeat #37BC9B;
-				height: 48px;
-				left: 0;
-				position: absolute;
-				top: 0;
-				width: 45px;
+		.button_groups {
+			.xs & {
+				text-align: center;
 			}
-			button {
-				-webkit-appearance: none;
-				-moz-appearance: none;
-				background: transparent;
-				border: none;
-				color: #FFFFFF;
-				display: block;
-				font-family: Montserrat-Regular;
-				font-size: 18px;
-				line-height: 48px;
+			.button {
+				background-color: #48CFAD;
+				display: inline-block;
 				height: 48px;
-				outline: none;
-				padding: 0 10px 0 55px;
-				text-transform: uppercase;
-				width: 100%;
+				position: relative;
+				margin-top: 20px;
+				border-radius: 3px;
+				.xs & {
+					margin: 16px auto;
+					width: 210px;
+					height: 28px;
+					border-radius: 28px;
+				}
+				.icon {
+					background: url(imgs/icon_right_arrow.svg) center no-repeat #37BC9B;
+					height: 48px;
+					left: 0;
+					position: absolute;
+					top: 0;
+					width: 45px;
+					.xs & {
+						height: 28px;
+						border-radius: 28px;
+						width: 40px;
+					}
+				}
+				button {
+					-webkit-appearance: none;
+					-moz-appearance: none;
+					background: transparent;
+					border: none;
+					color: #FFFFFF;
+					display: block;
+					font-family: Montserrat-Regular;
+					font-size: 18px;
+					line-height: 48px;
+					height: 48px;
+					outline: none;
+					padding: 0 10px 0 55px;
+					text-transform: uppercase;
+					width: 100%;
+					.xs & {
+						font-size: 12px;
+						line-height: 28px;
+						height: 28px;
+						margin: auto;
+						display: block;
+					}
+				}
 			}
 		}
 	}

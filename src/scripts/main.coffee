@@ -47,7 +47,7 @@ showVideo = ->
 
 hideVideo = ->
 	$('html').removeClass 'background-video'
-	$('#bg-video video').get(0).pause()
+	if $('#bg-video video').get(0) then $('#bg-video video').get(0).pause()
 	lastSize = window.$size
 
 $ ->

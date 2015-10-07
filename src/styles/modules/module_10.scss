@@ -9,6 +9,12 @@
 		line-height: 14px;
 		text-transform: uppercase;
 		padding: 18px 30px;
+		.xs & {
+			text-transform: none;
+			font-size: 18px;
+			letter-spacing: 0px;
+			padding: 27px 18px;
+		}
 	}
 	.list {
 		.items {
@@ -18,17 +24,36 @@
 			&:nth-child(odd) {
 				background-color: #F7F7F7;
 			}
+			.xs & {
+				background-image: none;
+				padding: 10px;
+				position: relative;
+				min-height: 150px;
+			}
 			.avatar {
 				float: left;
 				width: 30px;
 				img.img-responsive {
 					border-radius: 100%;
 				}
+				.xs & {
+					display: none;
+				}
 			}
 			.content {
 				float: left;
 				width: 700px;
 				margin-left: 10px;
+				.xs & {
+					margin-right: 10px;
+					width: auto;
+					border-bottom: #ddd 1px solid;
+					padding-bottom: 15px;
+					margin-bottom: 25px;
+				}
+				.sm & {
+					width: 500px;
+				}
 				.distance {
 					font-family: Montserrat-Bold;
 					font-size: 10px;
@@ -38,6 +63,18 @@
 					text-transform: uppercase;
 					background: url(imgs/icon_address.svg) 0 18px no-repeat;
 					padding: 20px;
+					.xs & {
+						position: absolute;
+						bottom: 10px;
+						left: 20px;
+						font-family: Montserrat-Regular;
+						font-style: italic;
+						padding-bottom: 0;
+						padding: 0 0 0 12px;
+						letter-spacing: 0;
+						background-position: 0 0;
+						background-size: 8px;
+					}
 				}
 				.article {
 					display: table;
@@ -52,28 +89,47 @@
 							max-width: 100%;
 							max-height: 100%;
 						}
+						.xs & {
+							position: absolute;
+							top: 15px;
+							left: 20px;
+						}
 					}
 					.detail {
 						display: table-cell;
 						vertical-align: top;
 						padding-left: 15px;
+						.xs & {
+							padding-left: 100px;
+						}
 						.title {
 							font-family: Montserrat-Bold;
 							font-size: 22px;
 							color: #3C3D41;
 							line-height: 27px;
+							.xs & {
+								font-size: 13px;
+								margin-top: -6px;
+							}
 						}
 						.description {
 							font-family: PTSerif-Regular;
 							font-size: 13.14px;
 							color: #838D8F;
 							line-height: 22.39px;
+							.xs & {
+								font-size: 12px;
+								line-height: 15px;
+							}
 						}
 						.neigborhoud {
 							font-family: PTSerif-Italic;
 							font-size: 12px;
 							color: #AAAAAA;
 							line-height: 15px;
+							.xs & {
+								margin-top: 10px;
+							}
 						}
 					}
 				}
@@ -85,6 +141,15 @@
 				color: #AAAAAA;
 				line-height: 15px;
 				white-space: nowrap;
+				.xs & {
+					font-family: Montserrat-Regular;
+					font-style: italic;
+					font-size: 10px;
+					position: absolute;
+					bottom: 10px;
+					right: 20px;
+					color: #3C3D41;
+				}
 			}
 		}
 	}
@@ -93,6 +158,9 @@
 		width: 100%;
 		height: 45px;
 		margin-bottom: 20px;
+		.xs & {
+			display: none;
+		}
 		button.button {
 			width: 100%;
 			font-family: Montserrat-Bold;

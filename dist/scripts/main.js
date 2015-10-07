@@ -78,7 +78,9 @@
 
   hideVideo = function() {
     $('html').removeClass('background-video');
-    $('#bg-video video').get(0).pause();
+    if ($('#bg-video video').get(0)) {
+      $('#bg-video video').get(0).pause();
+    }
     return lastSize = window.$size;
   };
 
