@@ -1276,32 +1276,34 @@ footer {
       font-size: 13px;
       line-height: 15px;
       margin: 8px 0; }
-  .module_1 > .module_content .main > .slide > .cta > .group_4 > .button_left {
-    display: inline-block;
-    font-family: Montserrat-Bold;
-    font-size: 10px;
-    color: #ffffff;
-    letter-spacing: 2px;
-    line-height: 12px;
-    border: 1px solid rgba(206, 223, 225, 0.6);
-    border-radius: 40px;
-    background: url("imgs/icon_photos.svg") 21px 9px no-repeat;
-    padding: 10px 30px 10px 64px;
-    cursor: pointer; }
-  .module_1 > .module_content .main > .slide > .cta > .group_4 > .button_right {
-    background: #6848E1;
-    border-radius: 40px;
-    display: inline-block;
-    font-family: Montserrat-Bold;
-    font-size: 10px;
-    color: #ffffff;
-    letter-spacing: 2px;
-    line-height: 12px;
-    padding: 10px 20px;
-    margin-left: 10px;
-    cursor: pointer; }
-  .sm .module_1 > .module_content .main > .slide > .cta > .group_4, .xs .module_1 > .module_content .main > .slide > .cta > .group_4 {
-    display: none; }
+  .module_1 > .module_content .main > .slide > .cta > .group_4 {
+    width: 500px; }
+    .module_1 > .module_content .main > .slide > .cta > .group_4 > .button_left {
+      display: inline-block;
+      font-family: Montserrat-Bold;
+      font-size: 10px;
+      color: #ffffff;
+      letter-spacing: 2px;
+      line-height: 12px;
+      border: 1px solid rgba(206, 223, 225, 0.6);
+      border-radius: 40px;
+      background: url("imgs/icon_photos.svg") 21px 9px no-repeat;
+      padding: 10px 30px 10px 64px;
+      cursor: pointer; }
+    .module_1 > .module_content .main > .slide > .cta > .group_4 > .button_right {
+      background: #6848E1;
+      border-radius: 40px;
+      display: inline-block;
+      font-family: Montserrat-Bold;
+      font-size: 10px;
+      color: #ffffff;
+      letter-spacing: 2px;
+      line-height: 12px;
+      padding: 10px 20px;
+      margin-left: 10px;
+      cursor: pointer; }
+    .sm .module_1 > .module_content .main > .slide > .cta > .group_4, .xs .module_1 > .module_content .main > .slide > .cta > .group_4 {
+      display: none; }
 .module_1 > .module_content .main > .slide > .background {
   z-index: 0;
   text-align: center;
