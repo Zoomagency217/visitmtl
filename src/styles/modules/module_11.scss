@@ -181,6 +181,7 @@
 					height: 100px;
 					padding: 0 10px;
 					position: relative;
+					text-align: center;
 				}
 				li {
 					margin-top: 20px;
@@ -189,7 +190,7 @@
 					overflow: hidden;
 					border-radius: 5px;
 					.xs & {
-						float: left;
+						display: inline-block;
 						height: 80px;
 						padding: 0 10px;
 						border-radius: 0

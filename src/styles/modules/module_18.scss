@@ -37,6 +37,8 @@
 				font-size: 13px;
 				.xs & {
 					padding: 4px 10px 0;
+					font-size: 0;
+					height: 35px;
 				}
 				&:hover {
 					color: white;
@@ -58,6 +60,9 @@
 					color: #c26157;
 					left: 16px;
 					font-size: 20px;
+					.xs & {
+						left: 10px;
+					}
 				}
 				input {
 					max-width: 100%;
@@ -91,6 +96,9 @@
 					input {
 						width: 450px;
 						padding: 0 20px 0 40px;
+						.xs & {
+							padding: 0 10px 0 34px;
+						}
 					}
 				}
 			}
@@ -118,6 +126,10 @@
 						input {
 							padding: 0 20px 0 40px;
 							width: 145px;
+							.xs & {
+								padding: 0 10px 0 34px;
+								width: 137px;
+							}
 						}
 					}
 				}
@@ -130,6 +142,11 @@
 						input {
 							padding: 0 20px 0 40px;
 							width: 145px;
+							.xs & {
+								padding: 0 10px 0 34px;
+								width: 138px;
+								margin-right: 0;
+							}
 						}
 					}
 				}

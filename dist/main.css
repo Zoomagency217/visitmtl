@@ -2590,7 +2590,8 @@ footer {
           width: 100%;
           height: 100px;
           padding: 0 10px;
-          position: relative; }
+          position: relative;
+          text-align: center; }
         .module.module_11 .group_2 .group_2--1 ul.image_list li {
           margin-top: 20px;
           width: 100px;
@@ -2598,7 +2599,7 @@ footer {
           overflow: hidden;
           border-radius: 5px; }
           .xs .module.module_11 .group_2 .group_2--1 ul.image_list li {
-            float: left;
+            display: inline-block;
             height: 80px;
             padding: 0 10px;
             border-radius: 0; }
@@ -3231,7 +3232,9 @@ footer {
       font-family: Montserrat-Bold;
       font-size: 13px; }
       .xs .module.module_18 form .group_1 a.button {
-        padding: 4px 10px 0; }
+        padding: 4px 10px 0;
+        font-size: 0;
+        height: 35px; }
       .module.module_18 form .group_1 a.button:hover {
         color: white;
         background: rgba(255, 255, 255, 0.5); }
@@ -3247,6 +3250,8 @@ footer {
         color: #c26157;
         left: 16px;
         font-size: 20px; }
+        .xs .module.module_18 form .group_2 .input .icon {
+          left: 10px; }
       .module.module_18 form .group_2 .input input {
         max-width: 100%;
         border: none;
@@ -3275,6 +3280,8 @@ footer {
         .module.module_18 form .group_2 .group_2--1 .input input {
           width: 450px;
           padding: 0 20px 0 40px; }
+          .xs .module.module_18 form .group_2 .group_2--1 .input input {
+            padding: 0 10px 0 34px; }
     .module.module_18 form .group_2 .group_2--2 {
       float: left;
       margin-top: 30px; }
@@ -3291,11 +3298,18 @@ footer {
       .module.module_18 form .group_2 .group_2--2 .group_2--2--1 .input input {
         padding: 0 20px 0 40px;
         width: 145px; }
+        .xs .module.module_18 form .group_2 .group_2--2 .group_2--2--1 .input input {
+          padding: 0 10px 0 34px;
+          width: 137px; }
       .module.module_18 form .group_2 .group_2--2 .group_2--2--2 .input .icon {
         top: 2px; }
       .module.module_18 form .group_2 .group_2--2 .group_2--2--2 .input input {
         padding: 0 20px 0 40px;
         width: 145px; }
+        .xs .module.module_18 form .group_2 .group_2--2 .group_2--2--2 .input input {
+          padding: 0 10px 0 34px;
+          width: 138px;
+          margin-right: 0; }
       .module.module_18 form .group_2 .group_2--2 .group_2--2--3 .input input {
         width: 55px;
         text-align: center; }
