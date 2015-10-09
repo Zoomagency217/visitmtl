@@ -37,6 +37,7 @@ module.exports = (grunt) ->
                     'dist/eat.html': ['src/templates/eat.jade']
                     'dist/sleep.html': ['src/templates/sleep.jade']
                     'dist/get_here.html': ['src/templates/get_here.jade']
+                    'dist/get_here--story.html': ['src/templates/get_here--story.jade']
 
             templates:
                 options:

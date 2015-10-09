@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Watch-About" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+            <ellipse id="Icon-Stoke" stroke="#DDDDDD" sketch:type="MSShapeGroup" cx="10.4383282" cy="10.4837476" rx="10.4383282" ry="10.4397706"></ellipse>
+            <path d="M13.9237488,10.6363327 L8.82283358,8.2555767 C8.7276165,8.21476374 8.68680918,8.17395078 8.57798966,8.17395078 C8.42836281,8.17395078 8.23792864,8.26918102 8.23792864,8.44603718 L8.23792864,13.3435924 C8.23792864,13.5204485 8.42836281,13.6156788 8.57798966,13.6156788 C8.68680918,13.6156788 8.7276165,13.5748658 8.82283358,13.5340529 L13.9237488,11.1532969 C14.0325683,11.0988796 14.1413878,11.0444623 14.1413878,10.8948148 C14.1413878,10.7451673 14.0325683,10.69075 13.9237488,10.6363327 Z" id="Icon" fill="#838D8F" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
