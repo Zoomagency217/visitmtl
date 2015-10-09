@@ -12,11 +12,17 @@
 	.grey & {
 		background: #434A54;
 	}
+	.purple & {
+		background: #967ADC;
+	}
 	.category {
 		position: absolute;
 		top: 20px;
 		left: 20px;
-		margin-left: -3px;
+		margin-left: -12px;
+		.button {
+			background: none;
+		}
 	}
 	.title {
 		font-family: Montserrat-Bold;

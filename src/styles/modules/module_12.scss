@@ -17,6 +17,9 @@
 		padding: 30px;
 		height: 300px;
 		position: relative;
+		.purple & {
+			background: #6848E1;
+		}
 		.sm &,
 		.xs & {
 			float: none;
@@ -46,6 +49,14 @@
 				height: 10px;
 				top: auto;
 				transform: translate3d(-10px, 0, 0);
+			}
+			.purple & {
+				border-left-color: #6848E1;
+				.sm &,
+				.xs & {
+					border-top-color: #6848E1;
+					border-left-color: transparent;
+				}
 			}
 		}
 		.category {
