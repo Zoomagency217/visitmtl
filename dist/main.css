@@ -505,6 +505,16 @@ html.fixed {
     text-decoration: none;
     opacity: 0.8; }
 
+.purple .original_category .button {
+  background: #6B3DE4; }
+.green .original_category .button {
+  background: #58A874; }
+.blue .original_category .button {
+  background: #387AC2; }
+.red .original_category .button {
+  background: #FC6E51; }
+.grey .original_category .button {
+  background: #434A54; }
 .original_category.purple .button {
   background: #6B3DE4; }
 .original_category.green .button {
@@ -1541,6 +1551,8 @@ footer {
   background: url(imgs/icon_flag.svg) no-repeat;
   background-position: right 30px top -2px;
   text-transform: uppercase; }
+  .green .module_3 > .module_content > .title {
+    background-image: url(imgs/icon_flag--green.svg); }
   .sm .module_3 > .module_content > .title, .xs .module_3 > .module_content > .title {
     background-position: right 30px top 0;
     border: none;
@@ -2081,6 +2093,8 @@ footer {
   display: table; }
   .green .module.module_8 {
     background-color: #37BC9B; }
+  .purple .module.module_8 {
+    background-color: #6848E1; }
   .module.module_8 .group_1 {
     display: table-cell;
     padding: 27px 0 27px 40px;
@@ -2973,7 +2987,8 @@ footer {
   .module.module_15 .category {
     position: absolute;
     top: 20px;
-    left: 20px; }
+    left: 20px;
+    margin-left: -3px; }
   .module.module_15 .title {
     font-family: Montserrat-Bold;
     font-size: 22px;

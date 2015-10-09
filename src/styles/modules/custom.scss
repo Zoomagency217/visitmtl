@@ -218,6 +218,21 @@ html.fixed {
 }
 
 .button {
+	.purple .original_category & {
+		background: #6B3DE4;
+	}
+	.green .original_category & {
+		background: #58A874;
+	}
+	.blue .original_category & {
+		background: #387AC2;
+	}
+	.red .original_category & {
+		background: #FC6E51;
+	}
+	.grey .original_category & {
+		background: #434A54;
+	}
 	.original_category.purple & {
 		background: #6B3DE4;
 	}

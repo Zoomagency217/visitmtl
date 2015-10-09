@@ -1,0 +1,143 @@
+.page.page--sleep {
+	.area_1 {}
+	.area_2 {
+		&.green {}
+	}
+	.area_3 {
+		padding: 10px 10px 0;
+		.xs & {
+			padding: 0;
+		}
+		.area_3--1 {
+			width: 25%;
+			float: left;
+			padding: 10px;
+			.xs & {
+				padding: 0;
+				width: 100%;
+			}
+			.sm & {
+				width: 50%;
+			}
+		}
+		.area_3--2 {
+			width: 25%;
+			float: left;
+			padding: 10px;
+			.xs & {
+				padding: 0;
+				width: 100%;
+			}
+			.sm & {
+				width: 50%;
+			}
+		}
+		.area_3--3 {
+			width: 50%;
+			float: left;
+			padding: 10px;
+			.xs & {
+				padding: 0;
+				width: 100%;
+			}
+			.sm & {
+				width: 100%;
+			}
+		}
+	}
+	.area_4 {
+		padding: 10px 20px;
+		.xs & {
+			padding: 0;
+		}
+	}
+	.area_5 {
+		padding: 0 10px 10px;
+		.xs & {
+			padding: 0;
+		}
+		.area_5--1 {
+			width: 75%;
+			float: left;
+			.xs & {
+				padding: 0;
+				width: 100%;
+			}
+			.sm & {
+				width: 100%;
+			}
+			.area_5--1--1 {
+				float: left;
+				width: 33.333333%;
+				padding: 10px;
+				.xs & {
+					padding: 0;
+					width: 100%;
+				}
+				.sm & {
+					width: 50%;
+				}
+			}
+			.area_5--1--2 {
+				float: left;
+				width: 33.333333%;
+				padding: 10px;
+				.xs & {
+					padding: 0;
+					width: 100%;
+				}
+				.sm & {
+					width: 50%;
+				}
+			}
+			.area_5--1--3 {
+				float: left;
+				width: 33.333333%;
+				padding: 10px;
+				.xs & {
+					padding: 0;
+					width: 100%;
+				}
+				.sm & {
+					width: 50%;
+				}
+			}
+			.area_5--1--4 {
+				float: left;
+				width: 33.333333%;
+				padding: 10px;
+				.xs & {
+					padding: 0;
+					width: 100%;
+				}
+				.sm & {
+					width: 50%;
+				}
+			}
+			.area_5--1--5 {
+				float: left;
+				width: 66.666667%;
+				padding: 10px;
+				.xs & {
+					padding: 0;
+					width: 100%;
+				}
+				.sm & {
+					width: 100%;
+				}
+			}
+		}
+		.area_5--2 {
+			width: 25%;
+			float: left;
+			padding: 10px;
+			.xs & {
+				padding: 0;
+				width: 100%;
+			}
+			.sm & {
+				width: 100%;
+			}
+		}
+	}
+}

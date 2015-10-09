@@ -11,6 +11,9 @@
 			background: url(imgs/icon_flag.svg) no-repeat;
 			background-position: right 30px top -2px;
 			text-transform: uppercase;
+			.green & {
+				background-image: url(imgs/icon_flag--green.svg);
+			}
 			.sm &,
 			.xs & {
 				background-position: right 30px top 0;
