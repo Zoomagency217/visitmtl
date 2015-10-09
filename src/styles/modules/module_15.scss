@@ -19,7 +19,11 @@
 		position: absolute;
 		top: 20px;
 		left: 20px;
-		margin-left: -12px;
+		margin-left: -3px;
+		.sm &,
+		.xs & {
+			margin-left: -12px;
+		}
 		.button {
 			background: none;
 		}

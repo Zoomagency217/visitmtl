@@ -3,28 +3,48 @@
 		width: 100%;
 	}
 	> .area_2 {
-		width: 100%;
-	}
-	> .area_3 {
 		padding: 20px 20px 10px;
 		.xs & {
 			padding: 0;
 		}
 	}
-	> .area_4 {
-		padding: 10px 20px;
-		.xs & {
-			padding: 0;
-		}
-	}
-	> .area_5 {
+	> .area_3 {
 		padding: 0 10px 10px;
 		.xs & {
 			padding: 0;
 		}
-		.area_5--1 {
-			width: 75%;
+		.area_3--1 {
 			float: left;
+			width: 25%;
+			padding: 10px;
+			.module.module_31 {
+				height: 430px;
+				.xs & {
+					height: auto;
+				}
+			}
+			.xs & {
+				width: 100%;
+				float: none;
+				padding: 0;
+			}
+			.sm & {
+				width: 50%;
+			}
+		}
+		.area_3--2 {
+			float: left;
+			width: 50%;
+			padding: 10px;
+			.module.child_module {
+				padding: 0;
+				> .module_content {
+					height: 430px;
+					.xs & {
+						height: auto;
+					}
+				}
+			}
 			.xs & {
 				width: 100%;
 				float: none;
@@ -32,84 +52,30 @@
 			}
 			.sm & {
 				width: 100%;
-			}
-			.area_5--1--1 {
-				float: left;
-				width: 33.333333%;
-				padding: 10px;
-				.xs & {
-					width: 100%;
-					float: none;
-					padding: 0;
-				}
-				.sm & {
-					width: 50%;
-				}
-			}
-			.area_5--1--2 {
-				float: left;
-				width: 33.333333%;
-				padding: 10px;
-				.xs & {
-					width: 100%;
-					float: none;
-					padding: 0;
-				}
-				.sm & {
-					width: 50%;
-				}
-			}
-			.area_5--1--3 {
-				float: left;
-				width: 33.333333%;
-				padding: 10px;
-				.xs & {
-					width: 100%;
-					float: none;
-					padding: 0;
-				}
-				.sm & {
-					width: 50%;
-				}
-			}
-			.area_5--1--4 {
-				float: left;
-				width: 33.333333%;
-				padding: 10px;
-				.xs & {
-					width: 100%;
-					float: none;
-					padding: 0;
-				}
-				.sm & {
-					width: 50%;
-				}
-			}
-			.area_5--1--5 {
-				float: left;
-				width: 66.666667%;
-				padding: 10px;
-				.xs & {
-					width: 100%;
-					float: none;
-					padding: 0;
-				}
-				.sm & {
-					width: 100%;
+				.module.child_module {
+					> .module_content {
+						height: auto;
+					}
 				}
 			}
 		}
-		.area_5--2 {
-			width: 25%;
+		.area_3--3 {
 			float: left;
+			width: 25%;
 			padding: 10px;
+			.module.module_15 {
+				height: 430px;
+				.xs & {
+					height: auto;
+				}
+			}
 			.xs & {
 				width: 100%;
 				float: none;
 				padding: 0;
 			}
 			.sm & {
-				width: 100%;
+				width: 50%;
 			}
 		}
 	}
