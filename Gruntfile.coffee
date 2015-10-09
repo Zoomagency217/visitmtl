@@ -31,14 +31,16 @@ module.exports = (grunt) ->
                         debug: true
                     pretty: true
                 files:
-                    'dist/index.html': ['src/templates/index.jade']
+                    'dist/eat.html': ['src/templates/eat.jade']
                     'dist/eat_play.html': ['src/templates/eat_play.jade']
                     'dist/eat_play--list.html': ['src/templates/eat_play--list.jade']
-                    'dist/eat.html': ['src/templates/eat.jade']
-                    'dist/sleep.html': ['src/templates/sleep.jade']
+                    'dist/event.html': ['src/templates/event.jade']
+                    'dist/event--list.html': ['src/templates/event--list.jade']
                     'dist/get_here.html': ['src/templates/get_here.jade']
                     'dist/get_here--story.html': ['src/templates/get_here--story.jade']
+                    'dist/index.html': ['src/templates/index.jade']
                     'dist/list.html': ['src/templates/list.jade']
+                    'dist/sleep.html': ['src/templates/sleep.jade']
 
             templates:
                 options:

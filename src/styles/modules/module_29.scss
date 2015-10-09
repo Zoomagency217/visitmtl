@@ -1,0 +1,72 @@
+.module_29.module {
+	padding: 0;
+	> .module_content {
+		border-radius: 0;
+		background-color: black;
+		> .cta {
+			position: relative;
+			z-index: 1;
+			padding: 70px 0 41px;
+			.sm &,
+			.xs & {
+				padding: 15px 0;
+			}
+			> .group_1 {
+				width: 500px;
+				margin: 0 0 0 70px;
+				font-family: Montserrat-Bold;
+				font-size: 54.36px;
+				color: $white;
+				line-height: 55px;
+				.sm &,
+				.xs & {
+					width: 100%;
+					padding: 0 30px;
+				}
+				.xs & {
+					font-size: $mb-fontsize-title;
+					line-height: $mb-lineheight-title;
+				}
+				a {
+					color: $white;
+				}
+			}
+			> .group_2 {
+				width: 500px;
+				margin: 20px 0 20px 70px;
+				font-family: PTSerif-Regular;
+				font-size: 20.76px;
+				color: #CFDFE2;
+				line-height: 26px;
+				.sm &,
+				.xs & {
+					width: 100%;
+					margin: 6px 0;
+					padding: 0 30px;
+				}
+				.xs & {
+					font-size: $mb-fontsize-content;
+					line-height: $mb-lineheight-content;
+				}
+			}
+		}
+		> .background {
+			position: absolute;
+			background-size: cover;
+			background-position: center;
+			border-radius: 4px;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			opacity: 0.3;
+			img {
+				width: 100%;
+			}
+			.sm &,
+			.xs & {
+				border-radius: 0;
+			}
+		}
+	}
+}
