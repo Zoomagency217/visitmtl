@@ -3175,7 +3175,8 @@ footer {
     color: #393D3F;
     line-height: 18px;
     width: 50%;
-    padding: 21px 19px; }
+    padding: 21px 19px;
+    float: left; }
     .sm .module.module_17 .content .title, .md .module.module_17 .content .title, .lg .module.module_17 .content .title {
       -webkit-line-clamp: 2;
       -moz-line-clamp: 2;
@@ -3370,7 +3371,7 @@ footer {
       margin-top: 20px;
       white-space: nowrap;
       padding-left: 30px;
-      padding-top: 30px; }
+      padding-top: 39px; }
       .sm .module.module_18 form .group_2 .group_2--3, .xs .module.module_18 form .group_2 .group_2--3 {
         float: none;
         padding-top: 0; }
@@ -3626,17 +3627,15 @@ footer {
       position: relative;
       background: transparent;
       height: 32px;
-      display: -webkit-flex;
-      display: flex;
       margin: 16px auto;
       padding: 0;
       width: 180px; }
       .module.module_22 .content .button:hover {
         background-color: rgba(255, 255, 255, 0.1); }
       .module.module_22 .content .button .price {
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
+        float: left;
+        width: 100px;
+        height: 30px;
         font-family: Montserrat-Regular;
         font-size: 13px;
         color: #FFFFFF;
@@ -3645,12 +3644,11 @@ footer {
         text-align: center;
         border-right: #5F6467 1px solid; }
       .module.module_22 .content .button .buy {
-        -webkit-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
+        float: left;
+        width: 70px;
         background: url(imgs/icon_cart_grey.svg) 10px 10px no-repeat;
         background-position: 10px center;
-        padding: 0 20px 0 25px;
+        padding: 0 20px 0 35px;
         font-family: Montserrat-Bold;
         font-size: 10px;
         color: #FFFFFF;

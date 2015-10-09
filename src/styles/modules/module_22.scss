@@ -45,8 +45,6 @@
 			position: relative;
 			background: transparent;
 			height: 32px;
-			display: -webkit-flex;
-			display: flex;
 			margin: 16px auto;
 			padding: 0;
 			width: 180px;
@@ -54,9 +52,9 @@
 				background-color: rgba(255, 255, 255, 0.1);
 			}
 			.price {
-				-webkit-flex: 1;
-				-ms-flex: 1;
-				flex: 1;
+				float: left;
+				width: 100px;
+				height: 30px;
 				font-family: Montserrat-Regular;
 				font-size: 13px;
 				color: #FFFFFF;
@@ -66,12 +64,11 @@
 				border-right: #5F6467 1px solid;
 			}
 			.buy {
-				-webkit-flex: 1;
-				-ms-flex: 1;
-				flex: 1;
+				float: left;
+				width: 70px;
 				background: url(imgs/icon_cart_grey.svg) 10px 10px no-repeat;
 				background-position: 10px center;
-				padding: 0 20px 0 25px;
+				padding: 0 20px 0 35px;
 				font-family: Montserrat-Bold;
 				font-size: 10px;
 				color: #FFFFFF;

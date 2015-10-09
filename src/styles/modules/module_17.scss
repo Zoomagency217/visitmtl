@@ -34,6 +34,7 @@
 			line-height: 18px;
 			width: 50%;
 			padding: 21px 19px;
+			float: left;
 			@include showline(2, 78px);
 			.xs & {
 				width: 100%;
