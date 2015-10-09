@@ -55,7 +55,6 @@ body {
 	}
 	&.sm,
 	&.xs {
-		background: white;
 		> .container {
 			margin-left: 0;
 			margin-right: 0;
@@ -73,6 +72,9 @@ body {
 				}
 			}
 		}
+	}
+	&.xs {
+		background: white;
 	}
 	&.lg,
 	&.md {

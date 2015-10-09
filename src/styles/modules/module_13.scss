@@ -5,6 +5,11 @@
 	padding: 0;
 	position: relative;
 	background: white;
+	.xs & {
+		border-radius: 0;
+		height: auto;
+		border-bottom: #eeeeee 1px solid;
+	}
 	.category {
 		position: absolute;
 		top: 20px;
@@ -14,6 +19,9 @@
 		height: 170px;
 		overflow: hidden;
 		text-align: center;
+		.xs & {
+			height: auto;
+		}
 		img {
 			width: 100%;
 		}
@@ -32,7 +40,7 @@
 			font-size: 14px;
 			color: #838D8F;
 			line-height: 18px;
-			padding-top: 10px;
+			padding: 10px 0 20px;
 			@include showline(2, 46px);
 		}
 	}

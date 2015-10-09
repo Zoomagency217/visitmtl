@@ -5,10 +5,17 @@
 	padding: 0;
 	position: relative;
 	background: white;
+	.xs & {
+		border-radius: 0;
+		height: auto;
+	}
 	.image {
 		height: 200px;
 		overflow: hidden;
 		text-align: center;
+		.xs & {
+			height: auto;
+		}
 		img {
 			width: 100%;
 		}

@@ -3,6 +3,10 @@
 	overflow: hidden;
 	border-radius: 5px;
 	padding: 0;
+	.sm &,
+	.xs & {
+		height: auto;
+	}
 	.feature_item {
 		float: left;
 		width: 25%;
@@ -10,16 +14,35 @@
 		padding: 30px;
 		height: 300px;
 		position: relative;
+		.sm &,
+		.xs & {
+			float: none;
+			width: 100%;
+		}
 		&:after {
 			content: '';
 			border-left: #63BC9C 10px solid;
 			border-top: transparent 10px solid;
 			border-bottom: transparent 10px solid;
 			position: absolute;
-			top: 45%;
+			top: 50%;
 			right: -10px;
 			width: 10px;
 			height: 20px;
+			transform: translate3d(0, -10px, 0);
+			.sm &,
+			.xs & {
+				border-top: #63BC9C 10px solid;
+				border-left: transparent 10px solid;
+				border-right: transparent 10px solid;
+				border-bottom: none;
+				left: 50%;
+				bottom: -10px;
+				width: 20px;
+				height: 10px;
+				top: auto;
+				transform: translate3d(-10px, 0, 0);
+			}
 		}
 		.category {
 			font-family: Montserrat-Bold;
@@ -67,6 +90,12 @@
 		height: 300px;
 		padding: 0;
 		list-style-type: none;
+		.sm &,
+		.xs & {
+			width: 100%;
+			height: auto;
+			margin-bottom: 0;
+		}
 		.item {
 			float: left;
 			width: 33.333333%;
@@ -75,6 +104,12 @@
 			text-align: center;
 			border-left: #DDDDDD 1px solid;
 			padding: 50px 40px 0;
+			.xs & {
+				float: none;
+				border-left: none;
+				border-bottom: #DDDDDD 1px solid;
+				width: 100%;
+			}
 			&:first-child {
 				border-left: none;
 			}

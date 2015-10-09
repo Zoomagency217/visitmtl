@@ -5,6 +5,10 @@
 	padding: 0;
 	position: relative;
 	background: #3C3D41;
+	.xs & {
+		border-radius: 0;
+		height: auto;
+	}
 	.category {
 		position: absolute;
 		top: 10px;
@@ -14,6 +18,9 @@
 		height: 170px;
 		overflow: hidden;
 		text-align: center;
+		.xs & {
+			height: auto;
+		}
 		img {
 			width: 100%;
 		}

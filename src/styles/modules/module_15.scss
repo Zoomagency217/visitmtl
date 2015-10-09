@@ -5,6 +5,10 @@
 	padding: 0;
 	position: relative;
 	background: #FF5A60;
+	.xs & {
+		border-radius: 0;
+		height: auto;
+	}
 	.grey & {
 		background: #434A54;
 	}
@@ -35,7 +39,7 @@
 	.contact {
 		display: table;
 		width: 100%;
-		margin: 50px 20px 0;
+		margin: 50px 20px 20px;
 		.avatar {
 			width: 50px;
 			height: 50px;

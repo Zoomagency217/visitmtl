@@ -6,13 +6,20 @@
 	position: relative;
 	background: #48CFAD;
 	text-align: center;
+	.xs & {
+		border-radius: 0;
+		height: auto;
+	}
 	.image {
 		height: 165px;
 		overflow: hidden;
 		text-align: center;
+		.xs & {
+			height: auto;
+		}
 	}
 	.content {
-		padding: 0 20px;
+		padding: 0 20px 20px;
 		.category {
 			display: inline-block;
 			margin-right: 0;

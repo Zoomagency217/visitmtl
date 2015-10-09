@@ -5,6 +5,9 @@
 	padding: 0;
 	position: relative;
 	background: #3C3D41;
+	.xs & {
+		border-radius: 0;
+	}
 	.category {
 		position: absolute;
 		top: 10px;

@@ -5,6 +5,7 @@
 }
 
 @mixin showline($line, $height) {
+	.sm &,
 	.md &,
 	.lg & {
 		-webkit-line-clamp: $line;

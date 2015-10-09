@@ -3,6 +3,9 @@
 	overflow: hidden;
 	border-radius: 5px;
 	padding: 0;
+	.xs & {
+		border-radius: 0;
+	}
 	.group_1 {
 		padding: 40px;
 		float: left;

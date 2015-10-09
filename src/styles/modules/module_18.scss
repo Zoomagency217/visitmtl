@@ -2,6 +2,10 @@
 	background: #2b424b;
 	position: relative;
 	padding: 25px 60px;
+	.sm &,
+	.xs & {
+		padding: 25px 15px;
+	}
 	.background {
 		position: absolute;
 		opacity: 0.1;
@@ -12,7 +16,8 @@
 		overflow: hidden;
 		z-index: 0;
 		img {
-			width: 100%;
+			min-width: 100%;
+			min-height: 100%;
 		}
 	}
 	form {
@@ -21,7 +26,8 @@
 		.group_1 {
 			a.button {
 				float: left;
-				margin-right: 12px;
+				margin-right: 10px;
+				margin-bottom: 10px;
 				border-radius: 15px;
 				background: rgba(255, 255, 255, 0.2);
 				color: white;
@@ -29,6 +35,9 @@
 				padding: 8px 20px 0;
 				font-family: Montserrat-Bold;
 				font-size: 13px;
+				.xs & {
+					padding: 4px 10px 0;
+				}
 				&:hover {
 					color: white;
 					background: rgba(255, 255, 255, 0.5);
@@ -42,6 +51,7 @@
 		.group_2 {
 			.input {
 				margin-top: 8px;
+				margin-bottom: 10px;
 				position: relative;
 				.icon {
 					position: absolute;
@@ -67,13 +77,14 @@
 				}
 			}
 			.group_2--1 {
-				margin-top: 30px;
+				margin-top: 20px;
 				.title {
 					font-family: Montserrat-Bold;
 					font-size: 15px;
 					color: white;
 				}
 				.input {
+					margin-bottom: 10px;
 					.icon {
 						top: 3px;
 					}
@@ -86,6 +97,10 @@
 			.group_2--2 {
 				float: left;
 				margin-top: 30px;
+				.sm &,
+				.xs & {
+					float: none;
+				}
 				.input_group {
 					display: inline-block;
 					.title {
@@ -145,10 +160,15 @@
 			}
 			.group_2--3 {
 				float: left;
-				margin-top: 30px;
+				margin-top: 20px;
 				white-space: nowrap;
 				padding-left: 30px;
 				padding-top: 30px;
+				.sm &,
+				.xs & {
+					float: none;
+					padding-top: 0;
+				}
 				.group_2--3--child {
 					display: inline-block;
 					padding-right: 40px;
