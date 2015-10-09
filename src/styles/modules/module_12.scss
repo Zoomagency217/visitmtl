@@ -180,5 +180,22 @@
 				}
 			}
 		}
+		&.full {
+			width: 100%;
+			.sm & {
+				height: auto;
+				border-radius: 0;
+			}
+			.item {
+				width: 25%;
+				.sm & {
+					border-top: #DDDDDD 1px solid;
+					width: 50%;
+				}
+				.xs & {
+					width: 100%;
+				}
+			}
+		}
 	}
 }
