@@ -2097,6 +2097,8 @@ footer {
     background-color: #37BC9B; }
   .purple .module.module_8 {
     background-color: #6848E1; }
+  .blue .module.module_8 {
+    background-color: #4787df; }
   .module.module_8 .group_1 {
     display: table-cell;
     padding: 27px 0 27px 40px;
@@ -4642,6 +4644,9 @@ footer {
       padding: 0; }
     .sm .page--event > .area_5 .area_5--2 {
       width: 100%; }
+
+.page--event--list > .area_2 {
+  margin: 20px; }
 
 .page.page--get_here .area_3 {
   padding: 10px 10px 0; }
