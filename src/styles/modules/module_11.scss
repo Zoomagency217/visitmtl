@@ -12,10 +12,12 @@
 		width: 40%;
 		.sm &,
 		.xs & {
-			padding: 20px 20px 0;
 			float: none;
 			width: 100%;
 			margin-bottom: 0;
+		}
+		.xs & {
+			padding: 20px 20px 0;
 		}
 		.distance {
 			font-family: Montserrat-Bold;
@@ -36,6 +38,8 @@
 			margin-top: 15px;
 		}
 		.accordion-group {
+			border-bottom: #DDDDDD 1px solid;
+			margin-bottom: 43px;
 			.accordion {
 				border-top: #DDDDDD 1px solid;
 				padding: 15px 0;
@@ -108,6 +112,7 @@
 			.xs & {
 				width: 100%;
 				border-radius: 0;
+				margin-bottom: 43px;
 			}
 			.title {
 				font-family: Montserrat-Bold;
@@ -128,7 +133,7 @@
 				}
 			}
 			.map {
-				margin-bottom: 20px;
+				height: 152px;
 				iframe {}
 			}
 		}
@@ -143,28 +148,21 @@
 		}
 		.group_2--1 {
 			width: 100%;
-			height: 705px;
 			overflow: hidden;
 			background: #6ED0AE;
-			.sm &,
+			position: relative;
 			.xs & {
 				height: auto;
 				padding-bottom: 10px;
 			}
 			.image {
-				float: left;
-				width: 80%;
-				vertical-align: top;
+				margin-right: 150px;
 				overflow: hidden;
-				.sm &,
 				.xs & {
-					float: none;
-					width: 100%;
+					margin-right: 0;
 				}
 				img {
-					min-width: 100%;
-					min-height: 705px;
-					.sm &,
+					width: 100%;
 					.xs & {
 						width: 100%;
 						min-height: 0;
@@ -172,27 +170,29 @@
 				}
 			}
 			ul.image_list {
-				float: left;
-				width: 20%;
-				vertical-align: top;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 150px;
 				padding: 0 25px;
 				list-style-type: none;
-				.sm &,
 				.xs & {
-					float: none;
 					width: 100%;
 					height: 100px;
 					padding: 0 10px;
+					position: relative;
 				}
 				li {
 					margin-top: 20px;
-					.sm &,
+					width: 100px;
+					height: 100px;
+					overflow: hidden;
+					border-radius: 5px;
 					.xs & {
 						float: left;
-						width: 100px;
 						height: 80px;
 						padding: 0 10px;
-						overflow: hidden;
+						border-radius: 0
 					}
 					img {
 						width: 100%;
@@ -204,16 +204,24 @@
 			position: relative;
 			margin-top: 30px;
 			height: 105px;
-			.sm &,
 			.xs & {
-				padding: 20px;
-				margin-top: 0;
+				padding: 20px 0;
+				margin: 0 auto;
+				height: 70px;
+				width: 310px;
+			}
+			.sm & {
+				padding: 0;
+				margin: 30px auto 0;
+				height: 80px;
+				width: 515px;
 			}
 			.group_2--2--1 {
 				height: 45px;
 				background: #EEEEEE;
 				border-radius: 45px;
 				position: absolute;
+				top: 0;
 				left: 0;
 				width: 150px;
 				font-family: Montserrat-Regular;
@@ -226,6 +234,7 @@
 					height: 30px;
 					line-height: 30px;
 					left: 10px;
+					top: 20px;
 					padding-left: 10px;
 					line-height: 30px;
 				}
@@ -233,7 +242,8 @@
 			.group_2--2--2 {
 				position: absolute;
 				z-index: 5;
-				left: 7f0px;
+				top: 0;
+				left: 70px;
 				width: 200px;
 				height: 45px;
 				background: url(imgs/icon_phone.svg) 20px 12px no-repeat #63BC9C;
@@ -256,6 +266,7 @@
 					width: 150px;
 					letter-spacing: 0.5px;
 					left: 60px;
+					top: 20px;
 				}
 			}
 			.group_2--2--3 {
