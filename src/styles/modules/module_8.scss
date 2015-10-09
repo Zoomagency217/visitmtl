@@ -2,6 +2,9 @@
 	background-color: #E45156;
 	padding: 0;
 	display: table;
+	.green & {
+		background-color: #37BC9B;
+	}
 	.group_1 {
 		display: table-cell;
 		padding: 27px 0 27px 40px;
@@ -139,6 +142,9 @@
 						height: 32px;
 						border-radius: 32px;
 						width: 40px;
+					}
+					.green & {
+						background-color: #AC92EC;
 					}
 				}
 			}

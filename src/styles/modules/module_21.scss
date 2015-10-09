@@ -1,0 +1,54 @@
+.module.module_21 {
+	height: 300px;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 0;
+	position: relative;
+	background: url(imgs/module_21--photo.png) right bottom no-repeat #708F98;
+	> .content {
+		padding: 0 225px 0 28px;
+		.category {
+			display: inline-block;
+			margin-right: 0;
+			margin-top: 22px;
+		}
+		.title {
+			margin-top: 15px;
+			font-family: Montserrat-Bold;
+			font-size: 22px;
+			color: #FFFFFF;
+			line-height: 27px;
+		}
+		.description {
+			opacity: 0.6;
+			font-family: PTSerif-Regular;
+			font-size: 14px;
+			color: #FFFFFF;
+			line-height: 18px;
+			margin-top: 10px;
+			@include showline(3, 54px);
+		}
+		> .more_button {
+			margin-top: 30px;
+			display: inline-block;
+			font-family: Montserrat-Bold;
+			font-size: 10px;
+			color: $white;
+			letter-spacing: 2px;
+			line-height: 12px;
+			border: 1px solid rgba(206, 223, 225, 0.6);
+			border-radius: 40px;
+			background: url('imgs/icon_photos.svg') 21px 9px no-repeat;
+			padding: 10px 30px 10px 64px;
+			cursor: pointer;
+			color: white;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			outline: none;
+			&:hover {
+				background-color: rgba(255, 255, 255, 1);
+				color: #708F98;
+			}
+		}
+	}
+}

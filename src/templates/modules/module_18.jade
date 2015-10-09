@@ -1,45 +1,59 @@
 .module.module_18
 	.background
-	.cover
+		img(src="http://lorempixel.com/1920/600/nightlife/")
 	form(action="#")
 		.group_1
 			a.button(href="javascript:")
 				.icon
+					i.fa.fa-plane
 				| Flights
 			a.button(href="javascript:")
 				.icon
+					i.fa.fa-building
 				| Hotels
 			a.button(href="javascript:")
 				.icon
+					i.fa.fa-plane
+					| &nbsp;
+					i.fa.fa-building
 				| Flights + Hotels
 			a.button(href="javascript:")
 				.icon
+					i.fa.fa-suitcase
 				| Vacation
 			a.button(href="javascript:")
 				.icon
+					i.fa.fa-car
 				| Cars
 			a.button(href="javascript:")
 				.icon
+					i.fa.fa-ship
 				| Cruises
 			a.button(href="javascript:")
 				.icon
+					i.fa.fa-list-alt
 				| Things to do
+		.clearfix
 		.group_2
 			.group_2--1
 				.title Going to
 				.input
 					.icon
+						i.fa.fa-map-marker
 					input(place-holder="Destination, airport, train station, landmark or address")
+			.clearfix
 			.group_2--2
 				.group_2--2--1.input_group
 					.title Check in
 					.input
 						.icon
+							i.fa.fa-calendar
 						input(place-holder="dd/mm/yyyy")
 				.group_2--2--2.input_group
 					.title Check out
 					.input
 						.icon
+							i.fa.fa-calendar
 						input(place-holder="dd/mm/yyyy")
 				.group_2--2--3.input_group
 					.title Rooms
@@ -49,26 +63,29 @@
 					.title Adults
 					.input
 						input(place-holder="2")
-				.group_2--2--1.input_group
+				.group_2--2--5.input_group
 					.title Children(0-17)
 					.input
 						input(place-holder="0")
 			.group_2--3
-				.group_2--3--1
+				.group_2--3--child
 					label.checkbox
 						input(type="checkbox")
 						span
 							.icon
+								i.fa.fa-plane
 							| Add a flight
-				.group_2--3--2
+				.group_2--3--child
 					label.checkbox
 						input(type="checkbox")
 						span
 							.icon
+								i.fa.fa-car
 							| Add a car
 			.clearfix
 			.group_2--4
 				button.button(type="submit")
 					.icon
+						i.fa.fa-search
 					| Search
 
