@@ -4319,6 +4319,104 @@ footer {
           .xs .module.module_27 .form .content .input_area button.button {
             margin: 10px auto 20px; }
 
+.module.module_28 {
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #DDDDDD;
+  margin: 20px;
+  width: auto; }
+  .sm .module.module_28 {
+    margin: 5px; }
+  .xs .module.module_28 {
+    border-radius: 0;
+    margin: 0;
+    border: none; }
+  .module.module_28 ul.list {
+    float: left;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    display: table;
+    margin-bottom: 0; }
+    .xs .module.module_28 ul.list {
+      border-radius: 0; }
+    .module.module_28 ul.list .item {
+      display: table-cell;
+      width: 25%;
+      background: white;
+      text-align: center;
+      border-left: #DDDDDD 1px solid;
+      padding: 40px; }
+      .sm .module.module_28 ul.list .item {
+        padding: 15px; }
+      .xs .module.module_28 ul.list .item {
+        display: block;
+        border-left: none;
+        border-bottom: #DDDDDD 1px solid;
+        width: 100%; }
+      .module.module_28 ul.list .item:first-child {
+        border-left: none; }
+      .module.module_28 ul.list .item .image {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 40px;
+        border-bottom: #DDDDDD 1px solid; }
+        .module.module_28 ul.list .item .image img {
+          width: 100%; }
+        .sm .module.module_28 ul.list .item .image {
+          padding-bottom: 15px; }
+      .module.module_28 ul.list .item .content {
+        margin-top: 32px;
+        line-height: 18px; }
+        .sm .module.module_28 ul.list .item .content {
+          margin-top: 15px; }
+        .module.module_28 ul.list .item .content .title {
+          font-size: 15px;
+          font-family: Montserrat-Bold;
+          color: #393D3F; }
+          .sm .module.module_28 ul.list .item .content .title, .md .module.module_28 ul.list .item .content .title, .lg .module.module_28 ul.list .item .content .title {
+            -webkit-line-clamp: 2;
+            -moz-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+            display: -webkit-box;
+            height: 36px; }
+          .module.module_28 ul.list .item .content .title:hover {
+            color: #63BC9C;
+            text-decoration: none; }
+        .module.module_28 ul.list .item .content .price {
+          font-family: Montserrat-Regular;
+          font-size: 13px;
+          line-height: 16px; }
+          .module.module_28 ul.list .item .content .price .original {
+            display: inline-block;
+            color: #838C8E;
+            text-decoration: line-through; }
+          .module.module_28 ul.list .item .content .price .discount {
+            display: inline-block;
+            color: #1E1F1E; }
+        .module.module_28 ul.list .item .content .description {
+          font-family: PTSerif-Italic;
+          font-size: 12px;
+          color: #838C8C;
+          line-height: 15px;
+          margin: 10px -20px; }
+          .sm .module.module_28 ul.list .item .content .description {
+            margin: 10px 0; }
+        .module.module_28 ul.list .item .content .address {
+          font-family: PTSerif-Bold;
+          font-size: 12px;
+          color: #414444;
+          line-height: 15px;
+          margin: 10px -20px; }
+          .sm .module.module_28 ul.list .item .content .address {
+            margin: 10px 0; }
+
 .module_29.module {
   padding: 0; }
   .module_29.module > .module_content {
@@ -4821,14 +4919,8 @@ footer {
     width: 100%;
     float: none; }
 
-.page.page--list .area_1 {
-  padding: 0; }
-  .page.page--list .area_1:first-child {
-    padding-top: 20px; }
-  .sm .page.page--list .area_1 {
-    padding: 0; }
-.sm .page.page--list {
-  margin-bottom: -9px; }
+.page.page--list {
+  padding-top: 1px; }
 
 .page.page--sleep .area_3 {
   padding: 10px 10px 0; }
