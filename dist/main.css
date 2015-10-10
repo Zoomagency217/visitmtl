@@ -3727,6 +3727,15 @@ footer {
     text-align: center;
     width: 710px;
     margin: 23px auto 0; }
+    .sm .module.module_24 .title, .md .module.module_24 .title, .lg .module.module_24 .title {
+      -webkit-line-clamp: 3;
+      -moz-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+      display: -webkit-box;
+      height: 171px; }
     .xs .module.module_24 .title {
       width: 100%;
       padding: 0 20px;
