@@ -121,7 +121,7 @@
     sizeItv = setInterval(function() {
       return calculateSize(window.$size);
     }, 100);
-    return $(window).on('mousewheel', function() {
+    return $(document).on('mousewheel DOMMouseScroll', function() {
       if (!onSearch && !onMenu) {
         if (lastTop0 && !showingVideo) {
           if (new Date().getTime() - lastTime > 500) {

@@ -90,7 +90,7 @@ $ ->
 		calculateSize window.$size
 	, 100
 
-	$(window).on 'mousewheel', ->
+	$(document).on 'mousewheel DOMMouseScroll', ->
 		if !onSearch and !onMenu
 			if lastTop0 and not showingVideo
 				if new Date().getTime()-lastTime>500
