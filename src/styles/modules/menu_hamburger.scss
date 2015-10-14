@@ -66,19 +66,27 @@
 						font-size: 16px;
 						white-space: nowrap;
 						width: 100%;
+						&:hover {
+							text-decoration: none;
+						}
 						> .icon {
 							width: 26px;
 							height: 26px;
-							display: inline-block;
+							float: left;
 							text-align: center;
 							margin-right: 14px;
 							border-radius: 26px;
-							line-height: 30px;
+							line-height: 26px;
 							img {
-								margin-top: -4px;
+								margin-top: -2px;
 								max-height: 16px;
 								max-width: 16px;
 							}
+						}
+						> .title {
+							float: left;
+							height: 26px;
+							line-height: 26px;
 						}
 					}
 					&:hover {
@@ -256,7 +264,7 @@
 		}
 	}
 	.cover {
-		transition: $menu-pushed-transition;
+		transition: opacity .3s;
 		background: rgba(0, 0, 0, 0.8);
 		top: 128px;
 		left: 0;
@@ -264,12 +272,14 @@
 		right: 0;
 		position: fixed;
 		z-index: 0;
+		opacity: 0;
 		.sm &,
 		.xs & {
 			display: none;
 		}
 		.pushed & {
 			bottom: 0;
+			opacity: 1;
 		}
 	}
 }
