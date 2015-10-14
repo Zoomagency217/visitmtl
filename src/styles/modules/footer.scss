@@ -138,6 +138,10 @@ footer {
 					overflow: hidden;
 					height: 38px;
 					position: relative;
+					.sm & {
+						max-width: 320px;
+						margin: auto;
+					}
 					.input {
 						float: left;
 						width: 100%;

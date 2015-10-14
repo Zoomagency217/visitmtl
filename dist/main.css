@@ -863,6 +863,9 @@ footer {
           overflow: hidden;
           height: 38px;
           position: relative; }
+          .sm footer > .area_1.area > .container > .group_4 .form {
+            max-width: 320px;
+            margin: auto; }
           footer > .area_1.area > .container > .group_4 .form .input {
             float: left;
             width: 100%; }
@@ -1398,19 +1401,6 @@ footer {
       border-radius: 8px;
       background-color: white;
       padding: 0; }
-    .module_1 > .module_content .panel > .module_1--item > .slide:before {
-      border-right: #F9F9F9 8px solid;
-      border-top: transparent 8px solid;
-      border-bottom: transparent 8px solid;
-      width: 8px;
-      height: 16px;
-      position: absolute;
-      left: -8px;
-      top: 50%;
-      transform: translateY(-8px);
-      content: ''; }
-      .sm .module_1 > .module_content .panel > .module_1--item > .slide:before, .xs .module_1 > .module_content .panel > .module_1--item > .slide:before {
-        display: none; }
     .module_1 > .module_content .panel > .module_1--item > .slide.active, .module_1 > .module_content .panel > .module_1--item > .slide:hover {
       background: #F9F9F9;
       position: relative; }
