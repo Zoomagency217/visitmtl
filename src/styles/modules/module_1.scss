@@ -172,8 +172,8 @@
 			}
 			> .module_1--item {
 				> .slide {
-					padding: 30px 0 0 0;
-					height: 108px;
+					padding: 40px 0 0 0;
+					height: 118px;
 					border-top: 1px solid #EEEEEE;
 					cursor: pointer;
 					.sm &,
@@ -204,7 +204,8 @@
 							height: 16px;
 							position: absolute;
 							left: -8px;
-							top: 46%;
+							top: 50%;
+							transform: translateY(-8px);
 							content: '';
 							.sm &,
 							.xs & {

@@ -45,6 +45,7 @@
 				}
 				a {
 					color: $white;
+					@include showline(2, 115px);
 				}
 			}
 			> .group_3 {

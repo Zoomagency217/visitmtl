@@ -1384,8 +1384,8 @@ footer {
     .sm .module_1 > .module_content .panel > .title, .xs .module_1 > .module_content .panel > .title {
       display: none; }
   .module_1 > .module_content .panel > .module_1--item > .slide {
-    padding: 30px 0 0 0;
-    height: 108px;
+    padding: 40px 0 0 0;
+    height: 118px;
     border-top: 1px solid #EEEEEE;
     cursor: pointer; }
     .sm .module_1 > .module_content .panel > .module_1--item > .slide, .xs .module_1 > .module_content .panel > .module_1--item > .slide {
@@ -1398,6 +1398,19 @@ footer {
       border-radius: 8px;
       background-color: white;
       padding: 0; }
+    .module_1 > .module_content .panel > .module_1--item > .slide:before {
+      border-right: #F9F9F9 8px solid;
+      border-top: transparent 8px solid;
+      border-bottom: transparent 8px solid;
+      width: 8px;
+      height: 16px;
+      position: absolute;
+      left: -8px;
+      top: 50%;
+      transform: translateY(-8px);
+      content: ''; }
+      .sm .module_1 > .module_content .panel > .module_1--item > .slide:before, .xs .module_1 > .module_content .panel > .module_1--item > .slide:before {
+        display: none; }
     .module_1 > .module_content .panel > .module_1--item > .slide.active, .module_1 > .module_content .panel > .module_1--item > .slide:hover {
       background: #F9F9F9;
       position: relative; }
@@ -1411,7 +1424,8 @@ footer {
         height: 16px;
         position: absolute;
         left: -8px;
-        top: 46%;
+        top: 50%;
+        transform: translateY(-8px);
         content: ''; }
         .sm .module_1 > .module_content .panel > .module_1--item > .slide.active:before, .xs .module_1 > .module_content .panel > .module_1--item > .slide.active:before, .sm .module_1 > .module_content .panel > .module_1--item > .slide:hover:before, .xs .module_1 > .module_content .panel > .module_1--item > .slide:hover:before {
           display: none; }
@@ -1518,6 +1532,17 @@ footer {
         line-height: 24px; }
       .module_2.module > .module_content > .cta > .group_2 a {
         color: #ffffff; }
+        .sm .module_2.module > .module_content > .cta > .group_2 a, .md .module_2.module > .module_content > .cta > .group_2 a, .lg .module_2.module > .module_content > .cta > .group_2 a {
+          -webkit-line-clamp: 2;
+          -moz-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          -moz-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: block;
+          display: -webkit-box;
+          display: -moz-box;
+          height: 115px; }
     .module_2.module > .module_content > .cta > .group_3 {
       width: 446px;
       margin: 20px auto;
@@ -1611,10 +1636,12 @@ footer {
         -webkit-line-clamp: 3;
         -moz-line-clamp: 3;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 54px; }
 .module_3 > .module_content .module_3--item {
   border-top: #EEEEEE 1px solid;
@@ -1647,10 +1674,12 @@ footer {
       -webkit-line-clamp: 2;
       -moz-line-clamp: 2;
       -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
       display: block;
       display: -webkit-box;
+      display: -moz-box;
       height: 44px; }
     .sm .module_3 > .module_content .module_3--item .title, .xs .module_3 > .module_content .module_3--item .title {
       margin-top: 5px; }
@@ -1690,10 +1719,12 @@ footer {
       -webkit-line-clamp: 2;
       -moz-line-clamp: 2;
       -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
       display: block;
       display: -webkit-box;
+      display: -moz-box;
       height: 36px; }
     .lg .fixed_height .module_3.module.child_module > .module_content .module_3--item,
     .md .fixed_height .module_3.module.child_module > .module_content .module_3--item {
@@ -1717,10 +1748,12 @@ footer {
           -webkit-line-clamp: 2;
           -moz-line-clamp: 2;
           -webkit-box-orient: vertical;
+          -moz-box-orient: vertical;
           overflow: hidden;
           text-overflow: ellipsis;
           display: block;
           display: -webkit-box;
+          display: -moz-box;
           height: 44px; }
 
 .module_4 > .module_content {
@@ -1930,10 +1963,12 @@ footer {
         -webkit-line-clamp: 1;
         -moz-line-clamp: 1;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 18px; }
 
 .module_6 > .module_content > .title {
@@ -1976,10 +2011,12 @@ footer {
         -webkit-line-clamp: 2;
         -moz-line-clamp: 2;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 37px; }
 .module_6 > .module_content .module_6--item {
   border-top: #eeeeee 1px solid;
@@ -2008,10 +2045,12 @@ footer {
         -webkit-line-clamp: 3;
         -moz-line-clamp: 3;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 70px; }
   .module_6 > .module_content .module_6--item .hr-line {
     border-top: #DDDDDD 1px solid;
@@ -2853,10 +2892,12 @@ footer {
             -webkit-line-clamp: 2;
             -moz-line-clamp: 2;
             -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
             display: block;
             display: -webkit-box;
+            display: -moz-box;
             height: 36px; }
           .module.module_12 ul.list .item .content .title:hover {
             color: #63BC9C;
@@ -2926,10 +2967,12 @@ footer {
         -webkit-line-clamp: 2;
         -moz-line-clamp: 2;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 36px; }
     .module.module_13 .content .description {
       font-family: PTSerif-Regular;
@@ -2941,10 +2984,12 @@ footer {
         -webkit-line-clamp: 2;
         -moz-line-clamp: 2;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 46px; }
 
 .module.module_14 {
@@ -3036,10 +3081,12 @@ footer {
       -webkit-line-clamp: 4;
       -moz-line-clamp: 4;
       -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
       display: block;
       display: -webkit-box;
+      display: -moz-box;
       height: 160px; }
   .module.module_15 .date {
     opacity: 0.5;
@@ -3085,10 +3132,12 @@ footer {
           -webkit-line-clamp: 2;
           -moz-line-clamp: 2;
           -webkit-box-orient: vertical;
+          -moz-box-orient: vertical;
           overflow: hidden;
           text-overflow: ellipsis;
           display: block;
           display: -webkit-box;
+          display: -moz-box;
           height: 24px; }
 
 .module.module_16 {
@@ -3122,10 +3171,12 @@ footer {
         -webkit-line-clamp: 2;
         -moz-line-clamp: 2;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 61px; }
     .module.module_16 .content .button {
       font-family: Montserrat-Bold;
@@ -3189,10 +3240,12 @@ footer {
       -webkit-line-clamp: 2;
       -moz-line-clamp: 2;
       -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
       display: block;
       display: -webkit-box;
+      display: -moz-box;
       height: 78px; }
     .xs .module.module_17 .content .title {
       width: 100%;
@@ -3451,10 +3504,12 @@ footer {
         -webkit-line-clamp: 2;
         -moz-line-clamp: 2;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 36px; }
 
 .module.module_20 {
@@ -3494,10 +3549,12 @@ footer {
         -webkit-line-clamp: 3;
         -moz-line-clamp: 3;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 54px; }
     .module.module_20 .content .by {
       display: inline-block;
@@ -3544,10 +3601,12 @@ footer {
         -webkit-line-clamp: 3;
         -moz-line-clamp: 3;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 81px; }
     .module.module_21 > .content .description {
       opacity: 0.6;
@@ -3560,10 +3619,12 @@ footer {
         -webkit-line-clamp: 3;
         -moz-line-clamp: 3;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 54px; }
     .module.module_21 > .content > .more_button {
       margin-top: 30px;
@@ -3620,10 +3681,12 @@ footer {
         -webkit-line-clamp: 2;
         -moz-line-clamp: 2;
         -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
         display: block;
         display: -webkit-box;
+        display: -moz-box;
         height: 61px; }
     .module.module_22 .content .button {
       font-family: Montserrat-Bold;
@@ -3739,10 +3802,12 @@ footer {
       -webkit-line-clamp: 3;
       -moz-line-clamp: 3;
       -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
       display: block;
       display: -webkit-box;
+      display: -moz-box;
       height: 171px; }
     .xs .module.module_24 .title {
       width: 100%;
@@ -4398,10 +4463,12 @@ footer {
             -webkit-line-clamp: 2;
             -moz-line-clamp: 2;
             -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
             display: block;
             display: -webkit-box;
+            display: -moz-box;
             height: 36px; }
           .module.module_28 ul.list .item .content .title:hover {
             color: #63BC9C;
