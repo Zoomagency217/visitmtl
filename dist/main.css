@@ -1862,12 +1862,20 @@ footer {
     overflow: hidden;
     max-height: 169px; }
     .sm .module_5 > .module_content .module_5--feature .image, .xs .module_5 > .module_content .module_5--feature .image {
-      border-radius: 0; }
+      border-radius: 0;
+      display: table-cell;
+      width: 188px;
+      max-height: none;
+      max-width: 44%; }
     .module_5 > .module_content .module_5--feature .image img {
       width: 100%; }
   .module_5 > .module_content .module_5--feature .content {
     float: left;
     width: 56%; }
+    .sm .module_5 > .module_content .module_5--feature .content, .xs .module_5 > .module_content .module_5--feature .content {
+      display: table-cell;
+      width: auto;
+      float: none; }
     .module_5 > .module_content .module_5--feature .content .time {
       font-family: PTSerif-Italic;
       font-size: 12px;
@@ -1898,6 +1906,17 @@ footer {
           display: block;
           display: -webkit-box;
           max-height: 36px; }
+        .xs .module_5 > .module_content .module_5--feature .content .title a {
+          -webkit-line-clamp: 2;
+          -moz-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          -moz-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: block;
+          display: -webkit-box;
+          display: -moz-box;
+          height: 30px; }
     .module_5 > .module_content .module_5--feature .content .description {
       font-family: PTSerif-Regular;
       font-size: 14px;
@@ -1914,6 +1933,17 @@ footer {
         display: block;
         display: -webkit-box;
         max-height: 36px; }
+      .xs .module_5 > .module_content .module_5--feature .content .description {
+        -webkit-line-clamp: 2;
+        -moz-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        display: -webkit-box;
+        display: -moz-box;
+        height: 36px; }
       .sm .module_5 > .module_content .module_5--feature .content .description, .xs .module_5 > .module_content .module_5--feature .content .description {
         padding: 7px 15px; }
       .xs .module_5 > .module_content .module_5--feature .content .description {

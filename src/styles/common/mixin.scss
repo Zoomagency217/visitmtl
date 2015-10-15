@@ -21,6 +21,21 @@
 	}
 }
 
+@mixin showlinexs($line, $height) {
+	.xs & {
+		-webkit-line-clamp: $line;
+		-moz-line-clamp: $line;
+		-webkit-box-orient: vertical;
+		-moz-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: block;
+		display: -webkit-box;
+		display: -moz-box;
+		height: $height;
+	}
+}
+
 @mixin showmaxline($line, $height) {
 	.md &,
 	.lg & {
