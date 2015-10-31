@@ -2700,12 +2700,12 @@ footer {
         padding: 20px 0;
         margin: 0 auto;
         height: 70px;
-        width: 310px; }
+        width: 250px; }
       .sm .module.module_11 .group_2 .group_2--2 {
         padding: 0;
         margin: 30px auto 0;
         height: 80px;
-        width: 515px; }
+        width: 445px; }
       .module.module_11 .group_2 .group_2--2 .group_2--2--1 {
         height: 45px;
         background: #EEEEEE;
@@ -2731,7 +2731,7 @@ footer {
         position: absolute;
         z-index: 5;
         top: 0;
-        left: 70px;
+        left: 0;
         width: 200px;
         height: 45px;
         background: url(imgs/icon_phone.svg) 20px 12px no-repeat #63BC9C;
@@ -2753,14 +2753,14 @@ footer {
           background-position: 15px 10px;
           width: 150px;
           letter-spacing: 0.5px;
-          left: 60px;
+          left: 0;
           top: 20px; }
       .module.module_11 .group_2 .group_2--2 .group_2--2--3 {
         position: absolute;
-        left: 260px;
+        left: 180px;
         top: 0; }
         .xs .module.module_11 .group_2 .group_2--2 .group_2--2--3 {
-          left: 200px;
+          left: 140px;
           top: 20px; }
         .module.module_11 .group_2 .group_2--2 .group_2--2--3 .button {
           border-top: #EDEDED 1px solid;
