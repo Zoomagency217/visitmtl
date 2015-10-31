@@ -55,4 +55,19 @@
 			}
 		}
 	}
+	.carousel {
+		.carousel-control {
+			img {
+				position: absolute;
+				transform: translateY(-30px);
+				top: 50%;
+				&.left {
+					left: 25px;
+				}
+				&.right {
+					right: 25px;
+				}
+			}
+		}
+	}
 }

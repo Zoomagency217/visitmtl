@@ -1,4 +1,4 @@
-.module.module_25
+mixin slide
 	.background
 		img(src="http://lorempixel.com/1024/600/nature/")
 	.content
@@ -7,3 +7,18 @@
 		.close
 			a(href="javascript:")
 				i.fa.fa-times
+
+.module.module_25
+	.carousel.slide#get_here--slide(data-ride="carousel")
+		.main.carousel-inner(role="listbox")
+			each val in [1, 2, 3, 4, 5]
+				if val == 1
+					.slide.item.active
+						+ slide
+				else
+					.slide.item
+						+ slide
+		a.left.carousel-control(href="#get_here--slide", role="button", data-slide="prev")
+			img.left(src="imgs/arrowleft.png")
+		a.right.carousel-control(href="#get_here--slide", role="button", data-slide="next")
+			img.right(src="imgs/arrowright.png")

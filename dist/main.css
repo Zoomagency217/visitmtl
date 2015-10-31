@@ -4047,6 +4047,14 @@ footer {
         font-size: 12px; }
       .xs .module.module_25 .content .close {
         display: none; }
+  .module.module_25 .carousel .carousel-control img {
+    position: absolute;
+    transform: translateY(-30px);
+    top: 50%; }
+    .module.module_25 .carousel .carousel-control img.left {
+      left: 25px; }
+    .module.module_25 .carousel .carousel-control img.right {
+      right: 25px; }
 
 .module.module_26 {
   display: table;
