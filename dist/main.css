@@ -3291,8 +3291,7 @@ footer {
       background: none;
       -webkit-appearance: none;
       -moz-appearance: none;
-      width: 25%;
-      float: left;
+      width: 100%;
       text-align: center;
       display: block; }
       .module.module_17 .content .button button:hover {
@@ -3305,17 +3304,12 @@ footer {
         color: #3C3D41;
         letter-spacing: 2px;
         line-height: 12px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
         border-top-right-radius: 22px;
         border-bottom-right-radius: 22px;
         border: #DDDDDD 1px solid;
-        border-left: none;
         background: none;
         -webkit-appearance: none;
         -moz-appearance: none;
-        width: 75%;
-        float: left;
         text-align: center;
         display: block;
         text-transform: uppercase; }
@@ -3745,7 +3739,9 @@ footer {
         color: #FFFFFF;
         letter-spacing: 1.1px;
         line-height: 30px;
-        text-align: center; }
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-35px); }
 
 .module.module_23 {
   padding: 10px 0 0;

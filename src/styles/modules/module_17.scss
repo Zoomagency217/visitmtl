@@ -63,8 +63,9 @@
 				background: none;
 				-webkit-appearance: none;
 				-moz-appearance: none;
-				width: 25%;
-				float: left;
+				// width: 25%;
+				// float: left;
+				width: 100%;
 				text-align: center;
 				display: block;
 				&:hover {
@@ -78,17 +79,17 @@
 					color: #3C3D41;
 					letter-spacing: 2px;
 					line-height: 12px;
-					border-top-left-radius: 0;
-					border-bottom-left-radius: 0;
+					// border-top-left-radius: 0;
+					// border-bottom-left-radius: 0;
 					border-top-right-radius: 22px;
 					border-bottom-right-radius: 22px;
 					border: #DDDDDD 1px solid;
-					border-left: none;
+					// border-left: none;
 					background: none;
 					-webkit-appearance: none;
 					-moz-appearance: none;
-					width: 75%;
-					float: left;
+					// width: 75%;
+					// float: left;
 					text-align: center;
 					display: block;
 					text-transform: uppercase;
