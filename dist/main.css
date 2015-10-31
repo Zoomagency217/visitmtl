@@ -4736,6 +4736,65 @@ footer {
           background: #333333;
           color: white; }
 
+.module_32.module {
+  padding: 0; }
+  .module_32.module > .module_content {
+    border-radius: 0; }
+    .module_32.module > .module_content > .cta {
+      position: relative;
+      z-index: 1;
+      padding: 70px 0 41px; }
+      .sm .module_32.module > .module_content > .cta, .xs .module_32.module > .module_content > .cta {
+        padding: 15px 0; }
+      .module_32.module > .module_content > .cta > .group_1 {
+        width: 500px;
+        margin: 0 0 0 70px;
+        font-family: Montserrat-Bold;
+        font-size: 54.36px;
+        color: #3C3D41;
+        line-height: 55px; }
+        .sm .module_32.module > .module_content > .cta > .group_1, .xs .module_32.module > .module_content > .cta > .group_1 {
+          width: 100%;
+          padding: 0 30px;
+          margin: 250px 0 20px;
+          text-align: center; }
+        .xs .module_32.module > .module_content > .cta > .group_1 {
+          font-size: 22px;
+          line-height: 24px; }
+        .module_32.module > .module_content > .cta > .group_1 a {
+          color: #3C3D41; }
+      .module_32.module > .module_content > .cta > .group_2 {
+        width: 500px;
+        margin: 20px 0 20px 70px;
+        font-family: PTSerif-Regular;
+        font-size: 20.76px;
+        color: #838D8F;
+        line-height: 26px; }
+        .sm .module_32.module > .module_content > .cta > .group_2, .xs .module_32.module > .module_content > .cta > .group_2 {
+          width: 100%;
+          margin: 6px 0 20px;
+          padding: 0 30px; }
+        .xs .module_32.module > .module_content > .cta > .group_2 {
+          font-size: 13px;
+          line-height: 15px; }
+    .module_32.module > .module_content > .avatar {
+      position: absolute;
+      background-size: cover;
+      background-position: center;
+      border-radius: 100%;
+      top: 50%;
+      transform: translateY(-100px);
+      right: 70px;
+      width: 200px;
+      height: 200px;
+      overflow: hidden; }
+      .module_32.module > .module_content > .avatar img {
+        width: 100%; }
+      .sm .module_32.module > .module_content > .avatar, .xs .module_32.module > .module_content > .avatar {
+        right: 50%;
+        transform: translateX(100px);
+        top: 30px; }
+
 .page--eat_play > .area_1 {
   width: 100%; }
 .page--eat_play > .area_2 {
