@@ -4791,6 +4791,141 @@ footer {
         transform: translateX(100px);
         top: 30px; }
 
+.module.module_33 {
+  display: table;
+  background: white;
+  padding: 25px; }
+  .sm .module.module_33, .xs .module.module_33 {
+    padding: 25px 20px; }
+  .module.module_33 .content {
+    vertical-align: top; }
+    .xs .module.module_33 .content {
+      display: block;
+      width: 100%; }
+    .module.module_33 .content h2 {
+      font-family: Montserrat-Bold;
+      font-size: 22.84px;
+      color: #3B3D40;
+      line-height: 28px; }
+      .xs .module.module_33 .content h2 {
+        font-size: 15px;
+        line-height: 22px; }
+    .module.module_33 .content p {
+      font-family: PTSerif-Regular;
+      font-size: 18.77px;
+      color: #666D70;
+      line-height: 27px; }
+      .xs .module.module_33 .content p {
+        font-size: 12px;
+        line-height: 15px; }
+    .module.module_33 .content .quote {
+      border-top: #DDDDDD 1px solid;
+      border-bottom: #DDDDDD 1px solid;
+      font-family: PTSerif-Regular;
+      font-size: 33.14px;
+      color: #3B3D40;
+      line-height: 43px;
+      padding: 30px 0;
+      margin: 40px 0; }
+      .xs .module.module_33 .content .quote {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 0;
+        margin: 30px 0; }
+    .module.module_33 .content .tags {
+      margin-top: 60px;
+      width: 500px;
+      padding-left: 20px;
+      margin-left: auto;
+      margin-right: auto; }
+      .xs .module.module_33 .content .tags {
+        padding-left: 0;
+        width: 300px; }
+      .module.module_33 .content .tags .button {
+        display: block;
+        float: left;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        font-family: Montserrat-Bold;
+        font-size: 9px;
+        color: #838D8F;
+        letter-spacing: 1.79px;
+        line-height: 18px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        height: 18px;
+        padding: 0 7px; }
+        .module.module_33 .content .tags .button:hover {
+          background: #333333;
+          color: white;
+          text-decoration: none; }
+    .module.module_33 .content .social {
+      margin: 30px 0;
+      width: 500px;
+      padding-left: 20px;
+      margin-left: auto;
+      margin-right: auto; }
+      .xs .module.module_33 .content .social {
+        padding-left: 0;
+        width: 300px; }
+      .module.module_33 .content .social .button {
+        height: 33px;
+        line-height: 33px;
+        border-radius: 33px;
+        width: 145px;
+        float: left;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        margin-right: 12px;
+        padding-top: 10px; }
+        .module.module_33 .content .social .button:hover {
+          text-decoration: none; }
+        .module.module_33 .content .social .button.like {
+          border: 1px solid #EDEDED;
+          border-radius: 20px;
+          font-family: Montserrat-Bold;
+          font-size: 10px;
+          color: #666666;
+          letter-spacing: 1.79px;
+          line-height: 12px;
+          position: relative;
+          background: url(imgs/icon_heart.svg) 15px 10px no-repeat #FFFFFF; }
+          .module.module_33 .content .social .button.like .count {
+            position: absolute;
+            background: #B8C6C7;
+            border-radius: 10px;
+            right: 10px;
+            top: 10px;
+            padding: 0 5px;
+            color: white; }
+        .module.module_33 .content .social .button.facebook {
+          background: url(imgs/icon_facebook_white.svg) 20px 10px no-repeat #225B99;
+          font-family: Montserrat-Bold;
+          font-size: 10px;
+          color: #FFFFFF;
+          letter-spacing: 1.79px;
+          line-height: 12px; }
+          .xs .module.module_33 .content .social .button.facebook {
+            width: 45px;
+            font-size: 0;
+            background-position: center; }
+          .sm .module.module_33 .content .social .button.facebook {
+            width: 120px; }
+        .module.module_33 .content .social .button.twitter {
+          background: url(imgs/icon_twitter_white.svg) 20px 12px no-repeat #00ADF2;
+          font-family: Montserrat-Bold;
+          font-size: 10px;
+          color: #FFFFFF;
+          letter-spacing: 1.79px;
+          line-height: 12px; }
+          .xs .module.module_33 .content .social .button.twitter {
+            width: 45px;
+            font-size: 0;
+            background-position: center; }
+          .sm .module.module_33 .content .social .button.twitter {
+            width: 120px; }
+
 .page--eat_play > .area_1 {
   width: 100%; }
 .page--eat_play > .area_2 {
