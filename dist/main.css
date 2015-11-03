@@ -4885,34 +4885,20 @@ footer {
       width: 100%; }
     .module.module_33 .content h2 {
       font-family: Montserrat-Bold;
-      font-size: 22.84px;
+      font-size: 16px;
       color: #3B3D40;
       line-height: 28px; }
       .xs .module.module_33 .content h2 {
         font-size: 15px;
         line-height: 22px; }
     .module.module_33 .content p {
-      font-family: PTSerif-Regular;
-      font-size: 18.77px;
+      font-family: Montserrat-Regular;
+      font-size: 16px;
       color: #666D70;
       line-height: 27px; }
       .xs .module.module_33 .content p {
         font-size: 12px;
         line-height: 15px; }
-    .module.module_33 .content .quote {
-      border-top: #DDDDDD 1px solid;
-      border-bottom: #DDDDDD 1px solid;
-      font-family: PTSerif-Regular;
-      font-size: 33.14px;
-      color: #3B3D40;
-      line-height: 43px;
-      padding: 30px 0;
-      margin: 40px 0; }
-      .xs .module.module_33 .content .quote {
-        font-size: 20px;
-        line-height: 30px;
-        padding: 20px 0;
-        margin: 30px 0; }
     .module.module_33 .content .tags {
       margin-top: 60px;
       width: 500px;

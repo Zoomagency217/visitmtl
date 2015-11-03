@@ -14,7 +14,7 @@
 		}
 		h2 {
 			font-family: Montserrat-Bold;
-			font-size: 22.84px;
+			font-size: 16px;
 			color: #3B3D40;
 			line-height: 28px;
 			.xs & {
@@ -23,29 +23,13 @@
 			}
 		}
 		p {
-			font-family: PTSerif-Regular;
-			font-size: 18.77px;
+			font-family: Montserrat-Regular;
+			font-size: 16px;
 			color: #666D70;
 			line-height: 27px;
 			.xs & {
 				font-size: 12px;
 				line-height: 15px;
-			}
-		}
-		.quote {
-			border-top: #DDDDDD 1px solid;
-			border-bottom: #DDDDDD 1px solid;
-			font-family: PTSerif-Regular;
-			font-size: 33.14px;
-			color: #3B3D40;
-			line-height: 43px;
-			padding: 30px 0;
-			margin: 40px 0;
-			.xs & {
-				font-size: 20px;
-				line-height: 30px;
-				padding: 20px 0;
-				margin: 30px 0;
 			}
 		}
 		.tags {
