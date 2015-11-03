@@ -1,0 +1,14 @@
+.module.module_12
+	.feature_item
+		.category WEEKLY DEALS
+		.title Final Reductions
+		.description
+			| Up To 70% Off
+			br
+			| Selected Travel Plans
+		.button
+			button(onclick="window.location.href='#'") MORE DEALS
+	ul.list
+		each val in [1, 2, 3]
+			include module_12--1--item
+	.clearfix
