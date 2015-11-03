@@ -12,7 +12,9 @@
 		text-align: center;
 		width: 710px;
 		margin: 23px auto 0;
-		@include showline(3, 171px);
+		.title_content {
+			@include showline(3, 171px);
+		}
 		.xs & {
 			width: 100%;
 			padding: 0 20px;

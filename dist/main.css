@@ -3814,7 +3814,7 @@ footer {
     text-align: center;
     width: 710px;
     margin: 23px auto 0; }
-    .sm .module.module_24 .title, .md .module.module_24 .title, .lg .module.module_24 .title {
+    .sm .module.module_24 .title .title_content, .md .module.module_24 .title .title_content, .lg .module.module_24 .title .title_content {
       -webkit-line-clamp: 3;
       -moz-line-clamp: 3;
       -webkit-box-orient: vertical;
