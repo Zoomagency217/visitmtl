@@ -2966,21 +2966,29 @@ footer {
             font-size: 14px;
             color: white;
             margin-bottom: 10px; }
-          .module.module_12 ul.list .item .cover .cta .email_button button {
-            box-shadow: none;
-            color: #2a2a2a;
-            font-size: 12px;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            height: 30px;
-            line-height: 30px;
-            padding: 0 12px;
-            border-radius: 4px;
-            background: white;
-            border: none; }
-            .module.module_12 ul.list .item .cover .cta .email_button button i.fa {
+          .module.module_12 ul.list .item .cover .cta .email_input {
+            position: relative;
+            width: 190px;
+            margin: 0 auto;
+            height: 30px; }
+            .module.module_12 ul.list .item .cover .cta .email_input input {
+              width: 100%;
+              box-shadow: none;
+              color: #2a2a2a;
+              font-size: 12px;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              height: 30px;
+              line-height: 30px;
+              padding: 0 32px 0 12px;
+              border-radius: 4px;
+              background: white;
+              border: none; }
+            .module.module_12 ul.list .item .cover .cta .email_input i.fa {
+              position: absolute;
               color: #5c45b3;
-              margin-left: 15px; }
+              top: 5px;
+              right: 10px; }
       .module.module_12 ul.list .item.item--1 {
         padding: 0; }
         .module.module_12 ul.list .item.item--1 .image {
