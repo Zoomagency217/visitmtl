@@ -43,6 +43,7 @@ module.exports = (grunt) ->
                     'dist/sleep.html': ['src/templates/sleep.jade']
                     'dist/author.html': ['src/templates/author.jade']
                     'dist/about.html': ['src/templates/about.jade']
+                    'dist/nav.html': ['src/templates/nav.jade']
 
             templates:
                 options:
