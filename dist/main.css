@@ -526,6 +526,12 @@ html.fixed {
 .original_category.grey .button {
   background: #434A54; }
 
+.author-bg {
+  background-image: url("imgs/backgroundauthor.jpg"); }
+
+.white {
+  color: #FFF !important; }
+
 header {
   background: #ffffff;
   margin: auto;
