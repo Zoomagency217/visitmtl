@@ -71,9 +71,19 @@ module.exports = (grunt) ->
                 dest: 'dist/'
 
         watch:
-            option:
-                files: 'src/**/*.*'
-                tasks: ['clean', 'coffee', 'sass', 'jade', 'copy']
+            jade:
+                files: 'src/**/*.jade'
+                tasks: ['jade', 'copy']
+                options:
+                    livereload: _livereload_port
+            sass:
+                files: 'src/**/*.sass'
+                tasks: ['sass', 'copy']
+                options:
+                    livereload: _livereload_port
+            coffee:
+                files: 'src/**/*.coffee'
+                tasks: ['coffee', 'copy']
                 options:
                     livereload: _livereload_port
 

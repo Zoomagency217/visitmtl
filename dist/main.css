@@ -554,12 +554,26 @@ header {
     margin: auto;
     padding: 0 33px 0 155px;
     width: 1080px;
-    max-width: 100%; }
+    max-width: 100%;
+    position: relative; }
     .sm header .main, .xs header .main {
       background-size: 42px;
       background-position: 13px 8px;
       height: 60px;
       padding-right: 0; }
+      .sm header .main .logo, .xs header .main .logo {
+        top: 7px;
+        left: 12px;
+        height: 42px;
+        width: 44px;
+        cursor: pointer; }
+    header .main .logo {
+      position: absolute;
+      top: 15px;
+      left: 25px;
+      height: 93px;
+      width: 90px;
+      cursor: pointer; }
     header .main .top {
       border-bottom: 1px solid #434A54;
       height: 60px;
