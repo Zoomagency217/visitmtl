@@ -1,13 +1,8 @@
 .module_4 {
 	> .module_content {
-		background-position: right 30px top 30px;
+		background-position: top left;
+		background-size: cover;
 		background-repeat: no-repeat;
-		background-size: 180px;
-		.sm &,
-		.xs & {
-			background-position: right 1px top 2px;
-			background-size: 112px;
-		}
 		> .content {
 			float: left;
 			padding: $padding-vertical 225px $padding-vertical $padding-horizontal;

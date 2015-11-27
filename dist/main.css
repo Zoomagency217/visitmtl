@@ -1767,12 +1767,9 @@ footer {
           white-space: normal; }
 
 .module_4 > .module_content {
-  background-position: right 30px top 30px;
-  background-repeat: no-repeat;
-  background-size: 180px; }
-  .sm .module_4 > .module_content, .xs .module_4 > .module_content {
-    background-position: right 1px top 2px;
-    background-size: 112px; }
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat; }
   .module_4 > .module_content > .content {
     float: left;
     padding: 18px 225px 18px 20px;
