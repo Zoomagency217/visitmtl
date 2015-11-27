@@ -565,8 +565,7 @@ header {
         top: 7px;
         left: 12px;
         height: 42px;
-        width: 44px;
-        cursor: pointer; }
+        width: 44px; }
     header .main .logo {
       position: absolute;
       top: 15px;
@@ -2186,6 +2185,8 @@ footer {
     background-color: #6848E1; }
   .blue .module.module_8 {
     background-color: #4787df; }
+  .darkblue .module.module_8 {
+    background-color: #225e80; }
   .module.module_8 .group_1 {
     display: table-cell;
     padding: 27px 40px;
@@ -5019,6 +5020,71 @@ footer {
           .sm .module.module_33 .content .social .button.twitter {
             width: 120px; }
 
+.module.module_40 .background img {
+  width: 100%; }
+.module.module_40 .description {
+  color: white;
+  font-size: 28px;
+  font-family: Montserrat-Bold;
+  background: #0f3042;
+  padding: 20px 35px;
+  line-height: 34px; }
+
+.module.module_41 .contact-form {
+  margin: 30px 40px;
+  border-top: #dfdfdf 1px solid;
+  padding-top: 43px;
+  background: white; }
+  .module.module_41 .contact-form .input-area-1 {
+    width: 275px;
+    float: left;
+    margin-bottom: 25px;
+    margin-left: 30px; }
+    .module.module_41 .contact-form .input-area-1:first-child {
+      margin-left: 0; }
+    .sm .module.module_41 .contact-form .input-area-1, .xs .module.module_41 .contact-form .input-area-1 {
+      width: 100%;
+      margin-left: 0; }
+    .module.module_41 .contact-form .input-area-1 input.form-input {
+      width: 100%;
+      border: #eaeaea 1px solid;
+      color: #5d5d5d;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border-radius: 3px;
+      font-family: Montserrat-Regular;
+      font-size: 13px;
+      padding: 9px 23px;
+      box-sizing: border-box; }
+  .module.module_41 .contact-form .input-area-2 {
+    width: 100%;
+    margin-bottom: 35px; }
+    .module.module_41 .contact-form .input-area-2 textarea.form-input {
+      width: 100%;
+      border: #eaeaea 1px solid;
+      color: #5d5d5d;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border-radius: 3px;
+      font-family: Montserrat-Regular;
+      font-size: 13px;
+      padding: 9px 23px;
+      box-sizing: border-box; }
+  .module.module_41 .contact-form .input-area-3 button.form-input {
+    background: #378cbc;
+    color: white;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 115px;
+    height: 50px;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    box-shadow: none;
+    border: none; }
+    .module.module_41 .contact-form .input-area-3 button.form-input .fa {
+      margin-left: 20px; }
+
 .page--eat_play > .area_1 {
   width: 100%; }
 .page--eat_play > .area_2 {
@@ -5418,5 +5484,12 @@ footer {
       width: 100%; }
     .sm .page.page--sleep .area_5 .area_5--2 {
       width: 100%; }
+
+.page.page--contact {
+  background: white; }
+  .page.page--contact .area_2 {
+    padding: 20px 0 0; }
+  .page.page--contact .area_3 {
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -7,12 +7,14 @@ lrSnippet = require 'connect-livereload'
         connect.static require('path').resolve(dir)
 
 module.exports = (grunt) ->
+    require('load-grunt-tasks') grunt
+
     grunt.initConfig
         clean:
             dist: ['dist/*']
 
         coffee:
-            src:
+            all:
                 expand: true
                 cwd: 'src/scripts'
                 src: '**/*.coffee'
@@ -20,7 +22,7 @@ module.exports = (grunt) ->
                 ext: '.js'
 
         sass:
-            dist:
+            all:
                 files:
                     'dist/main.css': ['src/styles/main.scss']
 
@@ -44,6 +46,9 @@ module.exports = (grunt) ->
                     'dist/author.html': ['src/templates/author.jade']
                     'dist/about.html': ['src/templates/about.jade']
                     'dist/nav.html': ['src/templates/nav.jade']
+                    'dist/feed.html': ['src/templates/feed.jade']
+                    'dist/multimedia.html': ['src/templates/multimedia.jade']
+                    'dist/contact.html': ['src/templates/contact.jade']
 
             templates:
                 options:
@@ -77,7 +82,7 @@ module.exports = (grunt) ->
                 options:
                     livereload: _livereload_port
             sass:
-                files: 'src/**/*.sass'
+                files: 'src/**/*.scss'
                 tasks: ['sass', 'copy']
                 options:
                     livereload: _livereload_port
@@ -97,15 +102,6 @@ module.exports = (grunt) ->
                     options:
                         middleware: (connect) ->
                             [lrSnippet, mountFolder(connect, './')]
-
-    grunt.loadNpmTasks 'grunt-contrib-clean'
-    grunt.loadNpmTasks 'grunt-contrib-copy'
-    grunt.loadNpmTasks 'grunt-contrib-coffee'
-    grunt.loadNpmTasks 'grunt-contrib-jade'
-    grunt.loadNpmTasks 'grunt-contrib-sass'
-    grunt.loadNpmTasks 'grunt-open'
-    grunt.loadNpmTasks 'grunt-contrib-watch'
-    grunt.loadNpmTasks 'grunt-contrib-connect'
 
     grunt.registerTask 'default', ['clean', 'coffee', 'sass', 'jade', 'copy', 'connect', 'watch']
     grunt.registerTask 'build', ['clean', 'coffee', 'sass', 'jade', 'copy']
