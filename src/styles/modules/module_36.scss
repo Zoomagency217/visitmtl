@@ -1,2 +1,39 @@
 .module.module_36 {
+	border-radius: 5px;
+	overflow: hidden;
+	background: white;
+	height: 300px;
+	padding-top: 0;
+	display: block;
+	.background {
+		width: 100%;
+		max-height: 205px;
+		overflow: hidden;
+		img {
+			width: 100%;
+		}
+	}
+	.description {
+		overflow: hidden;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 5px;
+		.original_category {
+			float: left;
+		}
+		.icon.icon-camera {
+			background: url(imgs/multimedia_camera.png) center no-repeat;
+			width: 15px;
+			height: 8px;
+			float: left;
+			margin: 13px 0 0 10px;
+		}
+		.content {
+			margin-top: 10px;
+			font-family: Montserrat-Bold;
+			font-size: 15px;
+			line-height: 18px;
+			@include showline(2, 35px);
+		}
+	}
 }

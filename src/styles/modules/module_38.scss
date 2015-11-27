@@ -1,0 +1,39 @@
+.module.module_38 {
+	border-radius: 5px;
+	overflow: hidden;
+	background: white;
+	height: 300px;
+	padding: 20px 25px;
+	display: block;
+	white-space: normal;
+	.sm &,
+	.xs & {
+		padding: 20px 25px;
+	}
+	.original_category {
+		.button {
+			border-radius: 18px;
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+	}
+	.title {
+		font-family: Montserrat-Bold;
+		font-size: 22px;
+		color: #3a3d3f;
+		margin-top: 10px;
+	}
+	.author {
+		font-family: PTSerif-Italic;
+		font-size: 12px;
+		color: #838c8e;
+		line-height: 12px;
+	}
+	.content {
+		margin-top: 15px;
+		font-family: PTSerif-Regular;
+		font-size: 14px;
+		color: #838c8d;
+		line-height: 20px;
+	}
+}

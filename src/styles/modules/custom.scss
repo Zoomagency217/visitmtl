@@ -218,35 +218,37 @@ html.fixed {
 }
 
 .button {
-	.purple .original_category & {
-		background: #6B3DE4;
-	}
-	.green .original_category & {
-		background: #58A874;
-	}
-	.blue .original_category & {
-		background: #387AC2;
-	}
-	.red .original_category & {
-		background: #FC6E51;
-	}
-	.grey .original_category & {
-		background: #434A54;
-	}
+	.purple .original_category &,
 	.original_category.purple & {
 		background: #6B3DE4;
 	}
+	.green .original_category &,
 	.original_category.green & {
 		background: #58A874;
 	}
+	.blue .original_category &,
 	.original_category.blue & {
 		background: #387AC2;
 	}
+	.red .original_category &,
 	.original_category.red & {
 		background: #FC6E51;
 	}
+	.grey .original_category &,
 	.original_category.grey & {
 		background: #434A54;
+	}
+	.pink .original_category &,
+	.original_category.pink & {
+		background: #ef90ff;
+	}
+	.gold .original_category &,
+	.original_category.gold & {
+		background: #dca147;
+	}
+	.darkblue .original_category &,
+	.original_category.darkblue & {
+		background: #225e80;
 	}
 }
 

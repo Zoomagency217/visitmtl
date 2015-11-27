@@ -1,2 +1,47 @@
 .module.module_37 {
+	background: #225e80;
+	border-radius: 5px;
+	overflow: hidden;
+	height: 300px;
+	padding-top: 0;
+	display: block;
+	text-align: center;
+	.category {
+		margin-top: 20px;
+		margin-bottom: 25px;
+		text-transform: uppercase;
+		font-size: 10px;
+		font-family: Montserrat-Bold;
+		color: white;
+	}
+	.background {
+		img {}
+	}
+	.title {
+		margin-top: 30px;
+		font-size: 15px;
+		font-family: Montserrat-Bold;
+		color: white;
+	}
+	.description {
+		font-size: 12px;
+		font-family: PTSerif-Italic;
+		color: white;
+		line-height: 12px;
+		margin-bottom: 20px;
+	}
+	button.button {
+		height: 35px;
+		border-radius: 35px;
+		border: rgba(255, 255, 255, 0.2) 1px solid;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		background: url(imgs/multimedia_play_button.png) top 0 left 20px no-repeat transparent;
+		font-size: 10px;
+		font-family: Montserrat-Bold;
+		color: white;
+		line-height: 35px;
+		padding: 0 20px 0 60px;
+		text-transform: uppercase;
+	}
 }

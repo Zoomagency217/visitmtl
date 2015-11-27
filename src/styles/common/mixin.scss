@@ -18,6 +18,7 @@
 		display: -webkit-box;
 		display: -moz-box;
 		height: $height;
+		white-space: normal;
 	}
 }
 
@@ -33,6 +34,7 @@
 		display: -webkit-box;
 		display: -moz-box;
 		height: $height;
+		white-space: normal;
 	}
 }
 
@@ -47,5 +49,6 @@
 		display: block;
 		display: -webkit-box;
 		max-height: $height;
+		white-space: normal;
 	}
 }
