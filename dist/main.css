@@ -5040,6 +5040,168 @@ footer {
           .sm .module.module_33 .content .social .button.twitter {
             width: 120px; }
 
+.module.module_35 {
+  padding: 20px; }
+  .xs .module.module_35 {
+    margin-bottom: 20px; }
+  .module.module_35 .module_container {
+    overflow: hidden;
+    background: #3c3d41;
+    position: relative; }
+    .module.module_35 .module_container:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: 44%; }
+      .xs .module.module_35 .module_container:before {
+        padding-top: 55%; }
+    .module.module_35 .module_container > .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden; }
+      .module.module_35 .module_container > .content .video-group {
+        float: left;
+        width: 80%; }
+        .xs .module.module_35 .module_container > .content .video-group {
+          width: 100%; }
+        .module.module_35 .module_container > .content .video-group .cta {
+          position: relative; }
+          .xs .module.module_35 .module_container > .content .video-group .cta, .sm .module.module_35 .module_container > .content .video-group .cta {
+            display: none; }
+          .module.module_35 .module_container > .content .video-group .cta .group-1 {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            font-family: Montserrat-Bold;
+            color: white;
+            font-size: 13px; }
+          .module.module_35 .module_container > .content .video-group .cta .group-2 {
+            position: absolute;
+            text-align: center;
+            top: 165px;
+            left: 0;
+            right: 0;
+            font-family: Montserrat-Bold;
+            color: white;
+            font-size: 11px;
+            text-transform: uppercase; }
+            .md .module.module_35 .module_container > .content .video-group .cta .group-2 {
+              top: 125px; }
+          .module.module_35 .module_container > .content .video-group .cta .group-3 {
+            position: absolute;
+            text-align: center;
+            top: 205px;
+            left: 0;
+            right: 0; }
+            .md .module.module_35 .module_container > .content .video-group .cta .group-3 {
+              top: 175px; }
+            .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list {
+              list-style-type: none;
+              padding: 0; }
+              .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list li {
+                display: inline-block;
+                padding-left: 20px;
+                text-align: left;
+                width: 210px; }
+                .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list li:first-child {
+                  width: 190px;
+                  padding-left: 0; }
+                .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list li .image {
+                  width: 100%;
+                  position: relative;
+                  border-radius: 3px;
+                  overflow: hidden; }
+                  .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list li .image .cover {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: url(imgs/multimedia_play_icon.png) center no-repeat rgba(60, 61, 65, 0.5); }
+                  .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list li .image img {
+                    width: 100%; }
+                .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list li .description {
+                  margin-top: 5px;
+                  text-align: left;
+                  line-height: 15px; }
+                  .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list li .description .title {
+                    font-family: Montserrat-Bold;
+                    color: white;
+                    font-size: 11px; }
+                  .module.module_35 .module_container > .content .video-group .cta .group-3 ul.list li .description .time {
+                    font-family: PTSerif-Italic;
+                    font-size: 13px;
+                    color: #838c8e;
+                    margin-left: 10px; }
+        .module.module_35 .module_container > .content .video-group .video#bg-video video {
+          width: 100%; }
+      .module.module_35 .module_container > .content .new-video {
+        float: left;
+        width: 20%;
+        padding: 20px;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        right: 0;
+        bottom: 0;
+        overflow: hidden; }
+        .xs .module.module_35 .module_container > .content .new-video {
+          display: none; }
+        .module.module_35 .module_container > .content .new-video > .title {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          color: #3b3d40;
+          background: white;
+          font-family: Montserrat-Bold;
+          font-size: 11px;
+          padding: 10px 15px; }
+        .module.module_35 .module_container > .content .new-video ul.list {
+          position: absolute;
+          list-style-type: none;
+          padding: 0;
+          left: 20px;
+          right: 0;
+          padding-right: 20px;
+          top: 70px;
+          bottom: 0;
+          overflow-y: scroll;
+          overflow-x: hidden; }
+          .module.module_35 .module_container > .content .new-video ul.list li {
+            margin-bottom: 15px;
+            position: relative; }
+            .module.module_35 .module_container > .content .new-video ul.list li .image {
+              width: 100%;
+              border-radius: 3px;
+              overflow: hidden;
+              position: relative; }
+              .module.module_35 .module_container > .content .new-video ul.list li .image .cover {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: url(imgs/multimedia_play_icon.png) center no-repeat rgba(60, 61, 65, 0.6); }
+              .module.module_35 .module_container > .content .new-video ul.list li .image img {
+                width: 100%; }
+            .module.module_35 .module_container > .content .new-video ul.list li .description {
+              margin-top: 5px;
+              text-align: left;
+              line-height: 15px; }
+              .module.module_35 .module_container > .content .new-video ul.list li .description .title {
+                font-family: Montserrat-Bold;
+                color: white;
+                font-size: 11px; }
+              .module.module_35 .module_container > .content .new-video ul.list li .description .time {
+                font-family: PTSerif-Italic;
+                font-size: 13px;
+                color: #838c8e;
+                margin-left: 10px; }
+
 .module.module_36 {
   border-radius: 5px;
   overflow: hidden;
