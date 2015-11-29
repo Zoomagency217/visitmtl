@@ -1083,7 +1083,7 @@ footer {
       margin: auto;
       width: 1080px;
       max-width: 100%;
-      padding: 40px 0 7px; }
+      padding: 40px 0 40px; }
       .sm .menu_hamburger .main .main_container, .xs .menu_hamburger .main .main_container {
         margin: auto 20px; }
       .menu_hamburger .main .main_container .group-1 {
@@ -1091,7 +1091,8 @@ footer {
         padding: 0 26px;
         margin-top: -4px;
         float: left;
-        width: 20%; }
+        width: 20%;
+        height: 275px; }
         .sm .menu_hamburger .main .main_container .group-1, .xs .menu_hamburger .main .main_container .group-1 {
           width: 100%;
           margin-top: 0;
@@ -1133,7 +1134,8 @@ footer {
         float: left;
         width: 30%;
         padding: 0 45px;
-        border-left: #d4d4d4 1px solid; }
+        border-left: #d4d4d4 1px solid;
+        height: 275px; }
         .sm .menu_hamburger .main .main_container .group-2, .xs .menu_hamburger .main .main_container .group-2 {
           display: none; }
         .menu_hamburger .main .main_container .group-2 .image img {
@@ -1155,7 +1157,8 @@ footer {
         width: 25%;
         border-left: #d4d4d4 1px solid;
         padding: 0 30px;
-        text-align: center; }
+        text-align: center;
+        height: 275px; }
         .sm .menu_hamburger .main .main_container .group-3, .xs .menu_hamburger .main .main_container .group-3 {
           display: none; }
         .menu_hamburger .main .main_container .group-3 .category {
@@ -1226,37 +1229,46 @@ footer {
         width: 25%;
         border-left: #d4d4d4 1px solid;
         padding: 0 30px;
-        text-align: center; }
-        .sm .menu_hamburger .main .main_container .group-4, .xs .menu_hamburger .main .main_container .group-4 {
-          display: none; }
-        .menu_hamburger .main .main_container .group-4 .category {
-          font-family: Montserrat-Bold;
-          font-size: 18px;
-          margin-top: -3px;
-          color: #343434; }
-          .menu_hamburger .main .main_container .group-4 .category a {
-            color: #343434; }
+        text-align: center;
+        height: 275px; }
         .menu_hamburger .main .main_container .group-4 .image {
-          padding: 16px 0 11px; }
-        .menu_hamburger .main .main_container .group-4 .title {
-          font-family: Montserrat-Bold;
-          font-size: 15px;
-          color: #2a2a2a;
-          line-height: 22px;
-          padding-bottom: 15px; }
-          .menu_hamburger .main .main_container .group-4 .title a {
-            color: #2a2a2a; }
-        .menu_hamburger .main .main_container .group-4 .more {
-          border-top: #d7d7d7 1px solid;
-          color: #7d7d7d;
-          font-family: Montserrat-Regular;
-          font-size: 11px;
-          line-height: 15px;
-          padding-top: 11px;
-          width: 80px;
-          margin: auto; }
-          .menu_hamburger .main .main_container .group-4 .more a {
-            color: #7d7d7d; }
+          overflow: hidden;
+          width: 100%;
+          height: 70px;
+          border-radius: 0; }
+          .menu_hamburger .main .main_container .group-4 .image img {
+            width: 100%; }
+        .menu_hamburger .main .main_container .group-4 .address {
+          border-top: #e7e7e7 1px solid;
+          border-bottom: #e7e7e7 1px solid;
+          margin: 0 25px;
+          padding: 15px 0; }
+          .menu_hamburger .main .main_container .group-4 .address .title {
+            color: #191919;
+            font-size: 16px;
+            font-family: Montserrat-Bold; }
+            .menu_hamburger .main .main_container .group-4 .address .title i.fa {
+              color: #00acf4;
+              margin-right: 5px; }
+          .menu_hamburger .main .main_container .group-4 .address .description {
+            font-size: 12px;
+            font-family: Montserrat-Regular;
+            color: #4a4a4a;
+            line-height: 17px; }
+        .menu_hamburger .main .main_container .group-4 .weather {
+          padding: 15px 0 0; }
+          .menu_hamburger .main .main_container .group-4 .weather .title {
+            color: #191919;
+            font-size: 14px;
+            font-family: Montserrat-Bold; }
+          .menu_hamburger .main .main_container .group-4 .weather .content {
+            font-size: 12px;
+            font-family: Montserrat-Regular;
+            color: #4a4a4a;
+            line-height: 17px;
+            margin-top: 5px; }
+            .menu_hamburger .main .main_container .group-4 .weather .content .color {
+              color: #6a45c9; }
   .menu_hamburger .cover {
     transition: opacity .3s;
     background: rgba(0, 0, 0, 0.8);
